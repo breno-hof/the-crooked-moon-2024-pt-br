@@ -1,6 +1,6 @@
 # the-crooked-moon-2024-pt-br
 
-Módulo de **tradução de compêndios** (PT-BR) para o módulo `dnd-heroes-borderlands`
+Módulo de **tradução de compêndios** (PT-BR) para o módulo `the-crooked-moon-1024`
 (sistema `dnd5e`), usando [Babele](https://foundryvtt.com/packages/babele/).
 
 Este repositório **não contém** o conteúdo original em inglês — apenas as
