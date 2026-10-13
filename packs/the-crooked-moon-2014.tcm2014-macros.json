@@ -1,0 +1,15 @@
+{
+  "label": "Macros",
+  "folders": {
+    "Miscellaneous": "Diversos",
+    "Subclass Macros": "Macros de Subclasse"
+  },
+  "entries": {
+    "Draw a Tarot Card": {
+      "name": "Tirar uma Carta de Tarô"
+    },
+    "Change harvest cycle": {
+      "name": "Mudar ciclo da colheita"
+    }
+  }
+}

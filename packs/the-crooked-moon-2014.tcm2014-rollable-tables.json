@@ -1,0 +1,3288 @@
+{
+  "label": "Tabelas Roláveis",
+  "folders": {
+    "Chapter 19:  Maidenmist Cemetery": "Capítulo 19:  Cemitério Maidenmist",
+    "Chapter 03: Subclasses": "Capítulo 03: Subclasses",
+    "Chapter 17:  Memory’s Rest": "Capítulo 17:  Repouso da Memória",
+    "Chapter 22:  The Crooked Nightmare": "Capítulo 22:  O Pesadelo Torto",
+    "Chapter 18:  Hartsblight Forest": "Capítulo 18:  Floresta Hartsblight",
+    "Chapter 12:  The Crooked House": "Capítulo 12:  A Casa Torta",
+    "TCM 2014 - Rollable Tables": "TCM 2014 - Tabelas Roláveis",
+    "Appendix B:  Treasury": "Apêndice B:  Tesouro",
+    "Rollable Tables": "Tabelas Roláveis",
+    "Appendix C:  Chaotic Curses": "Apêndice C:  Maldições Caóticas",
+    "TCM 2024 - Rollable Tables": "TCM 2024 - Tabelas Roláveis",
+    "Chapter 01: Druskenvald": "Capítulo 01: Druskenvald",
+    "Chapter 02: Species": "Capítulo 02: Espécies",
+    "Chapter 04: Backgrounds": "Capítulo 04: Antecedentes",
+    "Chapter 09: Running the Adventure": "Capítulo 09: Conduzindo a Aventura",
+    "Chapter 10: Ghostlight Express": "Capítulo 10: Expresso Luz-Fantasma",
+    "Chapter 11:  Wickermoor Village": "Capítulo 11:  Vila de Wickermoor",
+    "Chapter 13:  Fields of the Crow": "Capítulo 13:  Campos do Corvo",
+    "Chapter 14:  The Crimson Monastery": "Capítulo 14:  O Monastério Carmesim",
+    "Chapter 20:  The Roving Rookery": "Capítulo 20:  O Ninhal Errante",
+    "Chapter 21:  Fool’s Day": "Capítulo 21:  Dia dos Tolos",
+    "Chapter 24:  The Crooked Tree": "Capítulo 24:  A Árvore Torta"
+  },
+  "entries": {
+    "Rest Warden Story Threads": {
+      "name": "Fios de História do Guardião do Repouso",
+      "results": {
+        "1-1": {
+          "description": "Uma figura estranha encomendou a você uma lápide para alguém que está em pleno vigor da vida."
+        },
+        "2-2": {
+          "description": "Num momento de desespero, você certa vez aceitou um suborno vultoso para fazer vista grossa enquanto alguém roubava um túmulo."
+        },
+        "3-3": {
+          "description": "Você passou um tempo aprendendo com Yorgrim, coveiro e zelador do Cemitério Maidenmist."
+        },
+        "4-4": {
+          "description": "Alguém violou túmulos sob a sua vigilância e fugiu com os cadáveres."
+        },
+        "5-5": {
+          "description": "Você consolou uma criança no funeral de um dos pais dela e desde então nutre um carinho protetor por ela."
+        },
+        "6-6": {
+          "description": "Um ente querido certa vez se ergueu do túmulo como uma criatura Morta-Viva. Você jurou levá-lo ao seu descanso final."
+        }
+      }
+    },
+    "Forbidden Fruit": {
+      "name": "Fruto Proibido",
+      "results": {
+        "1-1": {
+          "description": "Cair a 0 pontos de vida"
+        },
+        "2-4": {
+          "description": "Receber os efeitos da magia Perdição por 1 hora"
+        },
+        "5-7": {
+          "description": "Sofre 14 (4d6) de dano de veneno"
+        },
+        "8-10": {
+          "description": "Receber os efeitos da magia Restauração Menor"
+        },
+        "1-13": {
+          "description": "Ganhar 1 nível de Exaustão"
+        },
+        "14-16": {
+          "description": "Recupera 14 (4d4 + 4) pontos de vida"
+        },
+        "17-19": {
+          "description": "Receber os efeitos da magia Bênção por 1 hora"
+        },
+        "20-20": {
+          "description": "Ganhar inspiração"
+        }
+      }
+    },
+    "Mausoleum Jinxes": {
+      "name": "Azarações do Mausoléu",
+      "results": {
+        "2-2": {
+          "description": "<p>Olhos de Cobra. No próximo turno do personagem, ele só pode fazer uma das seguintes coisas: mover-se, realizar uma ação ou realizar uma Ação Bônus. Se o personagem realizar uma ação de Atacar ou de Magia, ele sofre 7 (2d6) de dano Psíquico.</p>"
+        },
+        "3-4": {
+          "description": "<p>O Pesadelo. O personagem fica com a condição Amedrontado até o fim do seu próximo turno e deve imediatamente usar uma Reação para se afastar o máximo que puder do braseiro, até o limite do seu Deslocamento.</p>"
+        },
+        "5-6": {
+          "description": "<p>Garrafa de Uísque. O personagem larga tudo o que estiver segurando. Até o fim do seu próximo turno, sempre que pegar um objeto, ele deve ser bem-sucedido em um teste de resistência de Inteligência CD 15 ou largá-lo imediatamente.</p>"
+        },
+        "7-7": {
+          "description": "<p>Golpe Baixo. Até o fim do próximo turno do personagem, seu Deslocamento é reduzido à metade, e jogadas de ataque contra ele têm Vantagem.</p>"
+        },
+        "8-9": {
+          "description": "<p>Braço Ressequido. Até o fim do próximo turno do personagem, ele tem Desvantagem em Testes de D20 que dependam de Força ou Destreza.</p>"
+        },
+        "10-11": {
+          "description": "<p>Má Sorte. Até o fim do próximo turno do personagem, sempre que ele fizer uma jogada de ataque ou um teste de resistência, deve subtrair 1d6 do total.</p>"
+        },
+        "12-12": {
+          "description": "<p>Homem Morto. Se a próxima jogada de ataque feita contra o personagem antes da contagem de Iniciativa 20 da rodada seguinte acertar, o ataque é automaticamente um Acerto Crítico. Se essa jogada de ataque errar, ela acerta em vez disso.</p>"
+        }
+      }
+    },
+    "Wicker Weaver Trinkets": {
+      "name": "Bugigangas do Tecelão de Vime",
+      "results": {
+        "1-1": {
+          "description": "Um crescente trançado de vime e entrelaçado com fio de prata"
+        },
+        "2-2": {
+          "description": "Uma bugiganga de vidro que foi o primeiro pagamento que você recebeu por sua sabedoria de curandeiro"
+        },
+        "3-3": {
+          "description": "Uma figura Miúda feita de cúpulas de bolotas do carvalho mais antigo do bosque"
+        },
+        "4-4": {
+          "description": "Uma faca de forja rústica com a lâmina gravada"
+        },
+        "5-5": {
+          "description": "Um crânio de cobra em uma gaiola de vime"
+        },
+        "6-6": {
+          "description": "Um bicho de pelúcia surrado sem um dos olhos"
+        }
+      }
+    },
+    "Ardengloom Quest Hooks": {
+      "name": "Ganchos de Missão de Ardengloom",
+      "results": {
+        "1-1": {
+          "description": "A maldição sombria da Irmã Silhouette ameaça as árvores de Ardengloom, drenando-lhes a vitalidade. Junte-se a um herbalista nascido retorcido para descobrir uma cura."
+        },
+        "2-2": {
+          "description": "Um vendaval misterioso destruiu os lares de teia de benevolentes ettercaps laranja. Ajude um sacerdote do vento a investigar a origem da tempestade e a reconstruir a comunidade dos ettercaps."
+        },
+        "3-3": {
+          "description": "Um caçador de fantasmas busca ajuda para expulsar fantasmas e desvendar os segredos de uma mansão assombrada construída por um esquecido inventor nascido dos fios e repleta de brinquedos de parque mortais."
+        },
+        "4-4": {
+          "description": "Um lenhador se aventurou em Ardengloom em busca da filha desaparecida. Acompanhe-o para desvendar o mistério do sumiço dela."
+        },
+        "5-5": {
+          "description": "Lidere os entes em um contra-ataque decisivo contra uma invasão madeireira bubônia para impedir que usem a madeira encantada de Ardengloom para aprimorar seus dispositivos apocalípticos."
+        },
+        "6-6": {
+          "description": "Minotauros brutais que adoram deuses malignos do fogo ameaçam incendiar Ardengloom. Ajude um guarda-florestal nascido retorcido a conter a ameaça e evitar um incêndio devastador."
+        },
+        "7-7": {
+          "description": "Fadas malignas compeliram nascidos retorcidos a sequestrar crianças para sacrifícios de sangue. Trabalhe com um pai aflito para resgatar as crianças."
+        },
+        "8-8": {
+          "description": "Estudantes gandorhal de Astramar flagrados praticando magia proibida enfrentam o julgamento do Ancião Gallows. Convença o ancião a demonstrar misericórdia."
+        },
+        "9-9": {
+          "description": "Procure a onisciente Coruja de Ardengloom, uma coruja gigante desperta, para responder a uma pergunta sobre o passado, o presente ou o futuro. Um guardião do saber serve de guia até o oco secreto da coruja."
+        },
+        "10-10": {
+          "description": "Com a ajuda das pistas de um místico sobre o traiçoeiro Labirinto dos Sonhadores, atravesse o labirinto florestal envolto em névoa para encontrar uma clareira incorrupta que concede cura e ressurreição."
+        },
+        "11-11": {
+          "description": "Em uma torre de mago em ruínas, detenha um nascido da maldição que tenta espalhar a licantropia. Una forças a um caçador local versado no folclore dos lobisomens."
+        },
+        "12-12": {
+          "description": "Participe de uma cerimônia dos nascidos retorcidos para relembrar o ciclo das estações de eras atrás. Guiado por um ancião estimado, escolha uma bênção sazonal e envolva-se nos rituais ancestrais."
+        }
+      }
+    },
+    "Mysterious Packages": {
+      "name": "Pacotes Misteriosos",
+      "results": {
+        "1-1": {
+          "description": "Um traje de roupas finas e um relógio de bolso de ouro no valor de 150 PO"
+        },
+        "2-2": {
+          "description": "4 latas, cada uma contendo os seguintes temperos: sal (5 PC cada); gengibre (1 PO cada); canela (2 PO cada); pimenta (2 PO cada); cravo (3 PO cada); açafrão (15 PO cada)"
+        },
+        "3-3": {
+          "description": "Um saco de bugigangas: três penas de corvo amarradas com fio de prata, um espelho de mão rachado gravado com as iniciais E.A.P. e uma garrafa de vidro contendo um navio a vela em miniatura"
+        },
+        "4-4": {
+          "description": "Um engradado com 12 garrafas de aguardente ardente (20 PO cada). Duas das garrafas estão envenenadas, cada uma funcionando como uma Poção de Veneno"
+        },
+        "5-5": {
+          "description": "Um conjunto de suprimentos de alquimista, um kit de herbalismo, um kit de curandeiro e duas Poções de Cura"
+        },
+        "6-6": {
+          "description": "Um sortimento de pequenos animais empalhados: um rato gigante, uma doninha, um gambá e um gato preto"
+        },
+        "7-7": {
+          "description": "Uma grande caixa de palha mofada, contendo três Enxames de Aranhas"
+        },
+        "8-8": {
+          "description": "Um Barco Fluvial de Brinquedo"
+        }
+      }
+    },
+    "Wedding Song": {
+      "name": "Canção de Casamento",
+      "results": {
+        "1-1": {
+          "description": "<p>Tambor. O alvo sofre 13 (2d12) de dano Trovejante.</p>"
+        },
+        "2-2": {
+          "description": "<p>Viela de Roda. O alvo fica com a condição Impedido até o fim do seu próximo turno.</p>"
+        },
+        "3-3": {
+          "description": "<p>Flauta. O alvo não pode realizar ataques corpo a corpo ou à distância com arma até o fim do seu próximo turno.</p>"
+        },
+        "4-4": {
+          "description": "<p>Rabeca. O alvo tem Desvantagem em testes de resistência até o fim do seu próximo turno.</p>"
+        },
+        "5-5": {
+          "description": "<p>Berimbau de Boca. O alvo tem Desvantagem em jogadas de ataque até o fim do seu próximo turno.</p>"
+        },
+        "6-6": {
+          "description": "<p>Sinos. O alvo não pode conjurar magias até o fim do próximo turno dele.</p>"
+        }
+      }
+    },
+    "King of All": {
+      "name": "Rei de Todos",
+      "results": {
+        "1-2": {
+          "description": "A Tocha Iluminadora queima os personagens quando eles chegam perto demais. - Fogo"
+        },
+        "3-4": {
+          "description": "A Maçã Venenosa espalha seu veneno aos personagens com um toque. - Veneno"
+        },
+        "5-6": {
+          "description": "A Coroa de Espinhos perfura a pele dos personagens quando eles enfiam a mão entre as raízes. - Perfurante"
+        }
+      }
+    },
+    "Lurking Shadows": {
+      "name": "Sombras Espreitantes",
+      "results": {
+        "1-1": {
+          "description": "No Armário"
+        },
+        "2-2": {
+          "description": "Sob a Cama da Esquerda"
+        },
+        "3-3": {
+          "description": "Sob a Cama da Direita"
+        },
+        "4-4": {
+          "description": "No Baú de Brinquedos"
+        },
+        "5-5": {
+          "description": "No Guarda-Roupa"
+        },
+        "6-6": {
+          "description": "Do Lado de Fora da Janela"
+        }
+      }
+    },
+    "Scholar of the Forbidden Story Threads": {
+      "name": "Fios de História do Estudioso do Proibido",
+      "results": {
+        "1-1": {
+          "description": "Um patrono rico pagou-lhe generosamente para pesquisar o que levou às suas descobertas, e ele quer o que você encontrou."
+        },
+        "2-2": {
+          "description": "Quando você pronunciou em voz alta a primeira palavra secreta que decifrou, desmaiou e acordou horas depois com os lábios rachados e enegrecidos."
+        },
+        "3-3": {
+          "description": "Algo vem seguindo você desde que desvendou os segredos ilícitos. Você o sente sempre às suas costas, cada vez mais perto."
+        },
+        "4-4": {
+          "description": "Sua sombra conversa com você quando está sozinho, servindo como parceira de debates e caixa de ressonância em seus estudos."
+        },
+        "5-5": {
+          "description": "Os reflexos dos seus olhos são vazios negros, mas ninguém mais parece notar."
+        },
+        "6-6": {
+          "description": "Uma ordem de inquisidores ou caçadores de bruxas o persegue aonde quer que você viaje, buscando silenciar você e suas descobertas para sempre."
+        }
+      }
+    },
+    "Cultist Trinkets": {
+      "name": "Bugigangas do Cultista",
+      "results": {
+        "1-1": {
+          "description": "Um pergaminho lacrado de conhecimento esotérico"
+        },
+        "2-2": {
+          "description": "Uma esfera de rolamento de aço com toda a superfície gravada com o texto sagrado do seu culto"
+        },
+        "3-3": {
+          "description": "Um cristal estranho ao toque"
+        },
+        "4-4": {
+          "description": "Uma faca ritual manchada de sangue, seiva ou óleos"
+        },
+        "5-5": {
+          "description": "Um conjunto de agulhas de tatuagem de cobre"
+        },
+        "6-6": {
+          "description": "Uma meia-máscara de tecido bordado"
+        }
+      }
+    },
+    "NPC Names: Last Name": {
+      "name": "Nomes de PdMs: Sobrenomes",
+      "results": {
+        "1-1": {
+          "description": "Benson"
+        },
+        "2-2": {
+          "description": "Câmaras"
+        },
+        "3-3": {
+          "description": "Cochran"
+        },
+        "4-4": {
+          "description": "Eggers"
+        },
+        "5-5": {
+          "description": "Ellsworth"
+        },
+        "6-6": {
+          "description": "Fallowfield"
+        },
+        "7-7": {
+          "description": "Finch"
+        },
+        "8-8": {
+          "description": "Franklin"
+        },
+        "9-9": {
+          "description": "Garrett"
+        },
+        "10-10": {
+          "description": "Golding"
+        },
+        "11-11": {
+          "description": "Gower"
+        },
+        "12-12": {
+          "description": "Abatido"
+        },
+        "13-13": {
+          "description": "Robusto"
+        },
+        "14-14": {
+          "description": "Irving"
+        },
+        "15-15": {
+          "description": "Pilkington"
+        },
+        "16-16": {
+          "description": "Reeves"
+        },
+        "17-17": {
+          "description": "Scovell"
+        },
+        "18-18": {
+          "description": "Stevenson"
+        },
+        "19-19": {
+          "description": "Stubbs"
+        },
+        "20-20": {
+          "description": "Wolcott"
+        }
+      }
+    },
+    "Reveler Story Threads": {
+      "name": "Fios de História do Folião",
+      "results": {
+        "1-1": {
+          "description": "Cartazes com desenhos do seu disfarce de folião começaram a aparecer nas cidades depois que a folia dos tolos vai embora."
+        },
+        "2-2": {
+          "description": "Assim que descobriu a verdade sobre as folias — que algumas das pessoas que desaparecem supostamente para se juntar à folia são sacrificadas —, você aproveitou a primeira chance de escapulir."
+        },
+        "3-3": {
+          "description": "Recentemente, mais pessoas do que o normal desapareceram das cidades por onde a folia passou."
+        },
+        "4-4": {
+          "description": "Corvos, corujas e outras aves parecem cacarejar e rir na sua presença."
+        },
+        "5-5": {
+          "description": "Você passou a suspeitar que outro folião tem um motivo sinistro oculto por seu disfarce de bufão."
+        },
+        "6-6": {
+          "description": "Você deixou a folia quando vislumbrou a perversidade que espreita sob a fachada jovial do Senhor dos Tolos."
+        }
+      }
+    },
+    "Amnesiac Trinkets": {
+      "name": "Bugigangas do Amnésico",
+      "results": {
+        "1-1": {
+          "description": "Metade de um anel de prata manchado com uma inscrição parcial em um idioma que você não entende"
+        },
+        "2-2": {
+          "description": "Uma caixinha de música que toca uma melodia triste que você reconhece, mas não consegue identificar"
+        },
+        "3-3": {
+          "description": "Um bilhete curto endereçado a você, assinado com um nome que você não reconhece"
+        },
+        "4-4": {
+          "description": "Um fino lenço de seda com um perfume esmaecido que desperta familiaridade"
+        },
+        "5-5": {
+          "description": "Um cavalinho de brinquedo com iniciais desconhecidas escritas a tinta"
+        },
+        "6-6": {
+          "description": "Um medalhão cujo retrato está queimado e irreconhecível"
+        }
+      }
+    },
+    "Potion Quirks": {
+      "name": "Peculiaridades da Poção",
+      "results": {
+        "1-1": {
+          "description": "Frascos Rachados. Gaste o dobro do custo normal de preparo aprimorado. Você pode pausar o trabalho na poção para adquirir mais materiais."
+        },
+        "2-2": {
+          "description": "Viscosidade Incomum. Você não pode realizar uma ação bônus no turno em que beber esta poção."
+        },
+        "3-3": {
+          "description": "Sensação Estranha por Dentro. Quem beber deve gastar 1 Dado de Pontos de Vida como parte de beber esta poção, ou ela não tem efeito."
+        },
+        "4-4": {
+          "description": "Magia Adormecida. Esta poção só fornece benefício a quem a beber se puder conjurar magias, e essa criatura deve gastar um espaço de magia como parte de beber a poção, ou ela não tem efeito."
+        },
+        "5-5": {
+          "description": "<p>Beberagem Amarga. A poção tem um gosto tão horrível que quem a beber deve ser bem-sucedido em um teste de resistência de [[/save Con 10]] ou cuspirá e desperdiçará a poção.</p>"
+        },
+        "6-6": {
+          "description": "Dose Concentrada. Por uma estranha inovação ou pura sorte, você criou uma poção que pode ser usada uma vez adicional."
+        }
+      }
+    },
+    "Foolish Personas": {
+      "name": "Personas Tolas",
+      "results": {
+        "1-1": {
+          "description": "O Arlequim. Um traje elegante de retalhos em losangos com uma máscara pintada — executa danças, faz discursos eloquentes e prega peças"
+        },
+        "2-2": {
+          "description": "O Bufão. Um traje de retalhos xadrez em duas cores, com gorro e guizos — prefere proezas de acrobacia, cambalhotas e malabarismo"
+        },
+        "3-3": {
+          "description": "O Gaiato. Um terno vibrante e colorido, com cabelo desgrenhado e chapéu-coco — prefere piadas bobas, comédia pastelão e autodepreciação desajeitada"
+        },
+        "4-4": {
+          "description": "O Mímico. Uma camisa listrada em preto e branco, com boina e suspensórios vermelhos — encena cenários cômicos em pantomima sem falar"
+        },
+        "5-5": {
+          "description": "O Palhaço Triste. Um macacão monocromático com chapéu pontudo e botões de pompom — recorre à melancolia melodramática e à canção"
+        },
+        "6-6": {
+          "description": "O Vagabundo. Um casaco coberto de remendos, cachecol esfarrapado, sapatos gastos e charuto — vale-se de humor sarcástico, insultos e observações zombeteiras"
+        }
+      }
+    },
+    "Reflected Wanderer Story Threads": {
+      "name": "Fios de História do Errante Refletido",
+      "results": {
+        "1-1": {
+          "description": "Um relacionamento próximo e duradouro azedou de repente, como se você tivesse feito mal à outra pessoa."
+        },
+        "2-2": {
+          "description": "Seu outro eu deixa mensagens e sinais para você enquanto viaja, às vezes parecendo afetuoso e outras vezes ressentido."
+        },
+        "3-3": {
+          "description": "Os animais ficam inquietos com você, tornando-se assustadiços e agitados em sua presença."
+        },
+        "4-4": {
+          "description": "Você é procurado por vários crimes menores que nunca cometeu, embora testemunhas oculares tenham apontado você. Com o tempo, crimes cada vez mais graves acontecem."
+        },
+        "5-5": {
+          "description": "Alguém com quem você estava em desavença passa a tratá-lo com mais respeito e gentileza."
+        },
+        "6-6": {
+          "description": "Às vezes, espelhos racham quando você os toca."
+        }
+      }
+    },
+    "Foothill Creatures": {
+      "name": "Criaturas do Sopé",
+      "results": {
+        "1-1": {
+          "description": "Golem de Pedra"
+        },
+        "2-2": {
+          "description": "Seis Ogros"
+        },
+        "3-3": {
+          "description": "Dez Abutres Gigantes"
+        },
+        "4-4": {
+          "description": "Três Elementais da Terra"
+        },
+        "5-5": {
+          "description": "Duas Serpes"
+        },
+        "6-6": {
+          "description": "Cinco Cavaleiros"
+        }
+      }
+    },
+    "Jinx Weapon Forms": {
+      "name": "Formas da Arma de Azaração",
+      "results": {
+        "1-1": {
+          "description": "Um talismã de madeira coberto de glifos, entalhado em forma de pistola, que dispara rajadas magenta"
+        },
+        "2-2": {
+          "description": "Um par de dados de osso que disparam rajadas fantasmagóricas verdes de arte da azaração por seus pontos"
+        },
+        "3-3": {
+          "description": "Cartas de baralho encantadas que podem ser arremessadas com poder mágico explosivo"
+        },
+        "4-4": {
+          "description": "Uma moeda da sorte que é lançada contra inimigos quando jogada e sempre retorna"
+        }
+      }
+    },
+    "Crimson Aspirant Story Threads": {
+      "name": "Fios de História do Aspirante Carmesim",
+      "results": {
+        "1-1": {
+          "description": "Às vezes, quando você sangra, ouve sussurros vindos do seu sangue derramado que provocam com significados."
+        },
+        "2-2": {
+          "description": "Você foi treinado por um monastério remoto, mas certa manhã seu mentor o pôs para fora em pânico e o mandou embora."
+        },
+        "3-3": {
+          "description": "Uma praga transmitida pelo sangue desafia as curas, e você precisa encontrar sua origem."
+        },
+        "4-4": {
+          "description": "Seu mentor, que o iniciou nos segredos guardados na vida e no sangue, desapareceu subitamente."
+        },
+        "5-5": {
+          "description": "Seus estudos revelam uma onda de casos de anemia, alguns terminando em morte, como resultado das predações de monstros bebedores de sangue."
+        },
+        "6-6": {
+          "description": "Um ente querido, como um amante ou irmão, morreu, e seus estudos sugerem uma forma de trazê-lo de volta."
+        }
+      }
+    },
+    "Scholar of the Forbidden Trinkets": {
+      "name": "Bugigangas do Estudioso do Proibido",
+      "results": {
+        "1-1": {
+          "description": "Um fragmento quebrado de uma mesa de pedra entalhada com símbolos que parecem rastejar e se contorcer"
+        },
+        "2-2": {
+          "description": "Um pedaço ressecado de tentáculo"
+        },
+        "3-3": {
+          "description": "Um pequeno ídolo de pedra-sabão que sempre parece acabar no seu bolso, na sua bolsa ou de algum outro modo junto ao seu corpo"
+        },
+        "4-4": {
+          "description": "Um livro encadernado em pele Humanoide com páginas em branco que absorvem tinta ou outros pigmentos"
+        },
+        "5-5": {
+          "description": "Um globo ocular alienígena boiando em um pote de líquido conservante"
+        },
+        "6-6": {
+          "description": "Um amuleto antigo com símbolos indecifráveis, que sussurra nas margens da consciência quando usado"
+        }
+      }
+    },
+    "Rookery Roost": {
+      "name": "Poleiro do Ninhal",
+      "results": {
+        "1-1": {
+          "description": "Pradaria Ondulante"
+        },
+        "2-2": {
+          "description": "Pântano Lamacento"
+        },
+        "3-3": {
+          "description": "Contrafortes Áridos"
+        },
+        "4-4": {
+          "description": "Margem Tempestuosa do Lago"
+        }
+      }
+    },
+    "NPC Names: Neutral": {
+      "name": "Nomes de PdMs: Neutros",
+      "results": {
+        "1-1": {
+          "description": "Addison"
+        },
+        "2-2": {
+          "description": "Ashleigh"
+        },
+        "3-3": {
+          "description": "Avery"
+        },
+        "4-4": {
+          "description": "Casey"
+        },
+        "5-5": {
+          "description": "Courtney"
+        },
+        "6-6": {
+          "description": "Darby"
+        },
+        "7-7": {
+          "description": "Frances"
+        },
+        "8-8": {
+          "description": "Jesse"
+        },
+        "9-9": {
+          "description": "Lauren"
+        },
+        "10-10": {
+          "description": "Lee"
+        },
+        "11-11": {
+          "description": "Leslie"
+        },
+        "12-12": {
+          "description": "Marion"
+        },
+        "13-13": {
+          "description": "Quinn"
+        },
+        "14-14": {
+          "description": "Remy"
+        },
+        "15-15": {
+          "description": "Rio"
+        },
+        "16-16": {
+          "description": "Shannon"
+        },
+        "17-17": {
+          "description": "Spencer"
+        },
+        "18-18": {
+          "description": "Taylor"
+        },
+        "19-19": {
+          "description": "Tracy"
+        },
+        "20-20": {
+          "description": "Whitney"
+        }
+      }
+    },
+    "Reveler Trinkets": {
+      "name": "Bugigangas do Folião",
+      "results": {
+        "1-1": {
+          "description": "Um pequeno sino de corda que você pode esconder na palma da mão, com um botão para acioná-lo"
+        },
+        "2-2": {
+          "description": "Um borrifador de metal amassado"
+        },
+        "3-3": {
+          "description": "Uma fileira de lenços coloridos amarrados uns aos outros"
+        },
+        "4-4": {
+          "description": "Um sino de prata manchado que às vezes se recusa a tilintar"
+        },
+        "5-5": {
+          "description": "Um par de botas ou chinelos que rangem comicamente a cada passo"
+        },
+        "6-6": {
+          "description": "Um cetro curto ou bastão com um chifre na ponta"
+        }
+      }
+    },
+    "Plague Manifestations": {
+      "name": "Manifestações da Peste",
+      "results": {
+        "1-1": {
+          "description": "Hálito Sangrento. Miasma cor de hematoma, cujas bordas formam tentáculos rastejantes — hematomas dolorosos e uma tosse rouca e sangrenta"
+        },
+        "2-2": {
+          "description": "Vômito Zumbidor. Enxame de moscas monstruosas e mutantes que zumbem com um ronco horripilante — ouvidos sangrando e vômitos intensos"
+        },
+        "3-3": {
+          "description": "Tripa Purulenta. Água de esgoto viscosa e cinzenta que deixa uma película nas superfícies — dor de estômago intensa, desidratação e perda de sangue"
+        },
+        "4-4": {
+          "description": "Varíola de Sarjeta. Bolhas de lodo tóxico esverdeado que escorre erraticamente ao toque — pápulas verdes e inchadas e um acúmulo opressivo de muco"
+        },
+        "5-5": {
+          "description": "Febre do Dobre. Vento quente que pinica a pele e uiva com o som de um sino dobrando — bolhas de calor e alucinações febris"
+        },
+        "6-6": {
+          "description": "Cara Podre. Inúmeros esporos fúngicos espinhosos que flutuam pelo ar — apodrecimento rápido da carne, especialmente ao redor dos olhos e da boca"
+        },
+        "7-7": {
+          "description": "O Impuro. Massa ondulante de carne pálida, dentes e línguas — crescimentos grotescos e mutantes, como novos apêndices semelhantes a tentáculos e bocas rangentes"
+        },
+        "8-8": {
+          "description": "Escama de Sapo. Chuvas infectadas repletas de sapos espectrais venenosos — placas endurecidas e coceirentas de pele escamosa que ganham cores vibrantes e acessos de coaxar agonizante"
+        },
+        "9-9": {
+          "description": "Praga Verminosa. Massa fervilhante de ratos espectrais da peste, vorazes, que roem e arranham as vítimas — furúnculos e pústulas dolorosos e uma tosse incessante e esganiçada"
+        },
+        "10-10": {
+          "description": "Morte Amarela. Nuvens ondulantes de vapores fétidos em forma de caveira, com uma tonalidade amarela doentia — fadiga debilitante, dores musculares e pele encovada e macilenta"
+        }
+      }
+    },
+    "NPC Names: Female": {
+      "name": "Nomes de PdMs: Femininos",
+      "results": {
+        "1-1": {
+          "description": "Abigail"
+        },
+        "2-2": {
+          "description": "Alice"
+        },
+        "3-3": {
+          "description": "Alma"
+        },
+        "4-4": {
+          "description": "Annabelle"
+        },
+        "5-5": {
+          "description": "Catherine"
+        },
+        "6-6": {
+          "description": "Clara"
+        },
+        "7-7": {
+          "description": "Edith"
+        },
+        "8-8": {
+          "description": "Elizabeth"
+        },
+        "9-9": {
+          "description": "Fiona"
+        },
+        "10-10": {
+          "description": "Gertrude"
+        },
+        "11-11": {
+          "description": "Isabelle"
+        },
+        "12-12": {
+          "description": "Janet"
+        },
+        "13-13": {
+          "description": "Madeleine"
+        },
+        "14-14": {
+          "description": "Matilda"
+        },
+        "15-15": {
+          "description": "Molly"
+        },
+        "16-16": {
+          "description": "Robin"
+        },
+        "17-17": {
+          "description": "Sadie"
+        },
+        "18-18": {
+          "description": "Sarah"
+        },
+        "19-19": {
+          "description": "Sophia"
+        },
+        "20-20": {
+          "description": "Tess"
+        }
+      }
+    },
+    "Picco Quest Hooks": {
+      "name": "Ganchos de Missão de Picco",
+      "results": {
+        "1-1": {
+          "description": "A Irmã Antic desencadeia uma série de explosivos potentes em uma onda caótica. Blinski II busca urgentemente prever e frustrar o próximo ataque dela."
+        },
+        "2-2": {
+          "description": "Um fabricante de brinquedos local procura ajuda depois que suas criações começam a ganhar vida e fugir."
+        },
+        "3-3": {
+          "description": "Um grande sistema de transporte de montanhas-russas começou a trocar de trilhos aleatoriamente, criando um pesadelo logístico. Descubra o padrão para desvendar e pôr fim à trama sinistra."
+        },
+        "4-4": {
+          "description": "Um grande desfile vira um pandemônio quando um mímico maníaco tumultua o evento. O organizador do desfile implora por ajuda para restaurar a ordem e capturar o artista desgarrado."
+        },
+        "5-5": {
+          "description": "Uma casa de espelhos acena. Almas aprisionadas são descobertas, e um dos espíritos aflitos busca ajuda para quebrar a maldição e libertá-las."
+        },
+        "6-6": {
+          "description": "Um experiente caçador de monstros busca ajuda para eliminar um horror sobrenatural que se alimenta da alegria dos frequentadores do parque."
+        },
+        "7-7": {
+          "description": "Um estouro de animais de circo animatrônicos desgovernados causa estragos. O mestre de picadeiro precisa decidir se ajuda a recolhê-los ou se os liberta, e busca orientação e ajuda."
+        },
+        "8-8": {
+          "description": "Os habitantes de uma casa de bonecas assombrada imploram por ajuda. Enfrentar a ameaça espectral exigirá que os ajudantes encolham para poder entrar."
+        },
+        "9-9": {
+          "description": "Brinquedos velhos e quebrados, rejeitados pela sociedade, se reúnem em desespero. Um fabricante de brinquedos compadecido busca escoltá-los para reparos e redenção."
+        },
+        "10-10": {
+          "description": "Um misterioso parque rival surge em uma ilha flutuante, aprisionando visitantes em um ciclo interminável de pavor e deleite. Um artista da fuga faz contato em segredo com um ousado plano de fuga."
+        },
+        "11-11": {
+          "description": "O icônico macaco de pratos, Jolly Jangles, entra em pane e sequestra uma querida figura local. Lorde Blinski II pede ajuda para entender e reparar o problema subjacente."
+        },
+        "12-12": {
+          "description": "Um clube da luta clandestino de ursinhos de pelúcia oferece um prêmio substancial, atraindo competidores ferozes. Um nobre disfarçado convida à competição, insinuando uma conspiração maior em jogo."
+        }
+      }
+    },
+    "Prairie Creatures": {
+      "name": "Criaturas da Pradaria",
+      "results": {
+        "1-1": {
+          "description": "Três Elementais do Fogo"
+        },
+        "2-2": {
+          "description": "Quatro Ettins"
+        },
+        "3-3": {
+          "description": "Dez Lobos Atrozes"
+        },
+        "4-4": {
+          "description": "Dois Guardiões Protetores"
+        },
+        "5-5": {
+          "description": "Cinco Pesadelos"
+        },
+        "6-6": {
+          "description": "Seis Capitães Bandidos"
+        }
+      }
+    },
+    "Olmarsh Quest Hooks": {
+      "name": "Ganchos de Missão de Olmarsh",
+      "results": {
+        "1-1": {
+          "description": "A Irmã Fathom busca dominar a Luz dos Afogados. O Capitão Ephraim Wake pretende impedi-la de tomar o controle de uma ameaça apocalíptica sobre a qual ele não pode falar."
+        },
+        "2-2": {
+          "description": "Em noites claras, um recife negro emerge com luzes estranhas e sons sinistros. Um filósofo natural anseia por descobrir o que há por baixo."
+        },
+        "3-3": {
+          "description": "O reitor da Universidade Darktide busca auxílio para lidar com o conhecimento sobrenatural da biblioteca, que vem levando os estudantes à loucura."
+        },
+        "4-4": {
+          "description": "Criaturas voadoras e esquálidas vêm aterrorizando um bairro de Ibbsmouth nas noites de neblina. A guarda local está determinada a caçar esses seres e descobrir sua origem."
+        },
+        "5-5": {
+          "description": "Um historiador local procura almas corajosas para explorar e escavar as ruínas de uma cidade submersa — não no oceano, mas no interior, em meio aos pântanos."
+        },
+        "6-6": {
+          "description": "A recente queda de um cometa deformou uma cidade próxima com cores bizarras e mutáveis. As autoridades locais precisam de ajuda para investigar seu estranho efeito sobre os moradores."
+        },
+        "7-7": {
+          "description": "Entidades misteriosas estão abduzindo moradores, deixando cascas vazias para trás. Um líder municipal desesperado pede ajuda para rastrear essas criaturas e detê-las."
+        },
+        "8-8": {
+          "description": "Um estudioso curioso procura um negociador para viajar até a corte aquática de um gigante mutante que se considera o “rei do mar”."
+        },
+        "9-9": {
+          "description": "Um ocultista previu o despertar de um mal nas profundezas de uma cidade submersa e pede ajuda para impedir que ele escape para o mundo da superfície."
+        },
+        "10-10": {
+          "description": "A guilda dos armadores oferece uma grande recompensa a quem conseguir enfrentar e derrotar um kraken monstruoso que vem aterrorizando as rotas marítimas."
+        },
+        "11-11": {
+          "description": "Relatos de um tubarão espectral trazem presságios de desgraça e infortúnio. Um pescador experiente procura companheiros para capturar o tubarão, acreditando que ele guarda a chave para sua sorte amaldiçoada."
+        },
+        "12-12": {
+          "description": "O navio fantasma de um antigo marinheiro assombra a costa. Seu descendente precisa de ajuda para descobrir a verdade e libertar os espíritos inquietos."
+        }
+      }
+    },
+    "Enoch Quest Hooks": {
+      "name": "Ganchos de Missão de Enoch",
+      "results": {
+        "1-1": {
+          "description": "A Irmã Nightmare está queimando plantações para um ritual funesto. Um fazendeiro local se vê compelido a detê-la antes que toda a colheita seja destruída."
+        },
+        "2-2": {
+          "description": "Sapos gigantes bloqueiam o caminho de um barco fluvial, prejudicando o comércio. O capitão precisa de ajuda para desobstruir a passagem e investigar a causa."
+        },
+        "3-3": {
+          "description": "Um gorila selvagem aterroriza uma escola. Ele precisa ser capturado em segurança, e sua origem precisa ser descoberta."
+        },
+        "4-4": {
+          "description": "Um velho moinho de grãos vaza um icor estranho que causa mutações na vida selvagem. O dono do moinho busca ajuda para encontrar e selar a fonte."
+        },
+        "5-5": {
+          "description": "Pomares envenenados transformam os aldeões em servos. O guardião do pomar está recrutando ajuda para encontrar um antídoto."
+        },
+        "6-6": {
+          "description": "Uma praga desconhecida mata as plantações. Uma herbalista local acredita que ela é mágica e precisa de ajuda para encontrar uma cura."
+        },
+        "7-7": {
+          "description": "Crianças sequestradas por uma bruxa são transformadas em servas. Pais desesperados pedem ajuda para resgatá-las e também para quebrar o feitiço."
+        },
+        "8-8": {
+          "description": "A sobrinha de uma mulher está lentamente se tornando um fantasma. Ela pede ajuda para reverter a maldição antes que seja tarde demais."
+        },
+        "9-9": {
+          "description": "Os espíritos de uma família, manifestando-se como pássaros-azuis, não conseguem descansar. Um historiador quer ajudá-los a encontrar a paz."
+        },
+        "10-10": {
+          "description": "Fantasmas de ancestrais retornam a um festival da colheita, e o organizador precisa de ajuda para garantir que o evento corra bem."
+        },
+        "11-11": {
+          "description": "Bandidos, frustrados pelos fazendeiros, tornam-se agressivos, e o conselho da cidade busca uma solução."
+        },
+        "12-12": {
+          "description": "Um constructo da colheita faz estragos pelas cidades agrícolas, e seu criador precisa subjugá-lo e descobrir a causa."
+        }
+      }
+    },
+    "Tarot Reading": {
+      "name": "Leitura de Tarô",
+      "results": {
+        "1-1": {
+          "description": "O Louco: Novos começos, liberdade e o início de uma aventura"
+        },
+        "2-2": {
+          "description": "O Mago: Pura força de vontade, a força do desejo e engenhosidade"
+        },
+        "3-3": {
+          "description": "Os Enamorados: Amor harmonioso, equilíbrio e perfeição nos relacionamentos"
+        },
+        "4-4": {
+          "description": "O Carro: A conquista de objetivos, a vitória por meio do controle e o sucesso"
+        },
+        "5-5": {
+          "description": "A Roda da Fortuna: Ciclos sem fim, a inevitabilidade da mudança e a sorte"
+        },
+        "6-6": {
+          "description": "O Enforcado: A necessidade do sacrifício, o caminho espiritual e a indecisão"
+        },
+        "7-7": {
+          "description": "Morte: Fins de fases da vida, transições e desapego do passado"
+        },
+        "8-8": {
+          "description": "O Diabo: Vazio, falta de realização e a armadilha do materialismo"
+        },
+        "9-9": {
+          "description": "A Torre: Reviravolta radical, rejeição de verdades antes sustentadas e caos"
+        },
+        "10-10": {
+          "description": "A Lua: Clareza na intuição, caminhos incertos à frente e segredos"
+        },
+        "11-11": {
+          "description": "O Julgamento: Reflexão sobre si mesmo, despertar iminente e propósito"
+        },
+        "12-12": {
+          "description": "O Mundo: União do exterior e do interior, plenitude e senso de pertencimento"
+        }
+      }
+    },
+    "Chaotic Curse": {
+      "name": "Maldição Caótica",
+      "results": {
+        "1-1": {
+          "description": "O Louco (Normal). Você se torna um palhaço, tolo e bobo."
+        },
+        "2-2": {
+          "description": "O Louco (Invertida). Você não consegue parar de rir. Você tem o caso mais extremo de humor macabro; quanto mais mórbido algo é, mais engraçado se torna para você."
+        },
+        "3-3": {
+          "description": "O Mago (Normal). Você considera não ter cabeça o estado ideal de existência. Você acredita que pode remover a própria cabeça e se empenha em remover as cabeças de seus aliados."
+        },
+        "4-4": {
+          "description": "O Mago (Invertida). Todos ao seu redor parecem ter tido os olhos substituídos por pequenos botões pretos e redondos."
+        },
+        "5-5": {
+          "description": "A Sacerdotisa (Normal). Você não consegue parar de tossir sangue."
+        },
+        "6-6": {
+          "description": "A Sacerdotisa (Invertida). Toda vez que você bebe algo, sente como se estivesse se afogando."
+        },
+        "7-7": {
+          "description": "A Imperatriz (Normal). Você se torna a personificação do pecado capital da ira."
+        },
+        "8-8": {
+          "description": "A Imperatriz (Invertida). Tudo o que você toca começa a apodrecer."
+        },
+        "9-9": {
+          "description": "O Imperador (Normal). Você vê visões falsas de um passado em que fez coisas horríveis. Elas são tão realistas e convincentes que você começa a duvidar da sua própria realidade."
+        },
+        "10-10": {
+          "description": "O Imperador (Invertida). Você acredita que sua alma pertence a uma entidade sombria que pode vir reivindicá-la a qualquer momento."
+        },
+        "11-11": {
+          "description": "O Hierofante (Normal). Você tem uma fome insaciável por ossos."
+        },
+        "12-12": {
+          "description": "O Hierofante (Invertida). Você está com tanto sono que é difícil manter os olhos abertos. Toda vez que começa a adormecer, você desperta num sobressalto, como se saísse de um pesadelo."
+        },
+        "13-13": {
+          "description": "Os Enamorados (Normal). Você perde todo o senso de direção. Não importa o que você faça ou o que digam, você acredita que está perdido e que nunca encontrará o caminho."
+        },
+        "14-14": {
+          "description": "Os Enamorados (Invertida). Você se torna a personificação do pecado capital do orgulho."
+        },
+        "15-15": {
+          "description": "O Carro (Normal). Você tem um medo avassalador da morte e teme que tudo possa matá-lo, até as coisas mais mundanas."
+        },
+        "16-16": {
+          "description": "O Carro (Invertida). Seu terceiro olho se abre — literalmente. Ele não lhe concede nenhum poder adicional, mas agora você tem um terceiro olho no meio da testa."
+        },
+        "17-17": {
+          "description": "A Força (Normal). Você acredita ser o barqueiro dos mortos, e todas as almas devem ser julgadas por você."
+        },
+        "18-18": {
+          "description": "A Força (Invertida). Quando você se move, emite o som de sinos de leproso, embora não tenha nem sinos nem lepra."
+        },
+        "19-19": {
+          "description": "O Eremita (Normal). Você sente sua personalidade se dividir em duas. Uma versão sombria e maligna de você mesmo luta pelo controle da sua mente."
+        },
+        "20-20": {
+          "description": "O Eremita (Invertida). Você se transforma em um gato preto falante. Você sabe quem é, mas as pessoas ao seu redor não têm motivo para acreditar em você."
+        },
+        "21-21": {
+          "description": "A Roda da Fortuna (Normal). Você se torna a personificação do pecado capital da ganância."
+        },
+        "22-22": {
+          "description": "A Roda da Fortuna (Invertida). Você acredita que é imortal—você não é."
+        },
+        "23-23": {
+          "description": "A Justiça (Normal). Pústulas surgem por todo o seu corpo."
+        },
+        "24-24": {
+          "description": "A Justiça (Invertida). Você é incrivelmente azarado. Você tem desvantagem em todas as jogadas."
+        },
+        "25-25": {
+          "description": "O Enforcado (Normal). Toda vez que precisar fazer uma jogada de d20, você rola um d12 em vez disso."
+        },
+        "26-26": {
+          "description": "O Enforcado (Invertida). Uma máscara macabra se fixa ao seu rosto, e nada do que você faça consegue removê-la."
+        },
+        "27-27": {
+          "description": "A Morte (Normal). Seu rosto desaparece e é substituído por pele lisa e sem feições."
+        },
+        "28-28": {
+          "description": "Morte (Invertida). Você se torna o epítome do pecado capital da gula."
+        },
+        "29-29": {
+          "description": "A Temperança (Normal). Seus olhos desaparecem do rosto e surgem nas palmas das suas mãos."
+        },
+        "30-30": {
+          "description": "A Temperança (Invertida). Você só consegue se mover rastejando de quatro, e o rastejar é sempre arrepiante e perturbador."
+        },
+        "31-31": {
+          "description": "O Diabo (Normal). Sua cabeça é substituída pela cabeça de um bode preto."
+        },
+        "32-32": {
+          "description": "O Diabo (Invertida). Toda vez que você come algo, encontra 1d8 dentes humanos dentro."
+        },
+        "33-33": {
+          "description": "A Torre (Normal). Você se apaixona perdidamente pela próxima pessoa que vir."
+        },
+        "34-34": {
+          "description": "A Torre (Invertida). Você se torna incrivelmente crédulo e acredita em tudo o que lhe dizem."
+        },
+        "35-35": {
+          "description": "A Estrela (Normal). Você se torna o epítome do pecado capital da luxúria."
+        },
+        "36-36": {
+          "description": "A Estrela (Invertida). Você acredita que está invisível—você não está."
+        },
+        "37-37": {
+          "description": "A Lua (Normal). Você sente como se estivesse coberto de teias de aranha, e nada do que você faça consegue acabar com essa sensação. Se não se livrar delas logo, você acredita que será envolto em um casulo."
+        },
+        "38-38": {
+          "description": "A Lua (Invertida). Você acredita que está se transformando em uma criatura licantropa — você não está."
+        },
+        "39-39": {
+          "description": "O Sol (Normal). Sua pele murcha e endurece, assumindo a textura e a aparência de casca de árvore."
+        },
+        "40-40": {
+          "description": "O Sol (Invertida). Você acredita que seu corpo começou a apodrecer e se decompor — não começou."
+        },
+        "41-41": {
+          "description": "O Julgamento (Normal). Você tem uma sede insaciável de sangue."
+        },
+        "42-42": {
+          "description": "O Julgamento (Invertida). Você se torna a personificação do pecado capital da preguiça."
+        },
+        "43-43": {
+          "description": "O Mundo (Normal). Você tem um desejo crescente de consumir cérebros."
+        },
+        "44-44": {
+          "description": "O Mundo (Invertida). Nasce em você um par de presas, tornando incrivelmente difícil falar."
+        },
+        "45-45": {
+          "description": "Ás de Paus (Normal). Todos ao seu redor parecem estar falando uma algaravia ininteligível, e nada permite que você compreenda o que estão dizendo — nem mesmo magias que normalmente permitiriam entender qualquer idioma."
+        },
+        "46-46": {
+          "description": "Ás de Paus (Invertida). Você acredita que pode falar com os mortos — você não pode."
+        },
+        "47-47": {
+          "description": "Dois de Paus (Normal). Você ouve a voz de um palhaço morto provocando você dentro da sua mente."
+        },
+        "48-48": {
+          "description": "Dois de Paus (Invertida). Você acredita ser a alma reencarnada de uma bruxa queimada injustamente na fogueira."
+        },
+        "49-49": {
+          "description": "Três de Paus (Normal). Você se torna a personificação do pecado capital da inveja."
+        },
+        "50-50": {
+          "description": "Três de Paus (Invertida). Você alucina que você e todos os seus aliados se transformaram em mortos-vivos."
+        },
+        "51-51": {
+          "description": "Quatro de Paus (Normal). Você acredita que sua sombra quer pegar você."
+        },
+        "52-52": {
+          "description": "Quatro de Paus (Invertida). Você é incapaz de contar uma mentira."
+        },
+        "53-53": {
+          "description": "Cinco de Paus (Normal). Um chapéu de cogumelo aparece na sua cabeça como um chapéu, mas você não consegue removê-lo."
+        },
+        "54-54": {
+          "description": "Cinco de Paus (Invertida). Você é incapaz de dizer a verdade."
+        },
+        "55-55": {
+          "description": "Seis de Paus (Normal). Sangue começa a jorrar dos seus olhos."
+        },
+        "56-56": {
+          "description": "Seis de Paus (Invertida). Sua cabeça é substituída por uma lanterna de abóbora."
+        },
+        "57-57": {
+          "description": "Sete de Paus (Normal). Você sente como se pólen enevoasse o ar e não consegue parar de espirrar."
+        },
+        "58-58": {
+          "description": "Sete de Paus (Invertida). Você acredita que seu corpo está sendo mantido inteiro por palha e que precisa continuar enchendo suas roupas com ela, ou desmoronará."
+        },
+        "59-59": {
+          "description": "Oito de Paus (Normal). Um bando de aves carniceiras circula continuamente acima de você. Você acredita que isso é um presságio da sua morte iminente."
+        },
+        "60-60": {
+          "description": "Oito de Paus (Invertida). Você acredita ser um esqueleto que anda e fala — você não é."
+        },
+        "61-61": {
+          "description": "Nove de Paus (Normal). Você sente o cheiro intenso de especiarias de abóbora. Nada do que você faça dissipa o aroma, e ele está começando a lhe dar uma dor de cabeça terrível."
+        },
+        "62-62": {
+          "description": "Nove de Paus (Invertida). Você não consegue se livrar da sensação de estar sendo seguido."
+        },
+        "63-63": {
+          "description": "Dez de Paus (Normal). Você vê alguém observando você pelo canto do olho. Quando se vira para conferir, não há ninguém lá."
+        },
+        "64-64": {
+          "description": "Dez de Paus (Invertida). Quando você se move, ouve passos seguindo atrás de você. Quando para de se mover, o som também para. Ninguém mais consegue ouvi-lo."
+        },
+        "65-65": {
+          "description": "Valete de Paus (Normal). Suas pernas se transformam em pernas de pássaro. Se por acaso você já tiver pernas de pássaro, elas se transformam em pernas humanas."
+        },
+        "66-66": {
+          "description": "Valete de Paus (Invertida). Toda comida parece estar podre e tem cheiro de podre. Já a comida podre parece deliciosa."
+        },
+        "67-67": {
+          "description": "Cavaleiro de Paus (Normal). Você acredita que o céu está tomado por milhares de bandos ferozes e agressivos de pássaros."
+        },
+        "68-68": {
+          "description": "Cavaleiro de Paus (Invertida). Você se torna incrivelmente desastrado e tropeça e cai por causa de tudo — até dos próprios pés."
+        },
+        "69-69": {
+          "description": "Rainha de Paus (Normal). Você tem um medo terrível do escuro."
+        },
+        "70-70": {
+          "description": "Rainha de Paus (Invertida). Você acredita ser um vampiro — mas não é."
+        },
+        "71-71": {
+          "description": "Rei de Paus (Normal). Seus ossos se tornam incrivelmente frágeis, e você não para de quebrá-los."
+        },
+        "72-72": {
+          "description": "Rei de Paus (Invertida). Há um verme no seu cérebro tentando convencê-lo a fazer coisas indizíveis."
+        },
+        "73-73": {
+          "description": "Ás de Copas (Normal). Todos ao seu redor parecem ter um sorriso sinistro e antinatural no rosto. Não importa quais sejam suas verdadeiras emoções, o sorriso nunca se desfaz."
+        },
+        "74-74": {
+          "description": "Ás de Copas (Invertida). Você ouve crianças rindo ao seu redor. Quando se vira para encontrar a origem, as risadas param, mas voltam quando você desvia o olhar novamente."
+        },
+        "75-75": {
+          "description": "Dois de Copas (Normal). Você acredita que está morto e que ninguém consegue vê-lo ou ouvi-lo, mesmo que digam o contrário."
+        },
+        "76-76": {
+          "description": "Dois de Copas (Invertida). Você acredita que está sendo seguido por um grande cão negro que é um presságio da sua ruína iminente."
+        },
+        "77-77": {
+          "description": "Três de Copas (Normal). Você acredita que pode prever o futuro e faz afirmações delirantes sobre o que está por vir."
+        },
+        "78-78": {
+          "description": "Três de Copas (Invertida). Seus dentes apodrecem e caem, só para voltarem a crescer dolorosamente minutos depois e então caírem de novo. O ciclo se repete sem parar."
+        },
+        "79-79": {
+          "description": "Quatro de Copas (Normal). Há mel por todas as suas pernas, e nada do que você faça consegue removê-lo. Tudo gruda em você."
+        },
+        "80-80": {
+          "description": "Quatro de Copas (Invertida). Você acredita que escaravelhos estão devorando seu corpo de dentro para fora."
+        },
+        "81-81": {
+          "description": "Cinco de Copas (Normal). Você acredita que todos ao seu redor estão mortos e que você está falando com fantasmas que não perceberam que morreram."
+        },
+        "82-82": {
+          "description": "Cinco de Copas (Invertida). Você se torna incrivelmente supersticioso, a ponto de inventar suas próprias superstições para justificar seu medo."
+        },
+        "83-83": {
+          "description": "Seis de Copas (Normal). Você acredita que todos ao seu redor são pecadores e precisam ser redimidos."
+        },
+        "84-84": {
+          "description": "Seis de Copas (Invertida). Você tosse penas aleatoriamente. Isso lhe parece normal."
+        },
+        "85-85": {
+          "description": "Sete de Copas (Normal). Você acredita que pode se comunicar a grandes distâncias por meio de uivos."
+        },
+        "86-86": {
+          "description": "Sete de Copas (Invertida). Brota das suas costas um par de asas membranosas de morcego. Se você já tinha asas, elas são substituídas por estas. Você não consegue voar, embora acredite que consegue."
+        },
+        "87-87": {
+          "description": "Oito de Copas (Normal). Você acredita que pode se comunicar por ecolocalização — você não pode."
+        },
+        "88-88": {
+          "description": "Oito de Copas (Invertida). Centenas de olhos — sempre piscando, sempre observando — brotam por todo o seu corpo."
+        },
+        "89-89": {
+          "description": "Nove de Copas (Normal). Você sente como se estivesse sufocando, quase como se estivesse sendo enterrado vivo."
+        },
+        "90-90": {
+          "description": "Nove de Copas (Invertida). Aleatoriamente, quando você tenta falar, terra de cova jorra da sua boca."
+        },
+        "91-91": {
+          "description": "Dez de Copas (Normal). Vermes se contorcem sob sua pele, saindo do seu corpo pela boca, pelos olhos e pelos ouvidos."
+        },
+        "92-92": {
+          "description": "Dez de Copas (Invertida). A mão decepada de um mago morto há muito tempo jurou servi-lo. Essa mão funciona como uma Mão Mágica física e pode realizar tarefas simples para você. Isso lhe parece normal, mas todos os demais que testemunham essa mão ficam horrorizados com ela."
+        },
+        "94-94": {
+          "description": "Pajem de Copas (Invertida). Você se transforma em uma boneca assustadora."
+        },
+        "93-93": {
+          "description": "Valete de Copas (Normal). Toda vez que você se fere, insetos, bichos, aranhas e larvas escorrem das suas feridas em vez de sangue."
+        },
+        "95-95": {
+          "description": "Cavaleiro de Copas (Normal). Você acredita que há aranhas rastejando por todo o seu corpo, e nada do que você faça consegue tirar todas."
+        },
+        "96-96": {
+          "description": "Cavaleiro de Copas (Invertida). Você tem uma cutícula terrivelmente incômoda e, quando a puxa, sua carne se abre do corpo como um zíper."
+        },
+        "97-97": {
+          "description": "Rainha de Copas (Normal). Você acredita que pode transformar pessoas em pedra fazendo contato visual com elas — você não pode."
+        },
+        "98-98": {
+          "description": "Rainha de Copas (Invertida). Você é dominado pelo cheiro de cabelo e carne queimando."
+        },
+        "99-99": {
+          "description": "Rei de Copas (Normal). A primeira pessoa que você vê lhe aparece como um anjo biblicamente preciso. Toda vez que você fecha os olhos, ela chega mais perto de você. Não pisque."
+        },
+        "100-100": {
+          "description": "Rei de Copas (Invertida). Você acredita que um monstro espreita atrás de cada porta e que precisa verificar duas vezes para garantir. Role um d20. Com um 1, você vê 1d100 esqueletos inofensivos espreitando atrás da porta. Você é o único que consegue ver esses esqueletos."
+        },
+        "101-101": {
+          "description": "Ás de Espadas (Normal). Seu corpo fica coberto de geada, e você congela no lugar. Você é incapaz de se mover."
+        },
+        "102-102": {
+          "description": "Ás de Espadas (Invertida). Você sente como se sua pele estivesse derretendo, e nada do que você faça traz alívio."
+        },
+        "103-103": {
+          "description": "Dois de Espadas (Normal). Você acredita que pode enviar mensagens a longa distância pela rede de micélio — você não pode."
+        },
+        "104-104": {
+          "description": "Dois de Espadas (Invertida). Você tem, aleatoriamente, visões da morte de outra pessoa. A única forma de fazer as visões pararem é contar a essa pessoa o que você viu, em detalhes excruciantes."
+        },
+        "105-105": {
+          "description": "Três de Espadas (Normal). Você passa a ter um medo mortal de fogo — até da menor das chamas."
+        },
+        "106-106": {
+          "description": "Três de Espadas (Invertida). Pelos começam a crescer por todo o seu corpo. Se você já for coberto de pelos, todos eles caem."
+        },
+        "107-107": {
+          "description": "Quatro de Espadas (Normal). Seus pés e mãos trocam de lugar."
+        },
+        "108-108": {
+          "description": "Quatro de Espadas (Invertida). Minúsculas moscas-das-frutas zumbem ao seu redor. Nada do que você faça consegue livrá-lo delas."
+        },
+        "109-109": {
+          "description": "Cinco de Espadas (Normal). Você é incapaz de controlar suas expressões faciais. Não importa quão capaz você seja de mentir, suas expressões faciais são exageradas e denunciam seus verdadeiros sentimentos."
+        },
+        "110-110": {
+          "description": "Cinco de Espadas (Invertida). Está quente demais e frio demais ao mesmo tempo. Quando você veste mais camadas, sente como se estivesse fervendo. Quando as tira, sente como se estivesse congelando."
+        },
+        "111-111": {
+          "description": "Seis de Espadas (Normal). Você acredita que todos ao seu redor estão cochichando sobre você, mas toda vez que se concentra no que estão dizendo, os cochichos param."
+        },
+        "112-112": {
+          "description": "Seis de Espadas (Invertida). Você é tomado por uma intensa paranoia em relação ao inverno que se aproxima e sente a necessidade de acumular objetos aleatórios como uma pega — pedras, gravetos, tufos de mato ou bugigangas."
+        },
+        "113-113": {
+          "description": "Sete de Espadas (Normal). Você acredita que está se transformando em um espantalho; está convencido de que deve ficar parado como um espantalho, com os braços abertos, ou você e seus aliados serão horrivelmente devorados por bandos de pássaros."
+        },
+        "114-114": {
+          "description": "Sete de Espadas (Invertida). Você acredita que a próxima pessoa a falar com você está secretamente planejando matá-lo — ela não está"
+        },
+        "115-115": {
+          "description": "Oito de Espadas (Normal). Você sente como se não comesse há um inverno inteiro. Sua fome não pode ser saciada, e você comeria praticamente qualquer coisa."
+        },
+        "116-116": {
+          "description": "Oito de Espadas (Invertida). Você sente como se tivesse comido demais e estivesse prestes a passar mal. Nada traz alívio."
+        },
+        "117-117": {
+          "description": "Nove de Espadas (Normal). Você tem um resfriado inabalável. Seu nariz escorre, sua garganta dói e seus músculos doem. É inconveniente, e nem mesmo a magia consegue curá-lo."
+        },
+        "118-118": {
+          "description": "Nove de Espadas (Invertida). Você só consegue falar por meio de canções, rimas, poesia, prosa, rap ou outras formas artísticas."
+        },
+        "119-119": {
+          "description": "Dez de Espadas (Normal). Você sente a necessidade de dançar e não consegue parar."
+        },
+        "120-120": {
+          "description": "Dez de Espadas (Invertida). Você sente a necessidade de se expressar por meio de dança interpretativa e deve fazê-lo sempre que fala."
+        },
+        "121-121": {
+          "description": "Valete de Espadas (Normal). Flores começam a brotar por todo o seu corpo. Você é quase engolido por elas e fica incapaz de se mover."
+        },
+        "122-122": {
+          "description": "Valete de Espadas (Invertida). Você não consegue mais enxergar em cores. Tudo fica em tons de preto e branco."
+        },
+        "123-123": {
+          "description": "Cavaleiro de Espadas (Normal). Você insere aleatoriamente sons de pássaros na sua fala. Você não percebe que está fazendo isso."
+        },
+        "124-124": {
+          "description": "Cavaleiro de Espadas (Invertida). Penas começam a crescer por todo o seu corpo. Se você já for coberto de penas, todas elas caem."
+        },
+        "126-126": {
+          "description": "Rainha de Espadas (Invertida). Você ouve os lamentos e os estertores daqueles que morreram pelas suas mãos. Nem mesmo a magia Silêncio consegue calar suas vozes."
+        },
+        "125-125": {
+          "description": "Rainha de Espadas (Normal). Um corvo circula acima de você, zombando de você ao imitar as vozes dos seus aliados."
+        },
+        "127-127": {
+          "description": "Rei de Espadas (Normal). Você começa a envelhecer rapidamente. Isso não o mata, mas você sofre todos os outros efeitos de um corpo envelhecido."
+        },
+        "128-128": {
+          "description": "Rei de Espadas (Invertida). A primeira pessoa que você vê lhe aparece como um palhaço, e você tem um medo mortal de palhaços."
+        },
+        "129-129": {
+          "description": "Ás de Ouros (Normal). Sua pele coça terrivelmente, e nada do que você faça traz alívio. Você está começando a acreditar que a única solução é remover sua pele pedaço por pedaço."
+        },
+        "130-130": {
+          "description": "Ás de Ouros (Invertida). Você sente a necessidade de fazer malabarismo com o que estiver segurando. Você acredita que, se parar o malabarismo, morrerá."
+        },
+        "131-131": {
+          "description": "Dois de Ouros (Normal). Você se transforma em uma marionete e acredita estar sendo controlado por um titereiro que manipula seus movimentos usando seus fios de marionete."
+        },
+        "132-132": {
+          "description": "Dois de Ouros (Invertida). Você só consegue falar sussurrando."
+        },
+        "133-133": {
+          "description": "Três de Ouros (Normal). Todas as suas palavras saem como gritos, por mais que você tente controlar o volume."
+        },
+        "134-134": {
+          "description": "Três de Ouros (Normal). Todas as suas palavras saem como gritos, por mais que você tente controlar o volume."
+        },
+        "135-135": {
+          "description": "Quatro de Ouros (Normal). Sua memória está nebulosa; você vive esquecendo as coisas. Quando esquece algo importante, você o substitui por detalhes falsos, e fica claro que está fazendo isso."
+        },
+        "136-136": {
+          "description": "Quatro de Ouros (Invertida). Você acredita que todos que conhece estão flertando com você — eles não estão."
+        },
+        "137-137": {
+          "description": "Cinco de Ouros (Normal). Quando você fala, abelhas jorram da sua boca e enxameiam ao redor das pessoas próximas."
+        },
+        "138-138": {
+          "description": "Cinco de Ouros (Invertida). Seu maxilar se transforma em mandíbulas."
+        },
+        "139-139": {
+          "description": "Seis de Ouros (Normal). Você acredita ter uma força sobrenatural, mas na verdade ficou incrivelmente fraco."
+        },
+        "140-140": {
+          "description": "Seis de Ouros (Invertida). Você é um mímico, incapaz de falar, e só consegue se comunicar por pantomima."
+        },
+        "141-141": {
+          "description": "Sete de Ouros (Normal). Seu corpo fica coberto de musgo e líquen."
+        },
+        "142-142": {
+          "description": "Sete de Ouros (Invertida). Você é tomado por uma tristeza avassaladora e não consegue se livrar dela."
+        },
+        "143-143": {
+          "description": "Oito de Ouros (Normal). Você se sente incrivelmente solitário, não importa quantas pessoas estejam ao seu redor."
+        },
+        "145-145": {
+          "description": "Nove de Ouros (Normal). Você acredita ter sido convocado por um mal ancestral para executar suas maquinações sombrias. Você é o arauto da ruína desse mal e deve converter os que estão ao seu redor a essa escuridão."
+        },
+        "146-146": {
+          "description": "Nove de Ouros (Invertida). Você acredita que as árvores estão tentando lhe contar os segredos ancestrais da terra, mas a única forma de realmente ouvir suas palavras é se enterrar entre as raízes de uma árvore."
+        },
+        "144-144": {
+          "description": "Oito de Ouros (Normal). Você se sente incrivelmente solitário, não importa quantas pessoas estejam ao seu redor."
+        },
+        "147-147": {
+          "description": "Dez de Ouros (Normal). Você acredita ser uma bruxa precisando de um familiar, e a primeira criatura que vir servirá."
+        },
+        "148-148": {
+          "description": "Dez de Ouros (Invertida). Você pensa que é um troll de ponte, e qualquer um que tente passar por você deve pagar um pedágio."
+        },
+        "149-149": {
+          "description": "Valete de Ouros (Normal). Você acredita estar prometido em casamento a uma criatura das profundezas e deve se preparar para deixar para trás o mundo da superfície."
+        },
+        "150-150": {
+          "description": "Valete de Ouros (Invertida). Sempre que você abre a boca, uma névoa densa e escura sai em ondas. Ela não atrapalha sua fala, mas é bem assustadora."
+        },
+        "151-151": {
+          "description": "Cavaleiro de Ouros (Normal). Você é um tolo, e todos ao seu redor o percebem como tal."
+        },
+        "152-152": {
+          "description": "Cavaleiro de Ouros (Invertida). Você é como uma mariposa diante da chama; é incrivelmente atraído por qualquer fonte de luz."
+        },
+        "153-153": {
+          "description": "Rainha de Ouros (Normal). Toda criatura que você vê parece ter dentes humanoides."
+        },
+        "154-154": {
+          "description": "Rainha de Ouros (Invertida). Os ossos dos seus braços desaparecem."
+        },
+        "155-155": {
+          "description": "Rei de Ouros (Normal). Você é assombrado pelo fantasma de um palhaço muito deprimente."
+        },
+        "156-156": {
+          "description": "Rei de Ouros (Invertida). Seu cabelo se transforma em serpentes venenosas que se contorcem, amigáveis com você, mas agressivas com todos os demais."
+        }
+      }
+    },
+    "Reinforcements": {
+      "name": "Reforços",
+      "results": {
+        "1-4": {
+          "description": "Sem reforços"
+        },
+        "5-6": {
+          "description": "Três Cães-Morcego"
+        },
+        "7-8": {
+          "description": "Um Fanático de Culto e quatro Cultistas"
+        },
+        "9-9": {
+          "description": "Dois Clérigos Carmesins"
+        },
+        "10-10": {
+          "description": "Mestre dos Cães Jaeger (Capitão Bandido) e dois Cães-Morcego"
+        },
+        "11-11": {
+          "description": "Frei Olaf (Sacerdote) e quatro Acólitos"
+        }
+      }
+    },
+    "Kalero Quest Hooks": {
+      "name": "Ganchos de Missão de Kalero",
+      "results": {
+        "1-1": {
+          "description": "A Irmã Playtime usa seus fios para manipular aldeões inocentes como marionetes em uma peça sem fim. Uma família aflita busca ajuda para libertar seus entes queridos de seu domínio mágico."
+        },
+        "2-2": {
+          "description": "As lágrimas de uma misteriosa mulher de branco fazem o Rio da Recordação transbordar, apagando memórias. Um sábio pede ajuda para cessar seu pranto pesaroso."
+        },
+        "3-3": {
+          "description": "Lendas de cidades douradas no topo das mesas atraem caçadores de tesouros, mas aqueles que encontram ouro são transformados eles próprios em ouro. Um explorador ousado está recrutando para essa jornada perigosa."
+        },
+        "4-4": {
+          "description": "Um curador do museu de Memento busca ajuda para recuperar relíquias sagradas roubadas por piratas de rio. O curador promete uma parte dos tesouros recuperados."
+        },
+        "5-5": {
+          "description": "Nascidos das Relíquias estão sendo encontrados drenados de sua essência por alguma criatura monstruosa. Um líder comunitário preocupado oferece uma recompensa para resolver esses incidentes."
+        },
+        "6-6": {
+          "description": "Em troca de glória e ouro, um corredor experiente se oferece para guiar novatos em uma corrida contra grandes gatos alados."
+        },
+        "7-7": {
+          "description": "Altares sagrados por toda Kalero foram profanados. Sob a orientação de um sacerdote, restaure os altares para preservar o poder espiritual das cidades."
+        },
+        "8-8": {
+          "description": "O habitante mais rico de Porto Melee está promovendo um grande torneio de esgrima que recompensa a bravata e os jogos de palavras espirituosos. Entre na briga e supere a concorrência nos insultos."
+        },
+        "9-9": {
+          "description": "Piromaníacos sabotaram um depósito de fogos de artifício às vésperas de um grande festival. O proprietário busca ajuda para evitar um desastre explosivo."
+        },
+        "10-10": {
+          "description": "Uma grande batalha de bandas é perturbada por travessuras mágicas. Os músicos pedem ajuda para pôr o palco em ordem e dividir os holofotes."
+        },
+        "11-11": {
+          "description": "Siga a enigmática marcha dos cactos para conversar com o espírito do deserto."
+        },
+        "12-12": {
+          "description": "Um espadachim mascarado que afirma lutar pela justiça aterroriza a província ceifando vidas. Um caçador de recompensas oferece uma recompensa por sua captura. Reivindique a recompensa ou ajude o justiceiro."
+        }
+      }
+    },
+    "Rest Warden Trinkets": {
+      "name": "Bugigangas do Guardião do Repouso",
+      "results": {
+        "1-1": {
+          "description": "Uma tira de oração e um selo cobertos de versos para proteger os falecidos"
+        },
+        "2-2": {
+          "description": "Um decalque a carvão do epitáfio de uma lápide"
+        },
+        "3-3": {
+          "description": "Um prego de caixão que sempre acaba entortado, não importa quantas vezes você o endireite"
+        },
+        "4-4": {
+          "description": "Uma flor seca recolhida de um dos primeiros túmulos de que você cuidou"
+        },
+        "5-5": {
+          "description": "Um pedaço de corrente de ferro enferrujada e um cadeado"
+        },
+        "6-6": {
+          "description": "Uma garrafa lacrada contendo um último suspiro"
+        }
+      }
+    },
+    "Hungry Woods": {
+      "name": "Bosque Faminto",
+      "results": {
+        "1-1": {
+          "description": "Um Hypnovulfen"
+        },
+        "2-2": {
+          "description": "Três Wellwyrms"
+        },
+        "3-3": {
+          "description": "Dois Ketgrinn"
+        },
+        "4-4": {
+          "description": "Um Devorador de Sonhos"
+        },
+        "5-5": {
+          "description": "Quatro Esfoladores de Ossos"
+        },
+        "6-6": {
+          "description": "Um Gobblegeist"
+        }
+      }
+    },
+    "Fated Tarot": {
+      "name": "Tarô do Destino",
+      "description": "<p>Você tira uma carta de tarô, e Adela Druskenvald lhe dá a interpretação dela.</p>",
+      "results": {
+        "1-1": {
+          "description": "<p>“O Mago é uma carta poderosa! Você já tem tudo de que precisa pra ter sucesso. É só aproveitar o seu próprio poder, e você pode criar o futuro dos seus sonhos. Você não é nenhuma marionete deixando outra pessoa puxar os seus fios. Agora é a sua vez de ser o titereiro!”</p>"
+        },
+        "2-2": {
+          "description": "<p>“A Sacerdotisa! Puxa, mas que coisa supimpa! Você tem que ouvir o seu coração e usar a sua intuição. Olhe dentro daquele lugar onde suas memórias repousam, e vai ver que tem toda a experiência de que precisa pra fazer as escolhas difíceis que vêm por aí.”</p>"
+        },
+        "3-3": {
+          "description": "<p>“Quando os tempos ficam difíceis, não tem nada que se compare ao amor de mãe! E a Imperatriz é bem isso, resumidinho. Essa carta aparece quando você mais precisa dela. Eu vejo uma casa numa colina e uma mamãe te cobrindo bem quentinho depois de um pesadelo terrível. Essa é a Imperatriz.”</p>"
+        },
+        "4-4": {
+          "description": "<p>“Já quis ter controle total da sua vida? Tá com sorte! O Imperador promete isso de sobra! Claro, você vai ter que trabalhar um pouquinho antes — largar uns hábitos, mudar uma crença ou duas —, mas se fizer isso, vai ser você quem dá as cartas, e não quem perde o jogo!”</p>"
+        },
+        "5-5": {
+          "description": "<p>“Aprender é coisa divina. Tenho quase certeza de que o ditado é assim! Enfim, o Hierofante tá te dizendo exatamente isso. Tem alguém no seu futuro que pode te levar pelo caminho certo. Você só tem que ir atrás dessa pessoa e ser praticamente sedento de sangue na sua busca por conhecimento.”</p>"
+        },
+        "6-6": {
+          "description": "<p>“Óun, os Enamorados! Não tem nada melhor que o amor, não senhor. Alguém entrou na sua vida faz pouco tempo e vai virar o seu mundo de pernas pro ar. Não me leve a mal, eu adoraria que você tivesse o seu próprio Phil, mas essa pessoa pode ser qualquer um! Mesmo que seja a coisa mais fofa do mundo, não deixe o amor passar por cima da razão.”</p>"
+        },
+        "7-7": {
+          "description": "<p>“O Carro tem tudo a ver com liberdade e com se libertar da gaiola da insegurança. Eu sei que pode ser difícil, mas não deixe as vozes malvadas dentro da sua cabeça te dizerem que você não pode escapar. Expulse seus demônios interiores, confie em si mesmo e deixe o carro te guiar.”</p>"
+        },
+        "8-8": {
+          "description": "<p>“A Força é uma das minhas favoritas! Uma garota como eu não tem lá muito músculo, mas tem um coração enorme, e é disso que essa carta trata de verdade. Não se enterre debaixo do peso do seu passado. Encontre a sua força interior e você vai poder encarar qualquer desafio que te aguarde!”</p>"
+        },
+        "9-9": {
+          "description": "<p>“O Eremita não é tão solitário quanto parece. Você não precisa sair correndo pra floresta nem nada disso. Só precisa quebrar um pouquinho a sua rotina. É hora de trilhar um caminho novo. Embora seja fácil depender de um guia, você tem que começar a depender de si mesmo!”</p>"
+        },
+        "10-10": {
+          "description": "<p>“Tudo tá prestes a mudar! O destino pode ser meio assustador quando a gente não tem controle, mas não esquenta. O que tá por vir é resultado direto de escolhas que você já fez. Como a Roda da Fortuna nunca para de girar, você sempre pode fazer novas escolhas pra corrigir o caminho.”</p>"
+        },
+        "11-11": {
+          "description": "<p>“Ah, a Justiça! Pode ser que você se veja numa posição de fazer julgamentos, mas não deixe esse tipo de poder subir à cabeça! Nem tudo é sempre o que parece, então sempre considere os dois lados de qualquer história. Você pode ter o poder agora, mas mais cedo ou mais tarde o carma vai reequilibrar a balança.”</p>"
+        },
+        "12-12": {
+          "description": "<p>“Ah, meu bem! Pode ser que você esteja sentindo que o mundo virou de cabeça pra baixo. Ora, pode até estar se sentindo impotente ou encurralado. Mas o Enforcado te incentiva a viver o momento, ter um pouquinho de paciência e deixar a solução vir até você!”</p>"
+        },
+        "13-13": {
+          "description": "<p>“A MORTE!! Que arrepio! Ah, não se preocupe! Não é tão assustador assim! Olhe à sua volta. Você tá num trem viajando pela própria morte, e mesmo assim é uma festa. Essa carta só quer dizer que um capítulo da sua vida tá terminando pra que um novo possa começar.”</p>"
+        },
+        "14-14": {
+          "description": "<p>“A Temperança fala de mudança e de resistência. A vida, e até a morte, pode ser um caos. Mas mesmo no meio da turbulência, você pode encontrar harmonia. É só procurar o lado bom do ruim e se temperar pra poder abraçar a mudança que tá por vir.”</p>"
+        },
+        "15-15": {
+          "description": "<p>“Minha nossa! Não quero te assustar, mas parece que você pode ser facilmente manipulado! Faça o que fizer, não ceda à tentação. O Diabo sussurra sobre entidades sombrias que usariam os seus desejos pra te corromper em nome dos seus fins nefastos. Cuidado!”</p>"
+        },
+        "16-16": {
+          "description": "<p>“A Torre desmorona todinha ao seu redor. Verdades são expostas, e algo na sua vida logo vai ser destruído. Isso pode soar assustador, e é porque é mesmo! Mas lembre-se: se a floresta queimar, das cinzas outra floresta vai crescer de novo.”</p>"
+        },
+        "17-17": {
+          "description": "<p>“Mas que sortudo você é de tirar a carta da Estrela?! Quando tudo ao seu redor não passa de escuridão, a estrela é um farol brilhante de esperança no meio dela. Use a luz dentro de você pra assumir o controle do seu destino.”</p>"
+        },
+        "18-18": {
+          "description": "<p>“Ninguém diria que a Lua é sinistra só pelo nome, mas tô te dizendo, ela é! Você tá cercado de ilusões e trapaças, e nada é o que parece ser. Você precisa buscar a verdade no meio da loucura, mesmo quando não tem certeza se pode confiar em si mesmo.”</p>"
+        },
+        "19-19": {
+          "description": "<p>“Nada é tão divertido quanto o Sol! Essa carta é positivamente positivíssima! O Sol ilumina as sombras e espanta a escuridão. Coisas boas vêm por aí! Só não esqueça que, pra cada raio de luz lançado, sempre tem uma sombra junto.”</p>"
+        },
+        "20-20": {
+          "description": "<p>“Ah, não! Parece que o seu passado voltou pra te assombrar! É hora de encarar o seu passado e expiar tudo o que precisa ser expiado! O Julgamento chega pra todo mundo!”</p>"
+        },
+        "21-21": {
+          "description": "<p>“Ora, essa carta é o máximo! O Mundo tá sempre mudando e jogando obstáculos no seu caminho, mas tirar essa carta é sinal de que você tá prestes a superar algo monumental. Tudo o que você tiver que sacrificar vai valer a pena! A vitória te espera!”</p>"
+        },
+        "22-22": {
+          "description": "<p>“Uuuuh! O Louco! Eu amo essa carta! Novas aventuras, novos começos, novas oportunidades; quem é que diria não pra isso? É quase como se ela estivesse te dizendo que uma nova jornada te espera assim que você descer deste trem, não acha?”</p>"
+        }
+      }
+    },
+    "Fates of the Fallen": {
+      "name": "Destinos dos Caídos",
+      "results": {
+        "1-1": {
+          "description": "Terror da Colheita - Arcanismo - Compartilhe um segredo"
+        },
+        "2-2": {
+          "description": "Abade Carmesim - Religião - Compartilhe uma culpa"
+        },
+        "3-3": {
+          "description": "Pecador Sorridente - Enganação - Compartilhe um desejo"
+        },
+        "4-4": {
+          "description": "Viúva Chorosa - Intuição - Compartilhar uma lembrança triste"
+        },
+        "5-5": {
+          "description": "Fera da Praga - Natureza - Compartilhe um animal favorito"
+        },
+        "6-6": {
+          "description": "Ceifador Acorrentado - História - Compartilhe uma história de fantasmas"
+        }
+      }
+    },
+    "QyZF2r3msX8Lymxo": {
+      "name": "Remédio sem Rótulo",
+      "results": {
+        "1-1": {
+          "description": "<p>Uma criatura que ingere este remédio recebe o benefício de uma Poção de Heroísmo, mas, de forma imperceptível, recebe o efeito da magia Perdição em vez de Bênção pela duração (a criatura acredita estar sob o efeito da magia Bênção até depois de sua próxima jogada de ataque ou teste de resistência).</p>"
+        },
+        "2-2": {
+          "description": "<p>Uma criatura que ingere este remédio rola seu número máximo de Dados de Pontos de Vida. Se o total rolado exceder os Pontos de Vida máximos da criatura, ela fica com a condição Inconsciente por 1d8 horas, até sofrer dano ou até que alguém use uma ação para sacudi-la ou estapeá-la até acordar.</p>"
+        },
+        "3-3": {
+          "description": "<p>Uma criatura que ingere este remédio fica com a condição Enfeitiçado em relação a todas as criaturas por 1d4 horas, ou até sofrer dano.</p>"
+        },
+        "4-4": {
+          "description": "<p>Uma criatura que ingere este remédio tem Desvantagem em testes de Força e testes de resistência de Força por 1d4 horas ou até terminar um Descanso Curto.</p>"
+        },
+        "5-5": {
+          "description": "<p>Uma criatura que ingere este remédio fica com a condição Envenenado por 1d4 horas e não pode manter Concentração em magias ou efeitos semelhantes enquanto estiver Envenenada dessa forma.</p>"
+        },
+        "6-6": {
+          "description": "<p>Uma criatura que ingere este remédio fica com a condição Envenenado por 1d4 horas e não pode contar uma mentira deliberadamente, como se estivesse sob o efeito da magia Zona da Verdade, enquanto estiver Envenenada dessa forma.</p>"
+        }
+      }
+    },
+    "Nerukhet Quest Hooks": {
+      "name": "Ganchos de Missão de Nerukhet",
+      "results": {
+        "1-1": {
+          "description": "Surgem suspeitas de que uma nobre seja a Irmã Hourglass disfarçada, usando seus poderes para manipular criaturas perigosas para os próprios fins. Um agente secreto busca ajuda para expor a farsa dela e frustrar seu plano."
+        },
+        "2-2": {
+          "description": "Mineradores despertaram um terror adormecido nas profundezas. O capataz precisa urgentemente de ajuda para subjugar a criatura antes que ela destrua a cidade."
+        },
+        "3-3": {
+          "description": "Símbolos ritualísticos começaram a aparecer nos túneis. Um estudioso preocupado se empenha em impedir que um culto ressuscite seu fundador lich."
+        },
+        "4-4": {
+          "description": "Navegue pelas águas traiçoeiras da política dos nascidos da seda e garanta alianças valiosas em um grande banquete."
+        },
+        "5-5": {
+          "description": "Um artesão reverenciado, escolhido como sacrifício para um escorpião, pede ajuda em segredo para escapar de seu destino sem ofender os costumes locais."
+        },
+        "6-6": {
+          "description": "Um general atiça o fervor bélico entre o povo. Moradores ansiosos pedem perícia para desmascarar suas verdadeiras intenções e evitar uma guerra potencialmente devastadora."
+        },
+        "7-7": {
+          "description": "Forasteiros vieram a Nerukhet para caçar os escorpiões por suas joias preciosas, e os domadores locais oferecem uma recompensa para detê-los."
+        },
+        "8-8": {
+          "description": "Por causa de uma série de desaparecimentos misteriosos, é vital infiltrar-se em uma sociedade secreta de magos do sangue que supostamente estão transformando vítimas em vampiros."
+        },
+        "9-9": {
+          "description": "Um mercador oferece um mapa para um raro bosque de fungos, mas colhê-lo exige enfrentar os perigos de esporos que alteram a mente."
+        },
+        "10-10": {
+          "description": "Decida se vai se juntar a saqueadores de tumbas que planejam pilhar criptas antigas ou detê-los."
+        },
+        "11-11": {
+          "description": "O sumo sacerdote pede ajuda para recuperar vasos canópicos roubados, a fim de impedir que um oráculo mumificado se erga como um espírito vingativo."
+        },
+        "12-12": {
+          "description": "Depois que as aranhas domesticadas de Arakir se revoltam de repente, o braço direito do Deus-Rei Xanatep está determinado a descobrir a causa e restaurar a ordem."
+        }
+      }
+    },
+    "Ravening Hordes": {
+      "name": "Hordas Vorazes",
+      "results": {
+        "1-1": {
+          "description": "Quatro Corpos Secos e quatro Esqueletos de Cavalo de Guerra"
+        },
+        "2-2": {
+          "description": "Uma Cria de Vampiro e seis Espectros"
+        },
+        "3-3": {
+          "description": "Seis Esqueletos de Minotauro"
+        },
+        "4-4": {
+          "description": "Dois Lívidos e quatro Carniçais"
+        },
+        "5-5": {
+          "description": "Uma Aparição e três Fogos-Fátuos"
+        },
+        "6-6": {
+          "description": "Três Múmias e três Sombras"
+        },
+        "7-7": {
+          "description": "Três Zumbis Ogros e oito Zumbis"
+        },
+        "8-8": {
+          "description": "Um Fantasma e doze Esqueletos"
+        }
+      }
+    },
+    "Swamp Creatures": {
+      "name": "Criaturas do Pântano",
+      "results": {
+        "1-1": {
+          "description": "Dois Magos"
+        },
+        "2-2": {
+          "description": "Três Trolls"
+        },
+        "3-3": {
+          "description": "Dois Crocodilos Gigantes"
+        },
+        "4-4": {
+          "description": "Golem de Barro"
+        },
+        "5-5": {
+          "description": "Hidra"
+        },
+        "6-6": {
+          "description": "Três Elementais da Água"
+        }
+      }
+    },
+    "V8jyyATMpFlj7KYd": {
+      "name": "Intrusão",
+      "results": {
+        "1-1": {
+          "description": "<p>Você sente uma presença às suas costas que sussurra coisas incompreensíveis para a sua alma. Até o fim do seu próximo turno, você só pode fazer uma das seguintes coisas em um turno: realizar uma ação, uma Ação Bônus ou se mover.</p>"
+        },
+        "2-2": {
+          "description": "<p>O espaço se retorce e derrete em uma Emanação de 30 pés ao seu redor. Cada criatura (incluindo você) na área luta contra a distorção da realidade. O Deslocamento de uma criatura afetada é reduzido à metade até o fim do seu próximo turno.</p>"
+        },
+        "3-3": {
+          "description": "<p>A outra criatura mais próxima a até 60 pés de você deve ser bem-sucedida em um teste de resistência de Constituição ou sofrer dano Necrótico igual a duas rolagens do seu Dado de Intrusão (em seu tamanho inicial), e você recupera uma quantidade de Pontos de Vida igual ao dano causado.</p>"
+        },
+        "4-4": {
+          "description": "<p>A realidade se rasga no seu espaço até o fim do seu próximo turno. Você e cada criatura que puder ver o rasgo devem ser bem-sucedidos em um teste de resistência de Sabedoria ou ficar com a condição Amedrontado enquanto o rasgo existir.</p>"
+        },
+        "5-5": {
+          "description": "<p>Um dos seus braços se deforma em um apêndice alienígena, como uma versão distorcida de um braço ou um tentáculo retorcido, por 1 minuto. Você pode realizar Ataques Desarmados com o membro usando seu bônus de ataque de magia. Em vez do dano normal, role um número de Dados de Intrusão (em seu tamanho inicial) igual ao seu Bônus de Proficiência. O alvo sofre dano Ácido igual ao total rolado.</p>"
+        },
+        "6-6": {
+          "description": "<p>Paisagens alienígenas se sobrepõem à sua visão, deixando-o com a condição Cego até o fim do seu próximo turno.</p>"
+        },
+        "7-7": {
+          "description": "<p>Pensamentos antinaturais o desorientam, dando a você a condição Incapacitado até o fim do seu próximo turno.</p>"
+        },
+        "8-8": {
+          "description": "<p>Você vivencia um instante de terrível clareza. Você sofre dano Psíquico igual a duas rolagens do seu Dado de Intrusão (em seu tamanho inicial) e, por 1 minuto, a CD de resistência das suas magias aumenta em 2.</p>"
+        },
+        "9-9": {
+          "description": "<p>Você recupera um espaço de magia gasto de nível 5 ou inferior (à sua escolha) e sofre dano Necrótico igual ao dobro do nível do espaço. Esse dano não pode ser reduzido nem evitado de forma alguma.</p>"
+        },
+        "10-10": {
+          "description": "<p>Quando você causa esta Intrusão e no fim de cada um dos seus turnos por 1 minuto, pulsações no tecido do espaço preenchem uma Emanação de 15 pés originada em você, dando a você e a cada criatura nela a condição Caído.</p>"
+        },
+        "11-11": {
+          "description": "<p>Por 1 hora, você ouve pensamentos sussurrados e desencarnados de desprezo odioso dirigidos a você. Enquanto puder ouvir os sussurros, você tem Desvantagem em testes de atributo e testes de resistência que dependam de Sabedoria.</p>"
+        },
+        "12-12": {
+          "description": "<p>Uma Aberração ou um Corruptor com ND igual ou inferior ao seu nível de Mago (à escolha do Mestre) aparece em um espaço desocupado a até 30 pés de você. O Mestre decide a atitude da criatura (Hostil/Indiferente/Amigável) e suas ações.</p>"
+        }
+      }
+    },
+    "Lakeshore Creatures": {
+      "name": "Criaturas da Margem do Lago",
+      "results": {
+        "1-1": {
+          "description": "Três Elementais do Ar"
+        },
+        "2-2": {
+          "description": "Dois Oni"
+        },
+        "3-3": {
+          "description": "Dez Aranhas Gigantes"
+        },
+        "4-4": {
+          "description": "Dois Golens de Carne"
+        },
+        "5-5": {
+          "description": "Três Chuul"
+        },
+        "6-6": {
+          "description": "Assassino"
+        }
+      }
+    },
+    "Festering Wilds": {
+      "name": "Ermos Purulentos",
+      "results": {
+        "1-2": {
+          "description": "Ravina Gotejante (área F6)"
+        },
+        "3-4": {
+          "description": "Lamaçal Fétido (área F7)"
+        },
+        "5-6": {
+          "description": "Bosque Fúngico (área F8)"
+        }
+      }
+    },
+    "Crimson Origins": {
+      "name": "Origens Carmesins",
+      "results": {
+        "1-1": {
+          "description": "Um dos seus pais era um vampiro. Embora você mesmo não seja um, herdou a fome dele, e é ela que impulsiona sua magia."
+        },
+        "2-2": {
+          "description": "Você estudou ritos de sangue em um monastério que infundiu poder em seu próprio sangue."
+        },
+        "3-3": {
+          "description": "Você sobreviveu à mordida de um vampiro, mas ela o deixou mudado para sempre e despertou sua feitiçaria."
+        },
+        "4-4": {
+          "description": "Sua família sofre sob uma maldição geracional que se manifestou em você, levando-o a drenar energia vital."
+        },
+        "5-5": {
+          "description": "Você estudou os segredos da vida e da morte, talvez para salvar a si mesmo ou a um ente querido. Ao fazê-lo, desbloqueou o poder carmesim em seu sangue."
+        },
+        "6-6": {
+          "description": "Você morreu, e uma entidade astuta lhe ofereceu uma segunda chance de viver. Você aceitou e despertou com feitiçaria carmesim correndo em suas veias."
+        }
+      }
+    },
+    "Restless Dead": {
+      "name": "Mortos Inquietos",
+      "results": {
+        "1-1": {
+          "description": "Esqueleto"
+        },
+        "2-2": {
+          "description": "Zumbi"
+        },
+        "3-3": {
+          "description": "Sombra"
+        },
+        "4-4": {
+          "description": "Carniçal"
+        },
+        "5-5": {
+          "description": "Lívido"
+        },
+        "6-6": {
+          "description": "Espectro"
+        },
+        "7-7": {
+          "description": "Fogo-Fátuo"
+        },
+        "8-8": {
+          "description": "Múmia"
+        },
+        "9-9": {
+          "description": "Corpo Seco"
+        },
+        "10-10": {
+          "description": "Fantasma"
+        },
+        "11-11": {
+          "description": "Cria de Vampiro"
+        },
+        "12-12": {
+          "description": "Aparição"
+        }
+      }
+    },
+    "Witchcraft Implements": {
+      "name": "Implementos de Bruxaria",
+      "results": {
+        "1-1": {
+          "description": "Velas feitas de sebo misturado com sangue"
+        },
+        "2-2": {
+          "description": "Maços secos de ervas ou cogumelos"
+        },
+        "3-3": {
+          "description": "Crânios ou ossos longos entalhados com glifos"
+        },
+        "4-4": {
+          "description": "Frutinhas ou raízes esmagadas misturadas em uma pasta"
+        },
+        "5-5": {
+          "description": "Caldeirão de ferro marcado com símbolos"
+        },
+        "6-6": {
+          "description": "Lâmina curva para oferecer sacrifícios de animais"
+        }
+      }
+    },
+    "XoF9X5PC9txEECk8": {
+      "name": "Destroços Tortos",
+      "results": {
+        "1-1": {
+          "description": "<p>Banheira com Pés de Garra: O alvo sofre 21 (6d6) de dano de Concussão pelo impacto.</p>"
+        },
+        "2-2": {
+          "description": "<p>Árvore de Bergamota: As raízes da árvore se enrolam no alvo. O alvo sofre 11 (2d10) de dano de Concussão e fica com a condição Agarrado (CD 17 para escapar), e tem a condição Impedido até o agarrão terminar.</p>"
+        },
+        "3-3": {
+          "description": "<p>Retrato de Família: A pintura suga o alvo para dentro dela. O alvo fica Atordoado, em outro plano de existência, e não pode ser alvo de ataques, magias ou outros efeitos mágicos até o fim do seu próximo turno.</p>"
+        },
+        "4-4": {
+          "description": "<p>Cabeça de Alce Empalhada: O alvo sofre 21 (6d6) de dano Perfurante dos chifres.</p>"
+        },
+        "5-5": {
+          "description": "<p>Relógio de Pêndulo: O relógio badala de forma cacofônica. O alvo sofre 11 (2d10) de dano Trovejante e fica com a condição Surdo por 1 minuto.</p>"
+        },
+        "6-6": {
+          "description": "<p>Lustre: O alvo sofre 11 (2d10) de dano de Fogo e começa a queimar.</p>"
+        }
+      }
+    },
+    "Wicked Nemeses": {
+      "name": "Nêmesis Perversos",
+      "results": {
+        "1-1": {
+          "description": "Um nobre vampiro apodrecido que espalha uma peste mortal por meio do comando de incontáveis vermes"
+        },
+        "2-2": {
+          "description": "Um brutal assassino de aluguel que vende seus serviços a diversos cultos e organizações sombrias"
+        },
+        "3-3": {
+          "description": "Um líder de culto carismático que reina sobre uma ilha remota, fazendo sacrifícios sazonais de mortais para garantir uma colheita farta a cada ano"
+        },
+        "4-4": {
+          "description": "Um golem de carne imensamente inteligente que matou seu criador para prosseguir com sua própria obra sinistra de ciência estranha e experimentos medonhos"
+        },
+        "5-5": {
+          "description": "Uma bruxa invejosa dos bosques que corrompe os jovens de pequenas aldeias, levando-os a cometer  atrocidades horríveis"
+        },
+        "6-6": {
+          "description": "Um herege orgulhoso e vaidoso que reúne seguidores fanáticos após um cisma sangrento para iniciar uma cruzada brutal em nome de suas crenças distorcidas"
+        },
+        "7-7": {
+          "description": "Um caçador outrora renomado, agora amaldiçoado com licantropia, que se entregou a massacres sangrentos"
+        },
+        "8-8": {
+          "description": "Um necromante implacável que vasculha ruínas antigas em busca de magia proibida para libertar seu mestre de outro mundo de uma prisão sobrenatural"
+        },
+        "9-9": {
+          "description": "Uma estranha criatura anfíbia que emerge das profundezas para sequestrar inocentes e arrastá-los para baixo da superfície da água com propósitos desconhecidos"
+        },
+        "10-10": {
+          "description": "Um revenant sanguinário que outrora foi um cavaleiro sombrio e agora reúne outros cavaleiros Mortos-Vivos para trazer morte e decadência"
+        }
+      }
+    },
+    "Ghostlight Passenger Story Threads": {
+      "name": "Fios de História do Passageiro Luz-Fantasma",
+      "results": {
+        "1-1": {
+          "description": "Às vezes, quando sonha, você se vê de volta ao Expresso Luz-Fantasma de uma forma que é mais do que mera imagem onírica."
+        },
+        "2-2": {
+          "description": "Sua primeira jornada às terras dos mortos foi confusa, mas você percebeu que agora talvez consiga encontrar o espírito partido de um ente querido que julgava perdido para sempre."
+        },
+        "3-3": {
+          "description": "Um espírito específico retorna repetidamente para falar com você e através de você."
+        },
+        "4-4": {
+          "description": "As pessoas às vezes falam com você como se o conhecessem, mas depois não têm nenhuma lembrança da conversa. Durante esses momentos de reconhecimento, elas sabem detalhes de suas visitas ao Expresso Luz-Fantasma."
+        },
+        "5-5": {
+          "description": "Às vezes, em suas viagens, você vê pessoas que reconhece do seu tempo no Expresso Luz-Fantasma."
+        },
+        "6-6": {
+          "description": "Alguém o cumprimentou sabendo da sua primeira jornada no Expresso Luz-Fantasma, mas você não se lembra dessa pessoa."
+        }
+      }
+    },
+    "Bubonia Quest Hooks": {
+      "name": "Ganchos de Missão de Bubonia",
+      "results": {
+        "1-1": {
+          "description": "A Irmã Homunculus está prestes a concluir seu titã de carne moldada. Um alquimista rival busca ajuda para sabotar a obra dela antes que ela possa ser libertada sobre Bubonia."
+        },
+        "2-2": {
+          "description": "A Guilda dos Sineiros criou uma nova cepa de peste capaz de dizimar até os Nascidos da Peste. Ajude um monge preocupado a purificar os tonéis de peste da guilda antes que eles possam ser usados como arma."
+        },
+        "3-3": {
+          "description": "A Guilda dos Lança-Raios está desesperada por novos recrutas para combater um aumento nas ameaças mutantes. Um caçador de monstros oferece uma recompensa por cada mutante abatido."
+        },
+        "4-4": {
+          "description": "Um assassino dos Caça-Ratos tem como alvo um curandeiro proeminente que está dando alívio aos infectados. Descubra o motivo e proteja o curandeiro."
+        },
+        "5-5": {
+          "description": "Um jovem mercador ambicioso conta com o apoio da Guilda dos Queijeiros para desafiar o status quo em Bubonia. Descubra os segredos que podem alterar o equilíbrio de poder."
+        },
+        "6-6": {
+          "description": "Em meio a uma tempestade de miasma tóxico, um cavaleiro delirante confunde os moinhos de vento com gigantes inimigos. Ajude a dissipar suas alucinações antes que infraestruturas essenciais sejam danificadas."
+        },
+        "7-7": {
+          "description": "Uma família rural busca segurança no Castelo Underbelly. Guie-a e proteja-a em sua perigosa jornada pelos ermos infestados de mutantes."
+        },
+        "8-8": {
+          "description": "Um draco mutante que cospe fogo devasta o interior, incinerando tudo em seu caminho. Um fazendeiro local procura almas corajosas para matar a fera e proteger seu chalé de telhado de palha."
+        },
+        "9-9": {
+          "description": "As guildas estão promovendo uma grande feira para exibir suas descobertas mais recentes! Garanta que guildas rivais não sabotem as exposições umas das outras."
+        },
+        "10-10": {
+          "description": "Rumores sobre um coelho mutante feroz espalharam medo por Bubonia. Representantes das guildas oferecem uma recompensa substancial a quem derrotar essa abominação."
+        },
+        "11-11": {
+          "description": "Uma das criações da Irmã Homunculus está tentando se defender de uma multidão furiosa. Ela parece bem-intencionada e em perigo, mas será que é confiável?"
+        },
+        "12-12": {
+          "description": "O Doutor Underfoot busca ajuda para inventar um novo dispositivo do juízo final. Vários grupos competem pelo prêmio considerável, e apenas a melhor ideia sobreviverá."
+        }
+      }
+    },
+    "Reflected Wanderer Trinkets": {
+      "name": "Bugigangas do Errante Refletido",
+      "results": {
+        "1-1": {
+          "description": "Um espelho de mão estilhaçado"
+        },
+        "2-2": {
+          "description": "Um convite para a casa de uma pessoa poderosa que você nunca conheceu"
+        },
+        "3-3": {
+          "description": "Um medalhão com sua silhueta pintada nos dois lados, uma de frente para a outra"
+        },
+        "4-4": {
+          "description": "Uma carta curta e desdenhosa de você mesmo que você não se lembra de ter escrito"
+        },
+        "5-5": {
+          "description": "Um broche entregue a você que você não comprou"
+        },
+        "6-6": {
+          "description": "Um pedaço de giz que escreve em uma cor diferente da que aparenta ter"
+        }
+      }
+    },
+    "Experiment Story Threads": {
+      "name": "Fios de História do Experimento",
+      "results": {
+        "1-1": {
+          "description": "Uma determinada canção desperta em você sentimentos de tristeza e uma raiva avassaladora, lembrando-o do processo que o transformou."
+        },
+        "2-2": {
+          "description": "Uma parte do seu corpo alterado foi claramente enxertada de outra pessoa, e ela talvez a queira de volta."
+        },
+        "3-3": {
+          "description": "Outra pessoa foi transformada junto com você. Ela fugiu antes de você partir, insistindo para que você fizesse o mesmo."
+        },
+        "4-4": {
+          "description": "Você tem pesadelos recorrentes com o procedimento que sofreu, às vezes vendo de relance no sonho rostos que não reconhece."
+        },
+        "5-5": {
+          "description": "Sua diferença física atrai curiosidade e atenção, o que, por algum motivo, é mais perturbador do que desdém ou medo."
+        },
+        "6-6": {
+          "description": "Um símbolo peculiar está marcado a ferro sobre ou perto da sua alteração."
+        }
+      }
+    },
+    "Crossroads Gambler Story Threads": {
+      "name": "Fios de História do Apostador da Encruzilhada",
+      "results": {
+        "1-1": {
+          "description": "Alguém que você considerava um amigo enganou você para que fizesse sua barganha."
+        },
+        "2-2": {
+          "description": "Você descobriu que, se passar tempo demais sem fazer uma aposta, sua sorte começa a azedar."
+        },
+        "3-3": {
+          "description": "Você só se sente vivo em meio a uma disputa."
+        },
+        "4-4": {
+          "description": "Você perdeu sua aposta e está fugindo da coisa que certamente virá cobrar."
+        },
+        "5-5": {
+          "description": "Alguém próximo a você fez uma aposta e perdeu. Você fez seu pacto para tentar encontrar essa pessoa."
+        },
+        "6-6": {
+          "description": "Você joga há muito tempo e está cansado. Agora tudo o que quer é uma saída."
+        }
+      }
+    },
+    "Astramar Quest Hooks": {
+      "name": "Ganchos de Missão de Astramar",
+      "results": {
+        "1-1": {
+          "description": "As criações monstruosas da Irmã Effigy estão emergindo das Profundezas Estígias para arrasar bibliotecas, escolas e outros lugares de conhecimento. A origem da invasão precisa ser encontrada e resolvida."
+        },
+        "2-2": {
+          "description": "O astrônomo-chefe da Cúpula de Cygnus sucumbiu à paranoia causada por visões perturbadoras. Ajude a decifrar suas descobertas celestes e evite um possível desastre."
+        },
+        "3-3": {
+          "description": "Dádivas arcanas únicas para iniciados bem-sucedidos são oferecidas por um veterano de Gandorhal àqueles dispostos a competir por uma vaga em uma poderosa casa mágica."
+        },
+        "4-4": {
+          "description": "Um explorador do submundo que promete riquezas está recrutando para uma jornada perigosa às Profundezas Estígias a fim de extrair poder das linhas de ley."
+        },
+        "5-5": {
+          "description": "Pescadores buscam ajuda contra uma criatura gigante que perturba as águas do Lago Rommeda. Investigue suas origens e acalme os distúrbios mágicos."
+        },
+        "6-6": {
+          "description": "Um geomante descobre que cristais de energia essenciais estão falhando. Ele pede ajuda para repará-los e evitar o colapso da rede mágica de Astramar."
+        },
+        "7-7": {
+          "description": "Depois que uma magia proibida sai pela culatra, causando mutações entre os moradores, um alquimista aflito pede ajuda para reverter os efeitos e conter o surto."
+        },
+        "8-8": {
+          "description": "Um bibliotecário de Gandorhal precisa de ajuda para subjugar uma onda de Elementais arcanos libertados acidentalmente dentro de suas antigas muralhas."
+        },
+        "9-9": {
+          "description": "O governador de uma cidade flutuante isolada onde é sempre dia suspeita de um segredo nefasto por trás da luz eterna da cidade. Investigue e exponha a verdade oculta."
+        },
+        "10-10": {
+          "description": "Médicos lidando com um surto de abstinência de éter entre a população pedem ajuda para encontrar uma cura antes que eles próprios comecem a sucumbir à condição."
+        },
+        "11-11": {
+          "description": "Um professor de Gandorhal está desesperado para resgatar alunos que desapareceram nas Profundezas Estígias, onde, segundo rumores, estão sendo usados como baterias de ânima."
+        },
+        "12-12": {
+          "description": "O dono de um renomado vinhedo assolado por pragas que consomem éter busca desesperadamente uma solução para salvar suas plantações mágicas e preservar o legado de seu vinhedo."
+        }
+      }
+    },
+    "Edwardia Quest Hooks": {
+      "name": "Ganchos de Missão de Edwardia",
+      "results": {
+        "1-1": {
+          "description": "A Irmã Serenade planeja invadir uma das apresentações da Donzela de Ferro cantando um dueto que faria os Nascidos da Maldição perderem o controle sobre sua maldição e se tornarem selvagens. Proteja a apresentação e frustre os planos dela."
+        },
+        "2-2": {
+          "description": "Nas charnecas solitárias, uma família rica é aterrorizada por um enorme cão negro que anuncia a desgraça para quem ouve seus uivos. A família oferece uma bela recompensa a quem conseguir livrá-la dessa fera aterrorizante."
+        },
+        "3-3": {
+          "description": "Os esgotos de Sumptown foram tomados por um gênio do crime Nascido da Peste. O conselho da cidade contrata vocês para se infiltrar em suas fileiras e desmantelar a operação por dentro."
+        },
+        "4-4": {
+          "description": "Um assassino em série está retalhando corpos e arranjando suas partes mutiladas em símbolos estranhos. Um detetive desesperado pede ajuda para decifrar o que isso significa e deter os assassinatos."
+        },
+        "5-5": {
+          "description": "Um asilo remoto e desolado que aparentemente cura seus pacientes está, na verdade, controlando suas mentes para cometer assassinatos. Um magistrado local contrata investigadores para pôr fim a essa prática nefasta."
+        },
+        "6-6": {
+          "description": "Uma prisão de segurança máxima com os criminosos mais perversos de Edwardia sofre uma fuga em massa, e Baskerton é tomada por vilões. O diretor implora por ajuda para restaurar a ordem e capturar os fugitivos."
+        },
+        "7-7": {
+          "description": "Um cientista renomado perde o controle de sua maldição todas as noites e se transforma em uma fera cruel, esquecendo tudo o que acontece durante a transformação. Seu assistente implora por ajuda para encontrar uma cura e deter seus ataques de fúria."
+        },
+        "8-8": {
+          "description": "Um visitante misterioso de Syndramas chega para comprar uma quantidade suspeita de terras em Edwardia com a intenção de conquistá-la a partir do norte. As autoridades locais suspeitam de algo errado e buscam expô-lo e detê-lo."
+        },
+        "9-9": {
+          "description": "Os carrilhões de Rex e Romula estão deixando os moradores catatônicos. Um técnico precisa de ajuda para descobrir a origem do problema."
+        },
+        "10-10": {
+          "description": "Sumptown está presenciando uma guerra entre as gangues mais brutais de Baskerton. Uma guilda mercante busca ajuda para negociar a paz."
+        },
+        "11-11": {
+          "description": "Um novo navio a vapor é batizado para navegar pelo rio Bask até o mar, mas há rumores de uma falha fatal que poderia matar todos a bordo. O construtor naval está contratando investigadores para garantir a segurança da embarcação."
+        },
+        "12-12": {
+          "description": "Um velho avarento é assombrado pelo fantasma de um antigo sócio. Ele quer ajuda para descobrir por que está sendo assombrado, a fim de acabar com o pesadelo de uma vez por todas."
+        }
+      }
+    },
+    "Wicker Weaver Story Threads": {
+      "name": "Fios de História do Tecelão de Vime",
+      "results": {
+        "1-1": {
+          "description": "Um dos amuletos que você criou garantiu que um bebê nascesse saudável, e a família dele lhe envia presentes pequenos, mas sinceros."
+        },
+        "2-2": {
+          "description": "O mentor que lhe ensinou o ofício tem se tornado cada vez mais retraído e agitado, algo incomum para ele."
+        },
+        "3-3": {
+          "description": "Uma ordem de druidas, o Círculo do Vime, ensinou a você seus caminhos. Você não sabe ao certo por quê."
+        },
+        "4-4": {
+          "description": "Alguém lhe ofereceu uma quantia chocante de moedas para trançar um amuleto de vime. Você está tentado, mas inquieto com a generosidade injustificada."
+        },
+        "5-5": {
+          "description": "Você trocou um amuleto de vime pelo brinquedo de uma criança que prendia o infortúnio ao seu dono. Você deve guardá-lo até conseguir vendê-lo, até ele ser roubado ou até perdê-lo."
+        },
+        "6-6": {
+          "description": "Você teceu uma bruxaria em um amuleto de vime para punir um criminoso, e ele ainda alimenta esse rancor."
+        }
+      }
+    },
+    "Druskenvald Dweller Trinkets": {
+      "name": "Bugigangas do Habitante de Druskenvald",
+      "results": {
+        "1-1": {
+          "description": "Uma agulha de latão com um pedaço de linha partida pendurado"
+        },
+        "2-2": {
+          "description": "Uma foice cega e enferrujada com cabo de osso"
+        },
+        "3-3": {
+          "description": "Um mapa estelar gravado em uma placa de cristal"
+        },
+        "4-4": {
+          "description": "Uma boneca de vime com olhos de contas manchados de sangue"
+        },
+        "5-5": {
+          "description": "Um pedaço de corrente que às vezes chacoalha quando deixado sozinho"
+        },
+        "6-6": {
+          "description": "Uma mão mumificada preservada em turfa de pântano"
+        }
+      }
+    },
+    "Druskenvald Dweller Story Threads": {
+      "name": "Fios de História do Habitante de Druskenvald",
+      "results": {
+        "1-1": {
+          "description": "Você foi deixado na porta de uma igreja quando bebê. A única pista de sua origem é o manto rasgado usado como cobertor."
+        },
+        "2-2": {
+          "description": "Você fugiu de sua província natal depois de ser acusado de um crime, justamente ou não."
+        },
+        "3-3": {
+          "description": "Depois de ouvir histórias sobre outras províncias, você partiu para conhecer mais de Druskenvald."
+        },
+        "4-4": {
+          "description": "Membros de uma caravana comercial roubaram algo ou feriram alguém querido para você."
+        },
+        "5-5": {
+          "description": "Você fez um pacto desesperado com um Nascido das Cinzas e agora busca anular o contrato."
+        },
+        "6-6": {
+          "description": "Um cruel caçador de recompensas nascido do pântano segue seu rastro."
+        }
+      }
+    },
+    "Serum Effect": {
+      "name": "Efeito do Soro",
+      "results": {
+        "1-1": {
+          "description": "<p>As entranhas da criatura se transformam em uma biologia vermiforme, que seu corpo rejeita, matando a criatura instantaneamente.</p>"
+        },
+        "2-5": {
+          "description": "<p>A criatura fica catatônica, recebendo a condição Atordoado por 1d4 dias, após os quais morre, a menos que seja modificada em um <strong>Horror Hospitalar</strong> pelo Doutor Belkin.</p>"
+        },
+        "6-6": {
+          "description": "<p>A criatura se transforma em uma <strong>Enfermeira Mutante</strong></p>"
+        }
+      }
+    },
+    "hK4fJW1sXSnKpRVI": {
+      "name": "Sintomas de Hartsblight",
+      "results": {
+        "1-1": {
+          "description": "<p>A dor atormenta a criatura e seus olhos ficam brancos e leitosos. A criatura tem a condição Cego e tem Desvantagem em testes de Sabedoria e testes de resistência de Sabedoria.</p>"
+        },
+        "2-2": {
+          "description": "<p>Uma febre violenta toma o corpo da criatura. Ela tem Desvantagem em Testes de D20 feitos com Força.</p>"
+        },
+        "3-3": {
+          "description": "<p>A carne da criatura se decompõe. Ela tem Desvantagem em testes de Carisma e Vulnerabilidade a dano de Concussão, Perfurante e Cortante.</p>"
+        },
+        "4-4": {
+          "description": "<p>Os pensamentos da criatura ficam confusos. Ela tem Desvantagem em testes de Inteligência e testes de resistência de Inteligência e, quando rola Iniciativa, deve ser bem-sucedida em um teste de resistência de Sabedoria CD 10 ou agirá como se estivesse sob o efeito da magia Confusão.</p>"
+        },
+        "5-5": {
+          "description": "<p>A criatura é tomada por tremores. Ela tem Desvantagem em Testes de D20 feitos com Destreza.</p>"
+        },
+        "6-6": {
+          "description": "<p>A criatura sangra descontroladamente. Ela tem Desvantagem em testes de Constituição e testes de resistência de Constituição. Além disso, sempre que a criatura sofre dano, ela sofre 5 (1d10) de dano Necrótico adicional.</p>"
+        }
+      }
+    },
+    "Wicker Effigies": {
+      "name": "Efígies de Vime",
+      "results": {
+        "1-1": {
+          "description": "Arqueiro com chifres de cervo para garantir uma caçada bem-sucedida"
+        },
+        "2-2": {
+          "description": "Espantalho com cabeça de pássaro para proteger as plantações de pestes e da praga"
+        },
+        "3-3": {
+          "description": "Deusa da fertilidade adornada com maçãs para uma colheita farta"
+        },
+        "4-4": {
+          "description": "Bonecos de gravetos perturbadores para afastar intrusos de moradas ocultas"
+        },
+        "5-5": {
+          "description": "Bode de chifres curvos para garantir um inverno seguro"
+        },
+        "6-6": {
+          "description": "Cabeça de lobo para proteger contra os perigos da noite"
+        },
+        "7-7": {
+          "description": "Máscara temível com presas para conceder ferocidade em batalha"
+        },
+        "8-8": {
+          "description": "Sol raiado em espiral com um sorriso, para anunciar um verão longo e quente"
+        },
+        "9-9": {
+          "description": "Pirâmide de três lados com arestas escalonadas para marcar o local de um sacrifício"
+        },
+        "10-10": {
+          "description": "Anel intrincado que representa o ciclo do ano para garantir vida, morte e renascimento"
+        }
+      }
+    },
+    "Hex Slinger Jinxes": {
+      "name": "Azarações do Lançador de Azarações",
+      "results": {
+        "2-2": {
+          "description": "<p>Olhos de Cobra. No próximo turno do alvo, ele só pode fazer uma das seguintes opções: mover-se ou realizar uma ação ou uma ação bônus. Se ele tiver você ou seus aliados como alvo de um ataque nesse turno, sofre [[/damage 2d6 psychic]] de dano.</p>"
+        },
+        "3-4": {
+          "description": "<p>O Pesadelo. O alvo tem a condição Amedrontado até o fim do seu próximo turno e deve imediatamente usar uma Reação para se afastar de você o máximo que puder, até o limite do seu Deslocamento.</p>"
+        },
+        "5-6": {
+          "description": "Garrafa de Uísque. O alvo larga qualquer coisa que esteja segurando. Até o fim do seu próximo turno, quando o alvo pegar um item, ele deve ser bem-sucedido em um teste de resistência de Destreza CD 15 ou largará o item imediatamente."
+        },
+        "7-7": {
+          "description": "<p>Golpe Baixo. Até o fim do seu próximo turno, o Deslocamento do alvo é reduzido à metade e, durante esse período, jogadas de ataque contra ele têm Vantagem.</p>"
+        },
+        "8-9": {
+          "description": "<p>Braço Ressequido. Até o fim do seu próximo turno, o alvo tem Desvantagem em Testes de D20 que dependam de Força.</p>"
+        },
+        "10-11": {
+          "description": "Má Sorte. Até o fim do seu próximo turno, quando o alvo fizer uma jogada de ataque ou um teste de resistência, ele subtrai 1d6 do total."
+        },
+        "12-12": {
+          "description": "<p>Homem Morto. Se a próxima jogada de ataque que você fizer antes do fim do seu próximo turno errar, ela acerta em vez disso. Se essa primeira jogada de ataque acertar, o ataque é automaticamente um Acerto Crítico. Se você tirar 20 no d20, role os dados de dano do ataque três vezes em vez de duas.</p>"
+        }
+      }
+    },
+    "Fallen Star": {
+      "name": "Estrela Cadente",
+      "results": {
+        "1-1": {
+          "description": "<p>A mente do alvo viaja temporariamente para além das estrelas; ele tem a condição Incapacitado até o fim do seu próximo turno</p>"
+        },
+        "2-2": {
+          "description": "<p>Sussurros incompreensíveis tagarelam na mente do alvo. No próximo turno do alvo, ele só pode realizar uma ação ou uma Ação Bônus, ou se mover.</p>"
+        },
+        "3-3": {
+          "description": "<p>O alvo vislumbra paisagens alienígenas e tem a condição Atordoado até o fim do seu próximo turno.</p>"
+        },
+        "4-4": {
+          "description": "<p>A psique do alvo começa a se fragmentar diante do infinito cósmico. Até o fim do seu próximo turno, ele tem Desvantagem em testes de atributo e jogadas de ataque.</p>"
+        },
+        "5-5": {
+          "description": "<p>Vozes guinchantes de outro mundo dilaceram a mente do alvo. Ele sofre 21 (6d6) de dano Psíquico</p>"
+        },
+        "6-6": {
+          "description": "<p>As cores indescritíveis persistem nos olhos do alvo. Ele tem a condição Cego até o fim do seu próximo turno.</p>"
+        }
+      }
+    },
+    "Cornfield Encounters": {
+      "name": "Encontros no Milharal",
+      "results": {
+        "1-1": {
+          "description": "Controlado por Segredos"
+        },
+        "2-2": {
+          "description": "Tempestade de Corvos"
+        },
+        "3-3": {
+          "description": "Rostos Familiares"
+        },
+        "4-4": {
+          "description": "Alma Perdida"
+        }
+      }
+    },
+    "Experimental Implants": {
+      "name": "Implantes Experimentais",
+      "results": {
+        "1-1": {
+          "description": "<p><strong>Injetor Alquímico.</strong> Cilindros-reservatório de vidro presos em armações de latão e ferro contêm fluidos alquímicos multicoloridos, borbulhantes ou luminosos.</p>"
+        },
+        "2-2": {
+          "description": "<p><strong>Enxertos Alienígenas.</strong> Partes do seu corpo foram substituídas por partes de um dragão, de um lobisomem ou pelos tentáculos borrachudos de uma Aberração. Quando você entra em fúria, os enxertos tomam mais do seu corpo.</p>"
+        },
+        "3-3": {
+          "description": "<p><strong>Prótese de Constructo.</strong> Você tem membros, olhos ou outras substituições protéticas feitos de metal, pedra ou madeira. Quando você entra em fúria, as peças se acendem.</p>"
+        },
+        "4-4": {
+          "description": "<p><strong>Formações de Cristal.</strong> Cristais crescem do seu corpo pelos ombros e descendo pelos membros. Quando você entra em fúria, os cristais brilham, tilintam ou ressoam.</p>"
+        },
+        "5-5": {
+          "description": "<p><strong>Inoculação Fúngica.</strong> Cogumelos e outros crescimentos fúngicos tomam partes do seu corpo, e micélios semelhantes a veias se estendem a partir deles pela sua pele. Quando você entra em fúria, as veias pulsam e se contorcem.</p>"
+        },
+        "6-6": {
+          "description": "<p><strong>Aumento Faíscatec.</strong> Bobinas de cobre, prata e latão nas suas costas e braços conduzem fios pela sua pele até conectores. Quando você entra em fúria, relâmpagos crepitam pelo metal.</p>"
+        }
+      }
+    },
+    "jGixzNosOjibbNlc": {
+      "name": "Banquete Fantasma",
+      "results": {
+        "1-8": {
+          "description": "<p>Açucareiro. +5 de acerto; 6 (1d6 + 3) de dano de Concussão; o alvo tem a condição Cego até o fim do seu próximo turno.</p>"
+        },
+        "9-14": {
+          "description": "<p>Peixe Assado. +4 de acerto; 4 (1d4 + 2) de dano de Concussão; o alvo tem a condição Envenenado até o fim do seu próximo turno.</p>"
+        },
+        "15-18": {
+          "description": "<p>Garra de Lagosta. +5 de acerto; 9 (1d12 + 3) de dano Cortante.</p>"
+        },
+        "19-19": {
+          "description": "<p>Bomba de Creme. +4 de acerto; sem dano; o personagem está sufocando, sem chance de prender a respiração. O personagem, ou outra criatura ao seu alcance, pode realizar uma ação de Usar para tirar a sobremesa da garganta dele e encerrar a sufocação.</p>"
+        },
+        "20-20": {
+          "description": "<p>Língua de Boi. +4 de acerto; sem dano; o personagem deve ser bem-sucedido em um teste de resistência de Força CD 15 ou ficará com as condições Caído e Agarrado (CD 15 para escapar), e terá a condição Impedido até o agarrão terminar.</p>"
+        }
+      }
+    },
+    "Eldritch Gibbering": {
+      "name": "Algaravia Sobrenatural",
+      "results": {
+        "1-2": {
+          "description": "O alvo tem desvantagem em jogadas de ataque."
+        },
+        "3-4": {
+          "description": "O deslocamento do alvo se torna 0."
+        },
+        "5-6": {
+          "description": "O alvo não pode realizar reações."
+        }
+      }
+    },
+    "Ghostlight Passenger Trinkets": {
+      "name": "Bugigangas do Passageiro Luz-Fantasma",
+      "results": {
+        "1-1": {
+          "description": "Uma lousa manchada de giz apagado, onde às vezes você encontra palavras rabiscadas"
+        },
+        "2-2": {
+          "description": "Um pedaço de carvão que nunca se consome e solta uma fumaça tênue"
+        },
+        "3-3": {
+          "description": "Um canhoto de bilhete rasgado e levemente translúcido"
+        },
+        "4-4": {
+          "description": "Um apito amassado de condutor de trem que só os mortos conseguem ouvir"
+        },
+        "5-5": {
+          "description": "Um relógio de bolso que anda para trás"
+        },
+        "6-6": {
+          "description": "Um quepe surrado de condutor de trem"
+        }
+      }
+    },
+    "Wandering Visits": {
+      "name": "Visitas Errantes",
+      "results": {
+        "1-1": {
+          "description": "Você encontrou uma taverna abandonada com um único lugar ainda posto em uma mesa no canto. Um espírito melancólico esperava ali por alguém que jamais chegaria."
+        },
+        "2-2": {
+          "description": "Alicerces chamuscados são os únicos restos de um chalé que queimou há muito tempo. O eco de uma criança cantando zelava pelos viajantes que paravam ali."
+        },
+        "3-3": {
+          "description": "Você se hospedou nos aposentos assombrados da torre de um solar. O espírito furioso ali é o resquício de alguém que morreu velho e enfermo — impotente para deter a perversidade que via de longe."
+        },
+        "4-4": {
+          "description": "A canção pesarosa de uma alma que permanecia neste mundo o atraiu até uma velha ponte coberta — o único lugar onde o espírito encontrou esperança em vida."
+        },
+        "5-5": {
+          "description": "Um orfanato de boa reputação abrigava a sombra esperançosa de uma criança que morreu de doença. Ela fazia companhia aos outros órfãos até que crescessem ou fossem acolhidos por um lar."
+        },
+        "6-6": {
+          "description": "Um prado enevoado à beira da estrada foi outrora palco de uma batalha terrível. O espírito de um soldado que morreu ali descarregava sua fúria contra trapaceiros e bandidos que atacavam quem passava pela estrada."
+        }
+      }
+    },
+    "Random Car": {
+      "name": "Vagão Aleatório",
+      "results": {
+        "1-1": {
+          "description": "Vagão-Leito"
+        },
+        "2-2": {
+          "description": "Vagão-Salão"
+        },
+        "3-3": {
+          "description": "Vagão-Restaurante"
+        },
+        "4-4": {
+          "description": "Vagão Postal"
+        },
+        "5-5": {
+          "description": "Vagão de Bagagem"
+        },
+        "6-6": {
+          "description": "Vagão do Circo"
+        }
+      }
+    },
+    "Syndramas Quest Hooks": {
+      "name": "Ganchos de Missão de Syndramas",
+      "results": {
+        "1-1": {
+          "description": "A Irmã Howl liberta sua matilha invernal pela vastidão congelada, espalhando uma sede de sangue contagiosa. A Legião Rimeshade recruta soldados para lutar contra a incursão."
+        },
+        "2-2": {
+          "description": "Uma valiosa mina de drakkonita foi tomada por aranhas de gelo Elementais gigantes. Elimine as aranhas e resgate os mineiros presos."
+        },
+        "3-3": {
+          "description": "Uma estrada de montanha crucial ficou intransitável por causa de yetis hostis. Um legionário busca ajuda para descobrir a causa da agressividade deles e reabrir a passagem."
+        },
+        "4-4": {
+          "description": "Um grupo de resistência planeja se infiltrar na cidadela da Legião Bloodboil, onde ela aprisiona e drena forasteiros para seus rituais de sangue. Junte-se à missão para deter esses rituais e libertar os cativos."
+        },
+        "5-5": {
+          "description": "Os jogos mortais do coliseu dos carniçais oferecem uma oportunidade de conquistar glória aos olhos da Rainha Serpe Sapphira. O evento promete tanto perigo quanto prestígio."
+        },
+        "6-6": {
+          "description": "Após a misteriosa eclosão de três ovos de dragão branco nas montanhas, um conservacionista pede ajuda para salvá-los de serem sacrificados e criados como Mortos-Vivos."
+        },
+        "7-7": {
+          "description": "A Legião Marrowfeast está impondo dízimos de carne brutais. Proteja uma aldeia indefesa e ponha fim ao tributo macabro."
+        },
+        "8-8": {
+          "description": "Um culto planeja roubar ossos sagrados de um cemitério de dragões. Leve os cultistas à justiça antes que eles criem uma abominação de ossos com seu butim esquelético."
+        },
+        "9-9": {
+          "description": "Fanáticos Nascidos da Pedra invadiram Syndramas para purificá-la com fogo divino. Uma milícia local precisa de ajuda para frustrar a cruzada antes que ela leve a um massacre."
+        },
+        "10-10": {
+          "description": "A nova fortaleza flutuante da Legião Rimeshade ameaça dominar os céus. Sabote os cristais de gelo que a mantêm no ar com a ajuda de um ex-engenheiro da legião."
+        },
+        "11-11": {
+          "description": "Um ferreiro foi contratado pela Legião Bloodboil para forjar um arsenal lendário de armas. Ele oferece uma recompensa pela drakkonita necessária para o projeto."
+        },
+        "12-12": {
+          "description": "Com as tensões aumentando, um grande conselho se reúne em Sepultura. Influencie os procedimentos, negocie a paz ou atice as chamas do conflito."
+        }
+      }
+    },
+    "Crossroads Gambler Trinkets": {
+      "name": "Bugigangas do Apostador da Encruzilhada",
+      "results": {
+        "1-1": {
+          "description": "Uma moeda da sorte feita de um material estranho, como aço verde ou osso"
+        },
+        "2-2": {
+          "description": "Uma carta de baralho seis de copas surrada e manchada de sangue"
+        },
+        "3-3": {
+          "description": "Uma página rasgada do diário de um apostador desaparecido há muito tempo, que esperava ganhar sua fortuna de um ser que descreve, mas não chega a nomear"
+        },
+        "4-4": {
+          "description": "O pé preservado de um coelho, coruja ou doninha"
+        },
+        "5-5": {
+          "description": "Um dado de seis lados que, examinado de perto, de algum modo parece ter 2s demais"
+        },
+        "6-6": {
+          "description": "Uma torre de xadrez de marfim banhada a prata"
+        }
+      }
+    },
+    "Cultist Story Threads": {
+      "name": "Fios de História do Cultista",
+      "results": {
+        "1-1": {
+          "description": "Você descobriu que o culto que o acolheu o manipulou durante toda a sua vida."
+        },
+        "2-2": {
+          "description": "Um membro do seu culto traiu e matou seu líder e mentor."
+        },
+        "3-3": {
+          "description": "As atividades do seu culto despertaram a ira e a superstição dos moradores locais, merecidamente ou não."
+        },
+        "4-4": {
+          "description": "Você seguiu um ente querido ao entrar para o culto, tentando descobrir o que aconteceu com ele."
+        },
+        "5-5": {
+          "description": "Você conheceu alguém que o forçou a ver sob outra luz o culto que sempre venerou."
+        },
+        "6-6": {
+          "description": "Você entrou para o culto para se salvar de uma doença incurável ou de outra desgraça certa."
+        }
+      }
+    },
+    "Monastery Halls Encounters": {
+      "name": "Encontros nos Salões do Monastério",
+      "results": {
+        "1-1": {
+          "description": "Frei Olaf (Sacerdote) e três Acólitos"
+        },
+        "2-2": {
+          "description": "Inquisidor Cromwell (Cavaleiro) e dois Cavaleiros"
+        },
+        "3-3": {
+          "description": "Mestre dos Cães Jaeger (Capitão Bandido) e três Cães-Morcego"
+        },
+        "4-4": {
+          "description": "Três Clérigos Carmesins"
+        },
+        "5-5": {
+          "description": "Um Cavaleiro e dois Cães-Morcego"
+        },
+        "6-6": {
+          "description": "Dois Fanáticos do Culto e quatro Cultistas"
+        },
+        "7-7": {
+          "description": "Dois Veteranos e um Clérigo Carmesim"
+        },
+        "8-10": {
+          "description": "Vozes passam pelo corredor; ninguém nota você."
+        }
+      }
+    },
+    "Experiment Trinkets": {
+      "name": "Bugigangas do Experimento",
+      "results": {
+        "1-1": {
+          "description": "Uma seringa com um resíduo roxo levemente brilhante"
+        },
+        "2-2": {
+          "description": "Uma chave inglesa que é a única que se encaixa em um pequeno mecanismo simples embutido no seu corpo"
+        },
+        "3-3": {
+          "description": "Um maço de pergaminhos manchados de produtos químicos, cobertos de anotações e diagramas incompreensíveis"
+        },
+        "4-4": {
+          "description": "Um carretel de linha prateada que combina com os pontos da parte alterada do seu corpo"
+        },
+        "5-5": {
+          "description": "Um cantil de metal com runas estranhas riscadas em um dos lados"
+        },
+        "6-6": {
+          "description": "Uma pedra lisa que conforta e acalma você quando a segura com força"
+        }
+      }
+    },
+    "Patient Register": {
+      "name": "Registro de Pacientes",
+      "results": {
+        "1-1": {
+          "description": "Catherine Winthrop: Agarra-se a um braço que sente que deveria estar faltando, embora não esteja."
+        },
+        "2-2": {
+          "description": "Samuel Blake: Fica obcecado por espelhos, com o olhar fixo como se procurasse algo."
+        },
+        "3-3": {
+          "description": "Thomas Adams: Encara reflexos sem parar, espelhando a fixação silenciosa do irmão gêmeo."
+        },
+        "4-4": {
+          "description": "Victor Lane: Afirma sentir “gavinhas” sob a pele."
+        },
+        "5-5": {
+          "description": "Emily Hale: Desenha espirais obsessivamente."
+        },
+        "6-6": {
+          "description": "Wendy Holden: Frequentemente sussurra desculpas a figuras invisíveis."
+        },
+        "7-7": {
+          "description": "Agnes Thorpe: sonha estar suspensa em uma caverna iluminada."
+        },
+        "8-8": {
+          "description": "James Pelham: Escreve o mesmo nome sem parar: “Kehlenn.”"
+        },
+        "9-9": {
+          "description": "Geoffrey Barnes: Congela no meio de uma ação e a retoma minutos depois, como se nenhum tempo tivesse passado."
+        },
+        "10-10": {
+          "description": "Thomas Redding: Insiste que está acordado mesmo quando dorme."
+        },
+        "11-11": {
+          "description": "Emily Voss: Fala com a própria sombra constantemente."
+        },
+        "12-12": {
+          "description": "Harold Stiles: “Escuta” as luzes."
+        }
+      }
+    },
+    "Dead of Night": {
+      "name": "Calada da Noite",
+      "results": {
+        "1-1": {
+          "description": "Tambores na Mata Profunda"
+        },
+        "2-2": {
+          "description": "A Fera Espreitadora"
+        },
+        "3-3": {
+          "description": "Morte Estridente"
+        },
+        "4-4": {
+          "description": "Paraíso Perdido"
+        }
+      }
+    },
+    "Blighted Wood": {
+      "name": "Bosque Assolado",
+      "results": {
+        "1-2": {
+          "description": "Pinheiral Árido (área F2)"
+        },
+        "3-4": {
+          "description": "Afloramento Infestado (área F3)"
+        },
+        "5-6": {
+          "description": "Vale Nocivo (área F4)"
+        }
+      }
+    },
+    "Night Stalker Story Threads": {
+      "name": "Fios de História do Espreitador Noturno",
+      "results": {
+        "1-1": {
+          "description": "Você está caçando a criatura que matou seus entes queridos."
+        },
+        "2-2": {
+          "description": "Você começou sua caçada com fervor, mas logo descobre que está perdendo o estômago para ela."
+        },
+        "3-3": {
+          "description": "À medida que aprende mais sobre as criaturas da noite, você descobre que algumas de suas impressões iniciais sobre elas estavam erradas."
+        },
+        "4-4": {
+          "description": "Você não teve coragem de enfrentar uma criatura e salvou a si mesmo em vez de outra pessoa. Agora tenta compensar essa vergonha."
+        },
+        "5-5": {
+          "description": "Os monstros que você caça o aterrorizam até a alma, e você ataca com fúria para negar seu medo."
+        },
+        "6-6": {
+          "description": "Sua caçada fervorosa é um disfarce para seu desejo de se tornar algo mais do que mortal."
+        }
+      }
+    },
+    "Laboratory Item": {
+      "name": "Item de Laboratório",
+      "results": {
+        "1-1": {
+          "description": "Um medicamento aleatório (veja a área L8)"
+        },
+        "2-2": {
+          "description": "Um pote de larvas dormentes (veja a área L23)"
+        },
+        "3-3": {
+          "description": "Um estabilizador aleatório (veja a área L21)"
+        },
+        "4-4": {
+          "description": "Um frasco de Soro Lético (veja “O Soro Lético” anteriormente neste capítulo)"
+        }
+      }
+    },
+    "NPC Names: Male": {
+      "name": "Nomes de PdMs: Masculinos",
+      "results": {
+        "1-1": {
+          "description": "Abraham"
+        },
+        "2-2": {
+          "description": "Caleb"
+        },
+        "3-3": {
+          "description": "Charles"
+        },
+        "4-4": {
+          "description": "Conrad"
+        },
+        "5-5": {
+          "description": "Edmund"
+        },
+        "6-6": {
+          "description": "Grover"
+        },
+        "7-7": {
+          "description": "Henry"
+        },
+        "8-8": {
+          "description": "James"
+        },
+        "9-9": {
+          "description": "Leonard"
+        },
+        "10-10": {
+          "description": "Micah"
+        },
+        "11-11": {
+          "description": "Nigel"
+        },
+        "12-12": {
+          "description": "Norbert"
+        },
+        "13-13": {
+          "description": "Orville"
+        },
+        "14-14": {
+          "description": "Samuel"
+        },
+        "15-15": {
+          "description": "Seth"
+        },
+        "16-16": {
+          "description": "Simon"
+        },
+        "17-17": {
+          "description": "Stanley"
+        },
+        "18-18": {
+          "description": "Thomas"
+        },
+        "19-19": {
+          "description": "Wilbur"
+        },
+        "20-20": {
+          "description": "Wyatt"
+        }
+      }
+    },
+    "Pholsense Quest Hooks": {
+      "name": "Ganchos de Missão de Pholsense",
+      "results": {
+        "1-1": {
+          "description": "A Madre Midnight espalha os sete pecados capitais em Cyril para tornar as pessoas malévolas e provocar a Noite do Pecado. Uma pequena órfã chamada Anya implora por ajuda para tornar o povo de sua cidade bom novamente."
+        },
+        "2-2": {
+          "description": "Quando o gado e os moradores adoecem por causa de estranhas bolas de bruxa, um fazendeiro desesperado anseia por rastrear a origem e pôr fim à maldição."
+        },
+        "3-3": {
+          "description": "Nas profundezas sob a grande catedral de Cyril, a corrupção vaza de demônios aprisionados que personificam os pecados capitais. O arcebispo precisa de ajuda para conter a influência deles."
+        },
+        "4-4": {
+          "description": "Inquisidores aprisionaram injustamente um inocente. Um carcereiro solidário busca ajuda para orquestrar uma fuga ousada."
+        },
+        "5-5": {
+          "description": "Uma criação monstruosa espalha o caos a partir da torre do sino. Seu criador, tomado de culpa e medo, implora por ajuda para subjugá-la."
+        },
+        "6-6": {
+          "description": "Quando espíritos profanos se erguem de um cemitério amaldiçoado, um clérigo aflito pede ajuda para santificar o solo e dar descanso às almas."
+        },
+        "7-7": {
+          "description": "Enquanto uma mulher enfrenta uma execução injusta por bruxaria, sua família desesperada implora por intervenção e por provas de sua inocência no julgamento."
+        },
+        "8-8": {
+          "description": "Em certas noites, estátuas de santos aparecem diante de casas, prenunciando sinistramente a morte de todos lá dentro. Investigue o mistério e quebre o ciclo mortal."
+        },
+        "9-9": {
+          "description": "Fazendeiros buscam ajuda para desfazer seus acordos com uma astuta bruxa verde, temendo que as barganhas dela logo tragam ainda mais tristeza às suas vidas."
+        },
+        "10-10": {
+          "description": "Em uma noite de pecado sancionado, o caos irrompe, e um reformista precisa de ajuda para restaurar a ordem e impedir mais decadência."
+        },
+        "11-11": {
+          "description": "A loteria sacrificial anual da comunidade sorteia o nome de um aldeão querido. Um amigo desesperado pede ajuda para derrubar a tradição mortal."
+        },
+        "12-12": {
+          "description": "Um caçador vingativo incita uma turba contra uma professora inocente, e um parente preocupado deseja impedir essa trágica injustiça."
+        }
+      }
+    },
+    "Chernabos Quest Hooks": {
+      "name": "Ganchos de Missão de Chernabos",
+      "results": {
+        "1-1": {
+          "description": "A Irmã Malignance conduz enxames de espíritos da Mortalha enquanto eles inundam as ruas de Brimstone. O prefeito implora por proteção para si e para seus cidadãos."
+        },
+        "2-2": {
+          "description": "Um empresário enigmático pede que a construção da Ferrovia do Diabo seja sabotada para preservar o domínio do Expresso Luz-Fantasma."
+        },
+        "3-3": {
+          "description": "Um colecionador misterioso, conhecido por seus valiosos artefatos mágicos, pede a recuperação de um minério extremamente raro do interior da mina mais profunda da Montanha Sulfur."
+        },
+        "4-4": {
+          "description": "Os moradores sitiados imploram desesperadamente por libertação do controle dos bandidos, embora não possam oferecer nenhuma recompensa em troca."
+        },
+        "5-5": {
+          "description": "Convocados por fazendeiros locais cujo gado está sendo aterrorizado, investiguem os estranhos avistamentos de cavaleiros fantasmas no céu."
+        },
+        "6-6": {
+          "description": "Um renomado cavalariano que sonha com um regimento imbatível oferece um contrato para capturar e domar pesadelos selvagens nas planícies."
+        },
+        "7-7": {
+          "description": "Um grupo de colonos sedentos em uma cidade de fronteira busca ajuda para expor o prefeito por desviar carregamentos de água."
+        },
+        "8-8": {
+          "description": "Uma esposa transtornada, cujo marido perdeu a alma em um jogo de pôquer, pede que a quadrilha de apostas de almas do Teatro Deadwood seja desmantelada."
+        },
+        "9-9": {
+          "description": "No misterioso Hotel Durango, supere uma figura diabólica em um duelo de rabeca para conquistar a liberdade de seus hóspedes."
+        },
+        "10-10": {
+          "description": "Com o apoio de uma coalizão de cidadãos preocupados, enfrente um xerife corrupto em um duelo decisivo."
+        },
+        "11-11": {
+          "description": "Ajude um fazendeiro desesperado que tenta salvar suas plantações; suas terras foram tomadas por espíritos pestilentos."
+        },
+        "12-12": {
+          "description": "Contratados por um benfeitor com interesses pessoais na carga, planejem e executem um assalto ao trem para recuperar um carregamento de almas na viagem inaugural da Ferrovia do Diabo."
+        }
+      }
+    },
+    "Zulrogg Quest Hooks": {
+      "name": "Ganchos de Missão de Zulrogg",
+      "results": {
+        "1-1": {
+          "description": "As aves carniceiras da Irmã Gizzard estão devorando aldeões Nascidos do Pântano. Um chefe tribal desesperado busca ajuda para expulsar esses bandos malévolos e descobrir seu propósito final."
+        },
+        "2-2": {
+          "description": "Adentre um templo submerso onde uma seita sinistra venera o Espírito Morcego-Sangue, com o objetivo de elevá-lo à divindade. Um ancião preocupado implora que os rituais deles sejam interrompidos."
+        },
+        "3-3": {
+          "description": "Tazri Swampcaller se preocupa com o silêncio do Espírito Hidra. Explore os reinos etéreos para restabelecer a conexão com essa entidade sagrada."
+        },
+        "4-4": {
+          "description": "Rastreie um Nascido do Pântano imortal que devora os próprios parentes no coração do pântano. Um rastreador oferece orientação para abater essa ameaça."
+        },
+        "5-5": {
+          "description": "Participe do festival dos Espíritos do Pântano de Gurash’Atal, impressione um espírito em sua provação e conquiste uma dádiva rara. O mestre de cerimônias apresentará os desafios."
+        },
+        "6-6": {
+          "description": "Um sacerdote espiritual renegado absorveu o poder do Espírito Bacurau, aprisionando almas para seus desígnios maliciosos. Um vidente pede ajuda para libertar as almas e acabar com sua tirania."
+        },
+        "7-7": {
+          "description": "Investigue o fungo Podridão Pálida que corrompe vastas áreas do pântano. Uma herbalista renomada suspeita de uma maldição antiga e precisa de ajuda para encontrar sua origem."
+        },
+        "8-8": {
+          "description": "Aceite o desafio do Espírito Sabre-do-Pântano de domar panteras selvagens como montarias. Um respeitado mestre das feras fornece o treinamento e as ferramentas necessárias."
+        },
+        "9-9": {
+          "description": "Investigue a misteriosa morte de uma tartaruga-dragão que surgiu na praia cheia de parasitas sobrenaturais. Um sábio busca ajuda para investigar essa anomalia e evitar um desastre."
+        },
+        "10-10": {
+          "description": "É preciso escolher um lado quando caçadores de caça grossa entram em conflito com um Elemental protetor do pântano. O mestre de caça oferece uma recompensa pela ajuda, enquanto um sacerdote espiritual ressalta a importância do Elemental."
+        },
+        "11-11": {
+          "description": "Recupere o corpo de um marinheiro de um naufrágio para uma cartomante de coração partido, que promete uma leitura valiosa ou uma dádiva em troca."
+        },
+        "12-12": {
+          "description": "Infiltre-se em um exército crescente de servos Nascidos do Pântano sob o domínio de uma Naga Espiritual em uma cidade antiga. Um líder rebelde recruta apoio para negociar a paz ou acabar com o reinado da Naga."
+        }
+      }
+    },
+    "Night Stalker Trinkets": {
+      "name": "Bugigangas do Espreitador Noturno",
+      "results": {
+        "1-1": {
+          "description": "Um colar de presas amareladas"
+        },
+        "2-2": {
+          "description": "Uma série de cartas que mostram a personalidade de uma pessoa se desfazendo bruscamente em incoerência e delírio"
+        },
+        "3-3": {
+          "description": "Uma faca feita da garra de uma criatura colossal"
+        },
+        "4-4": {
+          "description": "Um molde de uma pegada monstruosa"
+        },
+        "5-5": {
+          "description": "Um couro ou pele de uma fera feroz"
+        },
+        "6-6": {
+          "description": "Um olho de vidro do qual animais comuns se esquivam"
+        }
+      }
+    },
+    "Old Ways Sacred Sites": {
+      "name": "Locais Sagrados dos Velhos Caminhos",
+      "results": {
+        "1-1": {
+          "description": "Círculo de pedras erguidas no topo de uma colina remota, cada uma marcada com runas e símbolos que representam espíritos animais"
+        },
+        "2-2": {
+          "description": "Rio perpetuamente congelado no fundo de uma ravina profunda, com uma infinidade de peixes enormes e aparentemente inteligentes sob o gelo"
+        },
+        "3-3": {
+          "description": "Caverna oculta enterrada sob uma duna escaldante, revelada pelas areias movediças por uma única noite, quatro vezes por ano"
+        },
+        "4-4": {
+          "description": "Poça de maré turbulenta junto à costa, de águas sem fundo repletas de flora, fauna e formações cristalinas luminosas"
+        },
+        "5-5": {
+          "description": "Círculo de árvores antigas de casca branca como fantasma e folhas vermelho-sangue, cada uma exibindo o rosto de um druida morto há muito tempo"
+        },
+        "6-6": {
+          "description": "Enorme túmulo nas profundezas da mata que contém os espíritos de incontáveis seres feéricos e dos antigos deuses do mundo natural"
+        }
+      }
+    },
+    "Amnesiac Story Threads": {
+      "name": "Fios de História do Amnésico",
+      "results": {
+        "1-1": {
+          "description": "Você tem sonhos recorrentes com alguém que talvez reconheça em suas aventuras."
+        },
+        "2-2": {
+          "description": "Você rabisca distraidamente o mesmo desenho ou símbolo repetidas vezes."
+        },
+        "3-3": {
+          "description": "Um amigo tem viajado pelas províncias de Druskenvald com uma caravana, procurando no caminho qualquer indício do seu passado."
+        },
+        "4-4": {
+          "description": "Uma rima ou canção que você nunca ouviu antes lhe vem à mente quando seus pensamentos divagam."
+        },
+        "5-5": {
+          "description": "Cores de arco-íris, como as de uma bolha de sabão ou de uma mancha de óleo, enchem você de um terror inexplicável."
+        },
+        "6-6": {
+          "description": "Você tem uma lembrança fragmentada de ter viajado a um lugar remoto nas montanhas."
+        }
+      }
+    },
+    "Rumors": {
+      "name": "Rumores",
+      "results": {
+        "1-1": {
+          "description": "Uma lavadeira de repente ficou com um torcicolo e relata ouvir vozes demoníacas."
+        },
+        "2-2": {
+          "description": "Uma leiteira foi acusada de lançar uma maldição definhante sobre a nova esposa de seu ex-marido."
+        },
+        "3-3": {
+          "description": "Crianças do lugar estão desenvolvendo tufos de pelo desgrenhado e realizando ritos estranhos na floresta."
+        },
+        "4-4": {
+          "description": "Um estudioso visitante, que escreve seu tratado sobre os Velhos Caminhos, está invadindo casas em nome da pesquisa."
+        },
+        "5-5": {
+          "description": "Um lenhador busca ajuda para caçar uma fera da floresta que roubou a alma de sua filha."
+        },
+        "6-6": {
+          "description": "Uma dupla de supostos assassinos foi vista na cidade, e acredita-se que trabalhem para um culto da ganância."
+        },
+        "7-7": {
+          "description": "Uma família herege foi banida da cidade, e sua nova propriedade é aterrorizada por uma bruxa."
+        },
+        "8-8": {
+          "description": "Um culto apocalíptico surge na cidade, alegando que a lua vai se chocar contra Druskenvald em três noites."
+        },
+        "9-9": {
+          "description": "Uma jovem é visitada regularmente por um homem estranho com um gato preto, que insiste para que ela atravesse o rio e se junte a ele."
+        },
+        "10-10": {
+          "description": "Um homem foi encontrado morto de medo, segurando um dedo de mármore na mão e apontando diretamente para a frente."
+        },
+        "11-11": {
+          "description": "Uma velha viúva envia convites para seu casamento, alegando que vai se casar com um príncipe demônio trapaceiro."
+        },
+        "12-12": {
+          "description": "Um grupo de pássaros-azuis suspeitamente inteligentes se empoleira na igreja, e alguns acham que são humanos transformados."
+        },
+        "13-13": {
+          "description": "Toda noite, fogueiras pontilham o horizonte, e ouve-se o som de tambores distantes e de urros bestiais."
+        },
+        "14-14": {
+          "description": "Jovens que foram em busca de uma estranha criatura semelhante a um dragão voltam de olhos arregalados, capazes apenas de falar em rimas sem sentido."
+        },
+        "15-15": {
+          "description": "Um caçador voltou da floresta com uma personalidade totalmente diferente, andando de um jeito estranho e apenas assobiando."
+        },
+        "16-16": {
+          "description": "Os moradores têm sonhos estranhos em que voam pelas estrelas e visitam paisagens e mundos alienígenas."
+        },
+        "17-17": {
+          "description": "Um cozinheiro desleixado é acusado de rechear suas tortas com ratos, crianças e outros ingredientes terríveis."
+        },
+        "18-18": {
+          "description": "A esposa de um pescador afirma que o marido foi afogado no rio por criaturas-peixe humanoides."
+        },
+        "19-19": {
+          "description": "Um fazendeiro desenterrou acidentalmente uma relíquia antiga enquanto arava seus campos, e logo sua família adoeceu."
+        },
+        "20-20": {
+          "description": "Um inspetor procura uma adolescente desaparecida que sumiu depois de ser coroada rainha da colheita em um festival."
+        }
+      }
+    },
+    "Crimson Aspirant Trinkets": {
+      "name": "Bugigangas do Aspirante Carmesim",
+      "results": {
+        "1-1": {
+          "description": "Um pingente de vidro com uma única gota de sangue suspensa dentro"
+        },
+        "2-2": {
+          "description": "Um longo pergaminho com um estudo anatômico e a descrição de como a energia vital flui pelo corpo"
+        },
+        "3-3": {
+          "description": "Um lenço com uma gota de sangue prensada no centro"
+        },
+        "4-4": {
+          "description": "Uma pedra-de-sangue polida para equilibrar a energia vital"
+        },
+        "5-5": {
+          "description": "Um frasco de sangue que nunca coagula nem seca"
+        },
+        "6-6": {
+          "description": "Uma pequena caixa de cinzas que dizem ser de um mártir falsamente acusado de vampirismo e queimado na fogueira"
+        }
+      }
+    },
+    "Philosophical Pursuits": {
+      "name": "Buscas Filosóficas",
+      "results": {
+        "1-1": {
+          "description": "Alguém próximo a você está perdido no tempo, nos planos ou em algum outro estado esotérico de existência. Desvendar a natureza da realidade é o seu caminho para encontrá-lo."
+        },
+        "2-2": {
+          "description": "Você sofreu uma doença ou lesão debilitante e recorreu ao estudo da magia para desconstruir a natureza da limitação e transmutá-la."
+        },
+        "3-3": {
+          "description": "Seu mestre foi morto por um filósofo rival, e você precisa aprender tudo o que puder dessa disciplina para se proteger e levar o assassino à justiça."
+        },
+        "4-4": {
+          "description": "A pesquisa redescoberta de um mago desaparecido desvendou os primeiros segredos da sua compreensão, mas contém muitos outros que você ainda não consegue decifrar."
+        },
+        "5-5": {
+          "description": "A magia arcana oferece um caminho para um poder imenso, mas você sabe que um estado de existência ainda maior aguarda sua ascensão."
+        },
+        "6-6": {
+          "description": "Você encontrou um material com propriedades miraculosas e não descansará até descobrir o segredo de sua criação."
+        },
+        "7-7": {
+          "description": "A alma do seu irmão foi separada do corpo por uma magia que deu errado, e você não conseguirá se perdoar até torná-lo inteiro de novo."
+        },
+        "8-8": {
+          "description": "Você era um artista de palco que maravilhava plateias com números mágicos e busca o truque de mágica definitivo para se tornar uma lenda."
+        },
+        "9-9": {
+          "description": "Você vem de uma cidade natal empobrecida e deseja usar a transmutação de metais para trazer prosperidade à sua comunidade."
+        },
+        "10-10": {
+          "description": "Em sua busca por estar mais perto dos deuses, você procurou os segredos de criar novas formas de vida à sua própria imagem."
+        },
+        "11-11": {
+          "description": "Você foi criado para reverenciar os quatro elementos e formulou a hipótese de que dominar a matéria da existência trará harmonia a todos eles."
+        },
+        "12-12": {
+          "description": "Você aspirava a ingressar no exército e subir na hierarquia, acreditando que a magia da realidade pode ser usada como arma de guerra."
+        }
+      }
+    },
+    "x2STVrKSK1v2lQ1N": {
+      "name": "Azarações do Mausoléu",
+      "results": {
+        "2-2": {
+          "description": "Olhos de Cobra. No próximo turno do personagem, ele só pode fazer uma das seguintes coisas: mover-se, realizar uma ação ou realizar uma Ação Bônus. Se o personagem realizar uma ação de Atacar ou de Magia, ele sofre 7 (2d6) de dano Psíquico."
+        },
+        "3-4": {
+          "description": "O Pesadelo. O personagem fica com a condição Amedrontado até o fim do seu próximo turno e deve imediatamente usar uma Reação para se afastar o máximo que puder do braseiro, até o limite do seu Deslocamento."
+        },
+        "5-6": {
+          "description": "Garrafa de Uísque. O personagem larga tudo o que estiver segurando. Até o fim do seu próximo turno, sempre que pegar um objeto, ele deve ser bem-sucedido em um teste de resistência de Inteligência CD 15 ou largá-lo imediatamente."
+        },
+        "7-7": {
+          "description": "Golpe Baixo. Até o fim do próximo turno do personagem, seu Deslocamento é reduzido à metade, e jogadas de ataque contra ele têm Vantagem."
+        },
+        "8-9": {
+          "description": "Braço Ressequido. Até o fim do próximo turno do personagem, ele tem Desvantagem em Testes de D20 que dependam de Força ou Destreza."
+        },
+        "10-11": {
+          "description": "Má Sorte. Até o fim do próximo turno do personagem, sempre que ele fizer uma jogada de ataque ou um teste de resistência, deve subtrair 1d6 do total."
+        },
+        "12-12": {
+          "description": "Homem Morto. Se a próxima jogada de ataque feita contra o personagem antes da contagem de Iniciativa 20 da rodada seguinte acertar, o ataque é automaticamente um Acerto Crítico. Se essa jogada de ataque errar, ela acerta em vez disso."
+        }
+      }
+    },
+    "Cornfield Environment": {
+      "name": "Ambiente do Milharal",
+      "results": {
+        "1-1": {
+          "description": "Chuva de Sangue"
+        },
+        "2-2": {
+          "description": "Corpo de Colheitas"
+        },
+        "3-3": {
+          "description": "Canto dos Corvos Desorientador"
+        },
+        "4-4": {
+          "description": "Sombras dos Perdidos"
+        }
+      }
+    },
+    "xxP4PjU1vXRGNnfR": {
+      "name": "Efeito do Soro",
+      "results": {
+        "1-1": {
+          "description": "As entranhas da criatura se transformam em uma biologia vermiforme, que seu corpo rejeita, matando a criatura instantaneamente."
+        },
+        "2-5": {
+          "description": "A criatura fica catatônica, ficando atordoada por 1d4 dias, após os quais morre, a menos que seja modificada em um Horror Hospitalar pelo Doutor Belkin."
+        },
+        "6-6": {
+          "description": "A criatura se transforma em uma Enfermeira Mutante"
+        }
+      }
+    },
+    "Rituals": {
+      "name": "Rituais",
+      "results": {
+        "1-1": {
+          "description": "Uma batalha pública até a morte é travada entre dois aldeões com seus filhos amarrados às costas."
+        },
+        "2-2": {
+          "description": "Os aldeões fazem efígies de vime de animais exóticos e apostam corrida com elas pelas ruas da cidade."
+        },
+        "3-3": {
+          "description": "Grandes nabos pendem acima de cada porta da cidade, pintados para se parecerem com as pessoas que moram ou trabalham ali."
+        },
+        "4-4": {
+          "description": "Uma boneca do tamanho de uma criança é vestida com uma cota de malha e jogada no rio como oferenda aos “espíritos da água”."
+        },
+        "5-5": {
+          "description": "A pele e a cabeça de um touro enorme são estendidas sobre um poste, e os moradores dançam erraticamente ao redor dele."
+        },
+        "6-6": {
+          "description": "Um assassino condenado é executado por evisceração, e suas entranhas são penduradas nos galhos das árvores."
+        },
+        "7-7": {
+          "description": "Para apaziguar os “espíritos do mel”, um voluntário da cidade é coberto por um enxame de abelhas e picado durante horas."
+        },
+        "8-8": {
+          "description": "Após um funeral, o falecido é amarrado a um cavalo e enviado às charnecas para uma “última cavalgada”."
+        },
+        "9-9": {
+          "description": "Como rito de passagem, um adolescente recebe uma lança e é mandado para a mata para caçar e matar um urso sozinho."
+        },
+        "10-10": {
+          "description": "Um jovem casal se casa diante de um grande carvalho, recebendo a bênção dos “espíritos ancestrais” que nele habitam."
+        },
+        "11-11": {
+          "description": "Fogueiras noturnas rugem nos arredores da cidade, oferecendo às chamas os ossos do jantar daquela noite."
+        },
+        "12-12": {
+          "description": "Em um ritual simulado de renascimento, um aldeão é afogado no rio e reanimado para reivindicar uma nova chance na vida."
+        },
+        "13-13": {
+          "description": "Os moradores escalam árvores perigosamente altas na mata para colher ervas raras e queimá-las em honra aos “espíritos das plantas”."
+        },
+        "14-14": {
+          "description": "Para honrar os “espíritos dos pássaros”, a cidade inteira se reúne e entoa uma canção que dura vinte e quatro horas completas."
+        },
+        "15-15": {
+          "description": "Um criminoso é punido sendo prensado sob pedras pesadas para ver se consegue sobreviver uma noite inteira."
+        },
+        "16-16": {
+          "description": "Após a morte de um aldeão, suas qualidades e feitos em vida são gravados em runas sobre uma pedra."
+        },
+        "17-17": {
+          "description": "Os moradores consomem cogumelos alucinógenos e vivenciam visões estranhas e compartilhadas."
+        },
+        "18-18": {
+          "description": "Carcaças de lebres decoram a cidade para apaziguar os “espíritos da fertilidade” e depois são transformadas em um grande ensopado."
+        },
+        "19-19": {
+          "description": "Para não ser um fardo, um casal de idosos salta da torre do relógio para a morte e é homenageado."
+        },
+        "20-20": {
+          "description": "Um grande banquete é realizado no centro da cidade, e a única comida servida são os corações ensanguentados de animais de criação."
+        }
+      }
+    }
+  }
+}

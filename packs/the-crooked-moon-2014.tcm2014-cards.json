@@ -1,0 +1,363 @@
+{
+  "label": "Cartas",
+  "entries": {
+    "Fated Tarot": {
+      "name": "Tarô do Destino",
+      "description": "<p>Um baralho padrão de 52 cartas.</p>",
+      "cards": {
+        "I - The Magician": {
+          "name": "I - O Mago",
+          "description": "",
+          "back": {
+            "name": "",
+            "text": "",
+            "img": "modules/the-crooked-moon-2014/assets/card/card%20tarot/01_INT_DRS_Ardengloom_Elder%20Gallows%20woodcarving.webp"
+          },
+          "faces": [
+            {
+              "name": "I - O Mago",
+              "text": "",
+              "img": "modules/the-crooked-moon-2014/assets/card/card%20tarot/1_1%20-%20Magician_Bleed.webp"
+            }
+          ]
+        },
+        "II - The High Priestess": {
+          "name": "II - A Sacerdotisa",
+          "description": "",
+          "back": {
+            "name": "",
+            "text": "",
+            "img": "modules/the-crooked-moon-2014/assets/card/card%20tarot/01_INT_DRS_Ardengloom_Elder%20Gallows%20woodcarving.webp"
+          },
+          "faces": [
+            {
+              "name": "II - A Sacerdotisa",
+              "text": "",
+              "img": "modules/the-crooked-moon-2014/assets/card/card%20tarot/1_2%20-%20High%20Priestess_Bleed.webp"
+            }
+          ]
+        },
+        "III - The Empress": {
+          "name": "III - A Imperatriz",
+          "description": "",
+          "back": {
+            "name": "",
+            "text": "",
+            "img": "modules/the-crooked-moon-2014/assets/card/card%20tarot/01_INT_DRS_Ardengloom_Elder%20Gallows%20woodcarving.webp"
+          },
+          "faces": [
+            {
+              "name": "III - A Imperatriz",
+              "text": "",
+              "img": "modules/the-crooked-moon-2014/assets/card/card%20tarot/1_3%20-%20Empress_Bleed.webp"
+            }
+          ]
+        },
+        "IV - The Emperor": {
+          "name": "IV - O Imperador",
+          "description": "",
+          "back": {
+            "name": "",
+            "text": "",
+            "img": "modules/the-crooked-moon-2014/assets/card/card%20tarot/01_INT_DRS_Ardengloom_Elder%20Gallows%20woodcarving.webp"
+          },
+          "faces": [
+            {
+              "name": "IV - O Imperador",
+              "text": "",
+              "img": "modules/the-crooked-moon-2014/assets/card/card%20tarot/1_4%20-%20Emperor_Bleed.webp"
+            }
+          ]
+        },
+        "V - The Hierophant": {
+          "name": "V - O Hierofante",
+          "description": "",
+          "back": {
+            "name": "",
+            "text": "",
+            "img": "modules/the-crooked-moon-2014/assets/card/card%20tarot/01_INT_DRS_Ardengloom_Elder%20Gallows%20woodcarving.webp"
+          },
+          "faces": [
+            {
+              "name": "V - O Hierofante",
+              "text": "",
+              "img": "modules/the-crooked-moon-2014/assets/card/card%20tarot/1_5%20-%20Hierophant_Bleed.webp"
+            }
+          ]
+        },
+        "VI - The Lovers": {
+          "name": "VI - Os Enamorados",
+          "description": "",
+          "back": {
+            "name": "",
+            "text": "",
+            "img": "modules/the-crooked-moon-2014/assets/card/card%20tarot/01_INT_DRS_Ardengloom_Elder%20Gallows%20woodcarving.webp"
+          },
+          "faces": [
+            {
+              "name": "VI - Os Enamorados",
+              "text": "",
+              "img": "modules/the-crooked-moon-2014/assets/card/card%20tarot/1_6%20-%20Lovers_Bleed.webp"
+            }
+          ]
+        },
+        "VII - The Chariot": {
+          "name": "VII - O Carro",
+          "description": "",
+          "back": {
+            "name": "",
+            "text": "",
+            "img": "modules/the-crooked-moon-2014/assets/card/card%20tarot/01_INT_DRS_Ardengloom_Elder%20Gallows%20woodcarving.webp"
+          },
+          "faces": [
+            {
+              "name": "VII - O Carro",
+              "text": "",
+              "img": "modules/the-crooked-moon-2014/assets/card/card%20tarot/1_7%20-%20Chariot_Bleed.webp"
+            }
+          ]
+        },
+        "VIII - Strength": {
+          "name": "VIII - A Força",
+          "description": "",
+          "back": {
+            "name": "",
+            "text": "",
+            "img": "modules/the-crooked-moon-2014/assets/card/card%20tarot/01_INT_DRS_Ardengloom_Elder%20Gallows%20woodcarving.webp"
+          },
+          "faces": [
+            {
+              "name": "VIII - A Força",
+              "text": "",
+              "img": "modules/the-crooked-moon-2014/assets/card/card%20tarot/1_8%20-%20Strength_Bleed.webp"
+            }
+          ]
+        },
+        "IX - The Hermit": {
+          "name": "IX - O Eremita",
+          "description": "",
+          "back": {
+            "name": "",
+            "text": "",
+            "img": "modules/the-crooked-moon-2014/assets/card/card%20tarot/01_INT_DRS_Ardengloom_Elder%20Gallows%20woodcarving.webp"
+          },
+          "faces": [
+            {
+              "name": "IX - O Eremita",
+              "text": "",
+              "img": "modules/the-crooked-moon-2014/assets/card/card%20tarot/1_9%20-%20Hermit_Bleed.webp"
+            }
+          ]
+        },
+        "X - Wheel of Fortune": {
+          "name": "X - A Roda da Fortuna",
+          "description": "",
+          "back": {
+            "name": "",
+            "text": "",
+            "img": "modules/the-crooked-moon-2014/assets/card/card%20tarot/01_INT_DRS_Ardengloom_Elder%20Gallows%20woodcarving.webp"
+          },
+          "faces": [
+            {
+              "name": "X - A Roda da Fortuna",
+              "text": "",
+              "img": "modules/the-crooked-moon-2014/assets/card/card%20tarot/1_10%20-%20Wheel%20of%20Fortune_Bleed.webp"
+            }
+          ]
+        },
+        "XI - Justice": {
+          "name": "XI - A Justiça",
+          "description": "",
+          "back": {
+            "name": "",
+            "text": "",
+            "img": "modules/the-crooked-moon-2014/assets/card/card%20tarot/01_INT_DRS_Ardengloom_Elder%20Gallows%20woodcarving.webp"
+          },
+          "faces": [
+            {
+              "name": "XI - A Justiça",
+              "text": "",
+              "img": "modules/the-crooked-moon-2014/assets/card/card%20tarot/1_11%20-%20Justice_Bleed.webp"
+            }
+          ]
+        },
+        "XII - The Hanged Man": {
+          "name": "XII - O Enforcado",
+          "description": "",
+          "back": {
+            "name": "",
+            "text": "",
+            "img": "modules/the-crooked-moon-2014/assets/card/card%20tarot/01_INT_DRS_Ardengloom_Elder%20Gallows%20woodcarving.webp"
+          },
+          "faces": [
+            {
+              "name": "XII - O Enforcado",
+              "text": "",
+              "img": "modules/the-crooked-moon-2014/assets/card/card%20tarot/1_12%20-%20Hanged%20Man_Bleed.webp"
+            }
+          ]
+        },
+        "XIII - Death": {
+          "name": "XIII - A Morte",
+          "description": "",
+          "back": {
+            "name": "",
+            "text": "",
+            "img": "modules/the-crooked-moon-2014/assets/card/card%20tarot/01_INT_DRS_Ardengloom_Elder%20Gallows%20woodcarving.webp"
+          },
+          "faces": [
+            {
+              "name": "XIII - A Morte",
+              "text": "",
+              "img": "modules/the-crooked-moon-2014/assets/card/card%20tarot/1_13%20-%20Death_Bleed.webp"
+            }
+          ]
+        },
+        "XIV - Temperance": {
+          "name": "XIV - A Temperança",
+          "description": "",
+          "back": {
+            "name": "",
+            "text": "",
+            "img": "modules/the-crooked-moon-2014/assets/card/card%20tarot/01_INT_DRS_Ardengloom_Elder%20Gallows%20woodcarving.webp"
+          },
+          "faces": [
+            {
+              "name": "XIV - A Temperança",
+              "text": "",
+              "img": "modules/the-crooked-moon-2014/assets/card/card%20tarot/1_14%20-%20Temperance_Bleed.webp"
+            }
+          ]
+        },
+        "XV - The Devil": {
+          "name": "XV - O Diabo",
+          "description": "",
+          "back": {
+            "name": "",
+            "text": "",
+            "img": "modules/the-crooked-moon-2014/assets/card/card%20tarot/01_INT_DRS_Ardengloom_Elder%20Gallows%20woodcarving.webp"
+          },
+          "faces": [
+            {
+              "name": "XV - O Diabo",
+              "text": "",
+              "img": "modules/the-crooked-moon-2014/assets/card/card%20tarot/1_15%20-%20Devil_Bleed.webp"
+            }
+          ]
+        },
+        "XVI - The Tower": {
+          "name": "XVI - A Torre",
+          "description": "",
+          "back": {
+            "name": "",
+            "text": "",
+            "img": "modules/the-crooked-moon-2014/assets/card/card%20tarot/01_INT_DRS_Ardengloom_Elder%20Gallows%20woodcarving.webp"
+          },
+          "faces": [
+            {
+              "name": "XVI - A Torre",
+              "text": "",
+              "img": "modules/the-crooked-moon-2014/assets/card/card%20tarot/1_16%20-%20Tower_Bleed.webp"
+            }
+          ]
+        },
+        "XVII - The Star": {
+          "name": "XVII - A Estrela",
+          "description": "",
+          "back": {
+            "name": "",
+            "text": "",
+            "img": "modules/the-crooked-moon-2014/assets/card/card%20tarot/01_INT_DRS_Ardengloom_Elder%20Gallows%20woodcarving.webp"
+          },
+          "faces": [
+            {
+              "name": "XVII - A Estrela",
+              "text": "",
+              "img": "modules/the-crooked-moon-2014/assets/card/card%20tarot/1_17%20-%20Star_Bleed.webp"
+            }
+          ]
+        },
+        "XVIII - The Moon": {
+          "name": "XVIII - A Lua",
+          "description": "",
+          "back": {
+            "name": "",
+            "text": "",
+            "img": "modules/the-crooked-moon-2014/assets/card/card%20tarot/01_INT_DRS_Ardengloom_Elder%20Gallows%20woodcarving.webp"
+          },
+          "faces": [
+            {
+              "name": "XVIII - A Lua",
+              "text": "",
+              "img": "modules/the-crooked-moon-2014/assets/card/card%20tarot/1_18%20-%20Moon_Bleed.webp"
+            }
+          ]
+        },
+        "XIX - The Sun": {
+          "name": "XIX - O Sol",
+          "description": "",
+          "back": {
+            "name": "",
+            "text": "",
+            "img": "modules/the-crooked-moon-2014/assets/card/card%20tarot/01_INT_DRS_Ardengloom_Elder%20Gallows%20woodcarving.webp"
+          },
+          "faces": [
+            {
+              "name": "XIX - O Sol",
+              "text": "",
+              "img": "modules/the-crooked-moon-2014/assets/card/card%20tarot/1_19%20-%20Sun_Bleed.webp"
+            }
+          ]
+        },
+        "XX - Judgement": {
+          "name": "XX - O Julgamento",
+          "description": "",
+          "back": {
+            "name": "",
+            "text": "",
+            "img": "modules/the-crooked-moon-2014/assets/card/card%20tarot/01_INT_DRS_Ardengloom_Elder%20Gallows%20woodcarving.webp"
+          },
+          "faces": [
+            {
+              "name": "XX - O Julgamento",
+              "text": "",
+              "img": "modules/the-crooked-moon-2014/assets/card/card%20tarot/1_20%20-%20Judgement_Bleed.webp"
+            }
+          ]
+        },
+        "XXI - The World": {
+          "name": "XXI - O Mundo",
+          "description": "",
+          "back": {
+            "name": "",
+            "text": "",
+            "img": "modules/the-crooked-moon-2014/assets/card/card%20tarot/01_INT_DRS_Ardengloom_Elder%20Gallows%20woodcarving.webp"
+          },
+          "faces": [
+            {
+              "name": "XXI - O Mundo",
+              "text": "",
+              "img": "modules/the-crooked-moon-2014/assets/card/card%20tarot/1_21%20-%20World_Bleed.webp"
+            }
+          ]
+        },
+        "0 - The Fool": {
+          "name": "0 - O Louco",
+          "description": "",
+          "back": {
+            "name": "",
+            "text": "",
+            "img": "modules/the-crooked-moon-2014/assets/card/card%20tarot/01_INT_DRS_Ardengloom_Elder%20Gallows%20woodcarving.webp"
+          },
+          "faces": [
+            {
+              "name": "0 - O Louco",
+              "text": "",
+              "img": "modules/the-crooked-moon-2014/assets/card/card%20tarot/1_0%20-%20Fool_Bleed.webp"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

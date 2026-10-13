@@ -1,0 +1,893 @@
+{
+  "label": "Cenas",
+  "folders": {
+    "Chapter 24: The Crooked Tree": "Capítulo 24: A Árvore Torta",
+    "00 Region Map and Landing Page": "00 Mapa da Região e Página Inicial",
+    "Chapter 10: Ghostlight Express": "Capítulo 10: Expresso Luz-Fantasma",
+    "Chapter 11: Wickermoor Village": "Capítulo 11: Vila de Wickermoor",
+    "Chapter 12: The Crooked House": "Capítulo 12: A Casa Torta",
+    "Chapter 13: Fields of the Crow": "Capítulo 13: Campos do Corvo",
+    "Chapter 14: The Crimson Monastery": "Capítulo 14: O Monastério Carmesim",
+    "Chapter 15: The Drowned Crossroads": "Capítulo 15: A Encruzilhada Afogada",
+    "Chapter 16: Skitterdeep Mine": "Capítulo 16: Mina Skitterdeep",
+    "Chapter 17: Memory's Rest": "Capítulo 17: Repouso da Memória",
+    "Chapter 18: Hartsblight Forest": "Capítulo 18: Floresta Hartsblight",
+    "Chapter 19: Maidenmist Cemetery": "Capítulo 19: Cemitério Maidenmist",
+    "Chapter 20: The Roving Rookery": "Capítulo 20: O Ninhal Errante",
+    "Chapter 21: Fool's Day": "Capítulo 21: Dia dos Tolos",
+    "Chapter 22: The Crooked Nightmare": "Capítulo 22: O Pesadelo Torto",
+    "Chapter 23: Wicker's Vigil": "Capítulo 23: Vigília do Vime"
+  },
+  "entries": {
+    "24.2 Wytchwood Encounters (Colored)": {
+      "name": "24.2 Encontros em Wytchwood (Colorido)",
+      "levels": {
+        "24.2 Wytchwood Encounters (Colored)": "24.2 Encontros em Wytchwood (Colorido)"
+      }
+    },
+    "12.4 The Crooked House (Attic, Colored)": {
+      "name": "12.4 A Casa Torta (Sótão, Colorido)",
+      "levels": {
+        "12.4 The Crooked House (Attic, Colored)": "12.4 A Casa Torta (Sótão, Colorido)"
+      },
+      "regions": {
+        "Interior - Darkness": {
+          "name": "Interior - Escuridão",
+          "behaviors": {
+            "Darkness": {
+              "name": "Escuridão"
+            },
+            "Suppress Weather": {
+              "name": "Suprimir Clima"
+            }
+          }
+        }
+      }
+    },
+    "22.4 Wedding Feast": {
+      "name": "22.4 Banquete de Casamento",
+      "levels": {
+        "22.4 Wedding Feast": "22.4 Banquete de Casamento"
+      }
+    },
+    "11.1 Founder's Round (Colored)": {
+      "name": "11.1 Rotunda do Fundador (Colorido)",
+      "levels": {
+        "11.1 Founder's Round (Colored)": "11.1 Rotunda do Fundador (Colorido)"
+      }
+    },
+    "18.2 Blighted Wood & Festering Wilds Encounters (Colored)": {
+      "name": "18.2 Encontros no Bosque Assolado e nos Ermos Purulentos (Colorido)",
+      "levels": {
+        "18.2 Blighted Wood & Festering Wilds Encounters (Colored)": "18.2 Encontros no Bosque Assolado e nos Ermos Purulentos (Colorido)"
+      }
+    },
+    "10.2 Sleeper Car": {
+      "name": "10.2 Vagão-Leito",
+      "levels": {
+        "10.2 Sleeper Car": "10.2 Vagão-Leito"
+      }
+    },
+    "18.1 Hartsblight Forest": {
+      "name": "18.1 Floresta Hartsblight",
+      "levels": {
+        "18.1 Hartsblight Forest": "18.1 Floresta Hartsblight"
+      }
+    },
+    "19.3 Cremation Gardens": {
+      "name": "19.3 Jardins de Cremação",
+      "levels": {
+        "19.3 Cremation Gardens": "19.3 Jardins de Cremação"
+      }
+    },
+    "20.1 Walking Dovecote (Side)": {
+      "name": "20.1 Pombal Ambulante (Lateral)",
+      "levels": {
+        "20.1 Walking Dovecote (Side)": "20.1 Pombal Ambulante (Lateral)"
+      }
+    },
+    "14.3 Sanguine Cathedral": {
+      "name": "14.3 Catedral Sanguínea",
+      "levels": {
+        "14.3 Sanguine Cathedral": "14.3 Catedral Sanguínea"
+      }
+    },
+    "12.2 The Crooked House (Second Floor, Colored)": {
+      "name": "12.2 A Casa Torta (Segundo Andar, Colorido)",
+      "levels": {
+        "12.2 The Crooked House (Second Floor, Colored)": "12.2 A Casa Torta (Segundo Andar, Colorido)"
+      },
+      "regions": {
+        "Region": {
+          "name": "Região",
+          "behaviors": {
+            "Darkness": {
+              "name": "Escuridão"
+            },
+            "Suppress Weather": {
+              "name": "Suprimir Clima"
+            }
+          }
+        }
+      }
+    },
+    "10.3 Lounge Car (Colored)": {
+      "name": "10.3 Vagão-Salão (Colorido)",
+      "levels": {
+        "10.3 Lounge Car (Colored)": "10.3 Vagão-Salão (Colorido)"
+      }
+    },
+    "12.1 The Crooked House (First Floor)": {
+      "name": "12.1 A Casa Torta (Primeiro Andar)",
+      "levels": {
+        "12.1 The Crooked House (First Floor)": "12.1 A Casa Torta (Primeiro Andar)"
+      },
+      "regions": {
+        "Interior - Darkness": {
+          "name": "Interior - Escuridão",
+          "behaviors": {
+            "Darkness": {
+              "name": "Escuridão"
+            },
+            "Suppress Weather": {
+              "name": "Suprimir Clima"
+            }
+          }
+        }
+      }
+    },
+    "22.3 Smoking Crater (Colored)": {
+      "name": "22.3 Cratera Fumegante (Colorido)",
+      "levels": {
+        "22.3 Smoking Crater (Colored)": "22.3 Cratera Fumegante (Colorido)"
+      }
+    },
+    "10.4 Dining Car (Colored)": {
+      "name": "10.4 Vagão-Restaurante (Colorido)",
+      "levels": {
+        "10.4 Dining Car (Colored)": "10.4 Vagão-Restaurante (Colorido)"
+      }
+    },
+    "14.1.3 The Crimson Monastery (Colored)": {
+      "name": "14.1.3 O Monastério Carmesim (Colorido)",
+      "levels": {
+        "14.1.3 The Crimson Monastery (Colored)": "14.1.3 O Monastério Carmesim (Colorido)"
+      }
+    },
+    "16.3 Old Drift (Colored)": {
+      "name": "16.3 Galeria Antiga (Colorido)",
+      "levels": {
+        "16.3 Old Drift (Colored)": "16.3 Galeria Antiga (Colorido)"
+      }
+    },
+    "16.5 Deep Drift & Stonga's Laboratory": {
+      "name": "16.5 Galeria Profunda e Laboratório de Stonga",
+      "deltaTokens": {
+        "Deepdreck": {
+          "name": "Deepdreck"
+        }
+      },
+      "levels": {
+        "16.5 Deep Drift & Stonga's Laboratory": "16.5 Galeria Profunda e Laboratório de Stonga"
+      }
+    },
+    "17.2 Memory's Rest Sanatorium (Second Floor)": {
+      "name": "17.2 Sanatório Repouso da Memória (Segundo Andar)",
+      "levels": {
+        "17.2 Memory's Rest Sanatorium (Second Floor)": "17.2 Sanatório Repouso da Memória (Segundo Andar)"
+      },
+      "regions": {
+        "Interior - Darkness": {
+          "name": "Interior - Escuridão",
+          "behaviors": {
+            "Darkness": {
+              "name": "Escuridão"
+            }
+          }
+        }
+      }
+    },
+    "12.2 The Crooked House (Second Floor)": {
+      "name": "12.2 A Casa Torta (Segundo Andar)",
+      "levels": {
+        "12.2 The Crooked House (Second Floor)": "12.2 A Casa Torta (Segundo Andar)"
+      },
+      "regions": {
+        "Region": {
+          "name": "Região",
+          "behaviors": {
+            "Darkness": {
+              "name": "Escuridão"
+            },
+            "Suppress Weather": {
+              "name": "Suprimir Clima"
+            }
+          }
+        }
+      }
+    },
+    "14.1.3 The Crimson Monastery": {
+      "name": "14.1.3 O Monastério Carmesim",
+      "levels": {
+        "14.1.3 The Crimson Monastery": "14.1.3 O Monastério Carmesim"
+      }
+    },
+    "18.4 Den of the Blighted One": {
+      "name": "18.4 Covil do Assolado",
+      "drawings": {
+        "Weaving Rot": "Podridão Tecida"
+      },
+      "levels": {
+        "18.4 Den of the Blighted One": "18.4 Covil do Assolado"
+      }
+    },
+    "18.3 Befouled Wellspring (Colored)": {
+      "name": "18.3 Nascente Conspurcada (Colorido)",
+      "levels": {
+        "18.3 Befouled Wellspring (Colored)": "18.3 Nascente Conspurcada (Colorido)"
+      }
+    },
+    "10.7 Circus Car (Colored)": {
+      "name": "10.7 Vagão do Circo (Colorido)",
+      "levels": {
+        "10.7 Circus Car (Colored)": "10.7 Vagão do Circo (Colorido)"
+      }
+    },
+    "19.7.2 Tomb of the Shrouded (Platform)": {
+      "name": "19.7.2 Tumba dos Amortalhados (Plataforma)",
+      "drawings": {
+        "A": "A",
+        "B": "B",
+        "C": "C"
+      },
+      "levels": {
+        "19.7.2 Tomb of the Shrouded (Platform)": "19.7.2 Tumba dos Amortalhados (Plataforma)"
+      }
+    },
+    "11.2 Wickermoor Village": {
+      "name": "11.2 Vila de Wickermoor",
+      "levels": {
+        "11.2 Wickermoor Village": "11.2 Vila de Wickermoor"
+      }
+    },
+    "19.1 Maidenmist Cemetery": {
+      "name": "19.1 Cemitério Maidenmist",
+      "levels": {
+        "19.1 Maidenmist Cemetery": "19.1 Cemitério Maidenmist"
+      }
+    },
+    "20.2 Walking Dovecote (Colored)": {
+      "name": "20.2 Pombal Ambulante (Colorido)",
+      "levels": {
+        "20.2 Walking Dovecote (Colored)": "20.2 Pombal Ambulante (Colorido)"
+      },
+      "regions": {
+        "Interior - Dark": {
+          "name": "Interior - Escuro",
+          "behaviors": {
+            "Adjust Darkness Level": {
+              "name": "Ajustar Nível de Escuridão"
+            },
+            "Suppress Weather": {
+              "name": "Suprimir Clima"
+            }
+          }
+        }
+      }
+    },
+    "16.1 Skitterdeep Mine (Side)": {
+      "name": "16.1 Mina Skitterdeep (Lateral)",
+      "levels": {
+        "16.1 Skitterdeep Mine (Side)": "16.1 Mina Skitterdeep (Lateral)"
+      }
+    },
+    "14.1.2 The Crimson Monastery (Colored)": {
+      "name": "14.1.2 O Monastério Carmesim (Colorido)",
+      "levels": {
+        "14.1.2 The Crimson Monastery (Colored)": "14.1.2 O Monastério Carmesim (Colorido)"
+      }
+    },
+    "14.1.2 The Crimson Monastery": {
+      "name": "14.1.2 O Monastério Carmesim",
+      "levels": {
+        "14.1.2 The Crimson Monastery": "14.1.2 O Monastério Carmesim"
+      }
+    },
+    "17.1 Memory's Rest Sanatorium (First Floor)": {
+      "name": "17.1 Sanatório Repouso da Memória (Primeiro Andar)",
+      "drawings": {
+        "L7c": "L7c",
+        "L7b": "L7b",
+        "L7a": "L7a",
+        "L7d": "L7d",
+        "Patients": "Pacientes"
+      },
+      "levels": {
+        "17.1 Memory's Rest Sanatorium (First Floor)": "17.1 Sanatório Repouso da Memória (Primeiro Andar)"
+      }
+    },
+    "12.4 The Crooked House (Attic)": {
+      "name": "12.4 A Casa Torta (Sótão)",
+      "levels": {
+        "12.4 The Crooked House (Attic)": "12.4 A Casa Torta (Sótão)"
+      },
+      "regions": {
+        "Interior - Darkness": {
+          "name": "Interior - Escuridão",
+          "behaviors": {
+            "Darkness": {
+              "name": "Escuridão"
+            },
+            "Suppress Weather": {
+              "name": "Suprimir Clima"
+            }
+          }
+        }
+      }
+    },
+    "10.5 Mail Car (Colored)": {
+      "name": "10.5 Vagão Postal (Colorido)",
+      "levels": {
+        "10.5 Mail Car (Colored)": "10.5 Vagão Postal (Colorido)"
+      }
+    },
+    "17.2 Memory's Rest Sanatorium (Second Floor, Colored)": {
+      "name": "17.2 Sanatório Repouso da Memória (Segundo Andar, Colorido)",
+      "levels": {
+        "17.2 Memory's Rest Sanatorium (Second Floor, Colored)": "17.2 Sanatório Repouso da Memória (Segundo Andar, Colorido)"
+      },
+      "regions": {
+        "Interior - Darkness": {
+          "name": "Interior - Escuridão",
+          "behaviors": {
+            "Darkness": {
+              "name": "Escuridão"
+            }
+          }
+        }
+      }
+    },
+    "15.2 The Dead Man's Hand (Colored)": {
+      "name": "15.2 A Mão do Morto (Colorido)",
+      "levels": {
+        "15.2 The Dead Man's Hand (Colored)": "15.2 A Mão do Morto (Colorido)"
+      }
+    },
+    "10.8 Tender": {
+      "name": "10.8 Tênder",
+      "levels": {
+        "10.8 Tender": "10.8 Tênder"
+      }
+    },
+    "13.3 Circle of Secrets": {
+      "name": "13.3 Círculo de Segredos",
+      "levels": {
+        "13.3 Circle of Secrets": "13.3 Círculo de Segredos"
+      }
+    },
+    "10.6 Baggage Car": {
+      "name": "10.6 Vagão de Bagagem",
+      "levels": {
+        "10.6 Baggage Car": "10.6 Vagão de Bagagem"
+      }
+    },
+    "14.2 Bloody Sanctum": {
+      "name": "14.2 Santuário Sangrento",
+      "levels": {
+        "14.2 Bloody Sanctum": "14.2 Santuário Sangrento"
+      }
+    },
+    "16.4 Crosscut": {
+      "name": "16.4 Travessa",
+      "levels": {
+        "16.4 Crosscut": "16.4 Travessa"
+      }
+    },
+    "15.1 Swamp Encounters (Colored)": {
+      "name": "15.1 Encontros no Pântano (Colorido)",
+      "levels": {
+        "15.1 Swamp Encounters (Colored)": "15.1 Encontros no Pântano (Colorido)"
+      }
+    },
+    "20.1 Walking Dovecote (Side, Colored)": {
+      "name": "20.1 Pombal Ambulante (Lateral, Colorido)",
+      "levels": {
+        "20.1 Walking Dovecote (Side, Colored)": "20.1 Pombal Ambulante (Lateral, Colorido)"
+      }
+    },
+    "10.7 Circus Car": {
+      "name": "10.7 Vagão do Circo",
+      "levels": {
+        "10.7 Circus Car": "10.7 Vagão do Circo"
+      }
+    },
+    "10.6 Baggage Car (Colored)": {
+      "name": "10.6 Vagão de Bagagem (Colorido)",
+      "levels": {
+        "10.6 Baggage Car (Colored)": "10.6 Vagão de Bagagem (Colorido)"
+      }
+    },
+    "13.2 Windmill (Colored)": {
+      "name": "13.2 Moinho de Vento (Colorido)",
+      "drawings": {
+        "X": "X"
+      },
+      "levels": {
+        "13.2 Windmill (Colored)": "13.2 Moinho de Vento (Colorido)"
+      }
+    },
+    "16.5 Deep Drift & Stonga's Laboratory (Colored)": {
+      "name": "16.5 Galeria Profunda e Laboratório de Stonga (Colorido)",
+      "deltaTokens": {
+        "Deepdreck": {
+          "name": "Deepdreck"
+        }
+      },
+      "levels": {
+        "16.5 Deep Drift & Stonga's Laboratory (Colored)": "16.5 Galeria Profunda e Laboratório de Stonga (Colorido)"
+      }
+    },
+    "13.2 Windmill": {
+      "name": "13.2 Moinho de Vento",
+      "drawings": {
+        "X": "X"
+      },
+      "levels": {
+        "13.2 Windmill": "13.2 Moinho de Vento"
+      }
+    },
+    "19.4 Potter's Field (Colored)": {
+      "name": "19.4 Vala Comum (Colorido)",
+      "levels": {
+        "19.4 Potter's Field (Colored)": "19.4 Vala Comum (Colorido)"
+      }
+    },
+    "19.2 Highborn Crypts": {
+      "name": "19.2 Criptas da Nobreza",
+      "levels": {
+        "19.2 Highborn Crypts": "19.2 Criptas da Nobreza"
+      }
+    },
+    "16.1 Skitterdeep Mine (Side, Colored)": {
+      "name": "16.1 Mina Skitterdeep (Lateral, Colorido)",
+      "levels": {
+        "16.1 Skitterdeep Mine (Side, Colored)": "16.1 Mina Skitterdeep (Lateral, Colorido)"
+      }
+    },
+    "14.1.1 The Crimson Monastery": {
+      "name": "14.1.1 O Monastério Carmesim",
+      "levels": {
+        "14.1.1 The Crimson Monastery": "14.1.1 O Monastério Carmesim"
+      }
+    },
+    "11.1 Founder's Round": {
+      "name": "11.1 Rotunda do Fundador",
+      "levels": {
+        "11.1 Founder's Round": "11.1 Rotunda do Fundador"
+      }
+    },
+    "12.3 The Crooked House (Third Floor, Colored)": {
+      "name": "12.3 A Casa Torta (Terceiro Andar, Colorido)",
+      "levels": {
+        "12.3 The Crooked House (Third Floor, Colored)": "12.3 A Casa Torta (Terceiro Andar, Colorido)"
+      },
+      "regions": {
+        "Interior - Darkness": {
+          "name": "Interior - Escuridão",
+          "behaviors": {
+            "Darkness": {
+              "name": "Escuridão"
+            },
+            "Suppress Weather": {
+              "name": "Suprimir Clima"
+            }
+          }
+        }
+      }
+    },
+    "23.2 Rowan's Rise": {
+      "name": "23.2 Colina de Rowan",
+      "levels": {
+        "23.2 Rowan's Rise": "23.2 Colina de Rowan"
+      }
+    },
+    "17.3 Grotto of Tears": {
+      "name": "17.3 Gruta das Lágrimas",
+      "levels": {
+        "17.3 Grotto of Tears": "17.3 Gruta das Lágrimas"
+      }
+    },
+    "22.3 Smoking Crater": {
+      "name": "22.3 Cratera Fumegante",
+      "levels": {
+        "22.3 Smoking Crater": "22.3 Cratera Fumegante"
+      }
+    },
+    "22.2 Dark Wood": {
+      "name": "22.2 Bosque Sombrio",
+      "levels": {
+        "22.2 Dark Wood": "22.2 Bosque Sombrio"
+      }
+    },
+    "19.4 Potter's Field": {
+      "name": "19.4 Vala Comum",
+      "levels": {
+        "19.4 Potter's Field": "19.4 Vala Comum"
+      }
+    },
+    "13.1 Foxwillow": {
+      "name": "13.1 Foxwillow",
+      "deltaTokens": {
+        "Pumpkin Head": {
+          "name": "Cabeça de Abóbora"
+        }
+      },
+      "levels": {
+        "13.1 Foxwillow": "13.1 Foxwillow"
+      }
+    },
+    "23.3 Wicker's Vigil": {
+      "name": "23.3 Vigília do Vime",
+      "levels": {
+        "23.3 Wicker's Vigil": "23.3 Vigília do Vime"
+      }
+    },
+    "23.1 Moors Encounters": {
+      "name": "23.1 Encontros nas Charnecas",
+      "levels": {
+        "23.1 Moors Encounters": "23.1 Encontros nas Charnecas"
+      }
+    },
+    "15.3 Jinxcraft Casino": {
+      "name": "15.3 Cassino Jinxcraft",
+      "drawings": {
+        "Ferrymen": "Barqueiros"
+      },
+      "levels": {
+        "15.3 Jinxcraft Casino": "15.3 Cassino Jinxcraft"
+      }
+    },
+    "18.2 Blighted Wood & Festering Wilds Encounters": {
+      "name": "18.2 Encontros no Bosque Assolado e nos Ermos Purulentos",
+      "levels": {
+        "18.2 Blighted Wood & Festering Wilds Encounters": "18.2 Encontros no Bosque Assolado e nos Ermos Purulentos"
+      }
+    },
+    "10.5 Mail Car": {
+      "name": "10.5 Vagão Postal",
+      "levels": {
+        "10.5 Mail Car": "10.5 Vagão Postal"
+      }
+    },
+    "12.1 The Crooked House (First Floor, Colored)": {
+      "name": "12.1 A Casa Torta (Primeiro Andar, Colorido)",
+      "levels": {
+        "12.1 The Crooked House (First Floor, Colored)": "12.1 A Casa Torta (Primeiro Andar, Colorido)"
+      },
+      "regions": {
+        "Interior - Darkness": {
+          "name": "Interior - Escuridão",
+          "behaviors": {
+            "Darkness": {
+              "name": "Escuridão"
+            },
+            "Suppress Weather": {
+              "name": "Suprimir Clima"
+            }
+          }
+        }
+      }
+    },
+    "17.1 Memory's Rest Sanatorium (First Floor, Colored)": {
+      "name": "17.1 Sanatório Repouso da Memória (Primeiro Andar, Colorido)",
+      "drawings": {
+        "L7c": "L7c",
+        "L7b": "L7b",
+        "L7a": "L7a",
+        "L7d": "L7d",
+        "Patients": "Pacientes"
+      },
+      "levels": {
+        "17.1 Memory's Rest Sanatorium (First Floor, Colored)": "17.1 Sanatório Repouso da Memória (Primeiro Andar, Colorido)"
+      }
+    },
+    "10.3 Lounge Car": {
+      "name": "10.3 Vagão-Salão",
+      "levels": {
+        "10.3 Lounge Car": "10.3 Vagão-Salão"
+      }
+    },
+    "21.2 Ring of Fools": {
+      "name": "21.2 Picadeiro dos Tolos",
+      "levels": {
+        "21.2 Ring of Fools": "21.2 Picadeiro dos Tolos"
+      }
+    },
+    "16.3 Old Drift": {
+      "name": "16.3 Galeria Antiga",
+      "levels": {
+        "16.3 Old Drift": "16.3 Galeria Antiga"
+      }
+    },
+    "16.2 Mining Camp (Colored)": {
+      "name": "16.2 Acampamento de Mineração (Colorido)",
+      "levels": {
+        "16.2 Mining Camp (Colored)": "16.2 Acampamento de Mineração (Colorido)"
+      },
+      "regions": {
+        "Interior - Dark": {
+          "name": "Interior - Escuro",
+          "behaviors": {
+            "Adjust Darkness Level": {
+              "name": "Ajustar Nível de Escuridão"
+            },
+            "Suppress Weather": {
+              "name": "Suprimir Clima"
+            }
+          }
+        }
+      }
+    },
+    "Druskenvald": {
+      "name": "Druskenvald",
+      "levels": {
+        "Druskenvald": "Druskenvald"
+      }
+    },
+    "10.4 Dining Car": {
+      "name": "10.4 Vagão-Restaurante",
+      "levels": {
+        "10.4 Dining Car": "10.4 Vagão-Restaurante"
+      }
+    },
+    "24.3 The Crooked Tree": {
+      "name": "24.3 A Árvore Torta",
+      "levels": {
+        "24.3 The Crooked Tree": "24.3 A Árvore Torta"
+      }
+    },
+    "Wickermoor Hollow": {
+      "name": "Wickermoor Hollow",
+      "levels": {
+        "Wickermoor Hollow": "Wickermoor Hollow"
+      }
+    },
+    "16.2 Mining Camp": {
+      "name": "16.2 Acampamento de Mineração",
+      "levels": {
+        "16.2 Mining Camp": "16.2 Acampamento de Mineração"
+      },
+      "regions": {
+        "Interior - Dark": {
+          "name": "Interior - Escuro",
+          "behaviors": {
+            "Adjust Darkness Level": {
+              "name": "Ajustar Nível de Escuridão"
+            },
+            "Suppress Weather": {
+              "name": "Suprimir Clima"
+            }
+          }
+        }
+      }
+    },
+    "19.5 Mausoleum Lanes (Colored)": {
+      "name": "19.5 Alamedas dos Mausoléus (Colorido)",
+      "levels": {
+        "19.5 Mausoleum Lanes (Colored)": "19.5 Alamedas dos Mausoléus (Colorido)"
+      }
+    },
+    "14.1.1 The Crimson Monastery (Color)": {
+      "name": "14.1.1 O Monastério Carmesim (Colorido)",
+      "deltaTokens": {
+        "Veteran": {
+          "name": "Veterano"
+        }
+      },
+      "levels": {
+        "14.1.1 The Crimson Monastery (Color)": "14.1.1 O Monastério Carmesim (Colorido)"
+      }
+    },
+    "21.1 Festival of Fools": {
+      "name": "21.1 Festival dos Tolos",
+      "levels": {
+        "21.1 Festival of Fools": "21.1 Festival dos Tolos"
+      }
+    },
+    "19.3 Cremation Gardens (Colored)": {
+      "name": "19.3 Jardins de Cremação (Colorido)",
+      "levels": {
+        "19.3 Cremation Gardens (Colored)": "19.3 Jardins de Cremação (Colorido)"
+      }
+    },
+    "19.9 Necropolis (Colored)": {
+      "name": "19.9 Necrópole (Colorido)",
+      "levels": {
+        "19.9 Necropolis (Colored)": "19.9 Necrópole (Colorido)"
+      }
+    },
+    "10.2 Sleeper Car (Colored)": {
+      "name": "10.2 Vagão-Leito (Colorido)",
+      "levels": {
+        "10.2 Sleeper Car (Colored)": "10.2 Vagão-Leito (Colorido)"
+      }
+    },
+    "18.3 Befouled Wellspring": {
+      "name": "18.3 Nascente Conspurcada",
+      "levels": {
+        "18.3 Befouled Wellspring": "18.3 Nascente Conspurcada"
+      }
+    },
+    "10.1 Passenger Car": {
+      "name": "10.1 Vagão de Passageiros",
+      "levels": {
+        "10.1 Passenger Car": "10.1 Vagão de Passageiros"
+      }
+    },
+    "Landing Page": {
+      "name": "Página Inicial",
+      "levels": {
+        "Landing Page": "Página Inicial"
+      }
+    },
+    "19.8 Sepulcher (Colored)": {
+      "name": "19.8 Sepulcro (Colorido)",
+      "levels": {
+        "19.8 Sepulcher (Colored)": "19.8 Sepulcro (Colorido)"
+      }
+    },
+    "23.2 Rowan's Rise (Colored)": {
+      "name": "23.2 Colina de Rowan (Colorido)",
+      "levels": {
+        "23.2 Rowan's Rise (Colored)": "23.2 Colina de Rowan (Colorido)"
+      }
+    },
+    "19.7.1 Tomb of the Shrouded (Base)": {
+      "name": "19.7.1 Tumba dos Amortalhados (Base)",
+      "drawings": {
+        "B": "B",
+        "C": "C",
+        "A": "A"
+      },
+      "deltaTokens": {
+        "Shrouded": {
+          "name": "Amortalhado"
+        }
+      },
+      "levels": {
+        "19.7.1 Tomb of the Shrouded (Base)": "19.7.1 Tumba dos Amortalhados (Base)"
+      }
+    },
+    "15.2 The Dead Man's Hand": {
+      "name": "15.2 A Mão do Morto",
+      "levels": {
+        "15.2 The Dead Man's Hand": "15.2 A Mão do Morto"
+      }
+    },
+    "19.2 Highborn Crypts (Colored)": {
+      "name": "19.2 Criptas da Nobreza (Colorido)",
+      "levels": {
+        "19.2 Highborn Crypts (Colored)": "19.2 Criptas da Nobreza (Colorido)"
+      }
+    },
+    "10.1 Passenger Car (Colored)": {
+      "name": "10.1 Vagão de Passageiros (Colorido)",
+      "levels": {
+        "10.1 Passenger Car (Colored)": "10.1 Vagão de Passageiros (Colorido)"
+      }
+    },
+    "22.5 Crooked Attic": {
+      "name": "22.5 Sótão Torto",
+      "levels": {
+        "22.5 Crooked Attic": "22.5 Sótão Torto"
+      }
+    },
+    "16.4 Crosscut (Colored)": {
+      "name": "16.4 Travessa (Colorido)",
+      "levels": {
+        "16.4 Crosscut (Colored)": "16.4 Travessa (Colorido)"
+      }
+    },
+    "10.8 Tender (Colored)": {
+      "name": "10.8 Tênder (Colorido)",
+      "levels": {
+        "10.8 Tender (Colored)": "10.8 Tênder (Colorido)"
+      }
+    },
+    "20.2 Walking Dovecote": {
+      "name": "20.2 Pombal Ambulante",
+      "levels": {
+        "20.2 Walking Dovecote": "20.2 Pombal Ambulante"
+      },
+      "regions": {
+        "Interior - Dark": {
+          "name": "Interior - Escuro",
+          "behaviors": {
+            "Adjust Darkness Level": {
+              "name": "Ajustar Nível de Escuridão"
+            },
+            "Suppress Weather": {
+              "name": "Suprimir Clima"
+            }
+          }
+        }
+      }
+    },
+    "19.6 Burial Mounds (Colored)": {
+      "name": "19.6 Montes Funerários (Colorido)",
+      "levels": {
+        "19.6 Burial Mounds (Colored)": "19.6 Montes Funerários (Colorido)"
+      }
+    },
+    "19.6 Burial Mounds": {
+      "name": "19.6 Montes Funerários",
+      "levels": {
+        "19.6 Burial Mounds": "19.6 Montes Funerários"
+      }
+    },
+    "23.1 Moors Encounters (Colored)": {
+      "name": "23.1 Encontros nas Charnecas (Colorido)",
+      "levels": {
+        "23.1 Moors Encounters (Colored)": "23.1 Encontros nas Charnecas (Colorido)"
+      }
+    },
+    "22.4 Wedding Feast (Colored)": {
+      "name": "22.4 Banquete de Casamento (Colorido)",
+      "levels": {
+        "22.4 Wedding Feast (Colored)": "22.4 Banquete de Casamento (Colorido)"
+      }
+    },
+    "10.9 Ghostlight Wreckage": {
+      "name": "10.9 Destroços do Luz-Fantasma",
+      "drawings": {
+        "X": "X"
+      },
+      "levels": {
+        "10.9 Ghostlight Wreckage": "10.9 Destroços do Luz-Fantasma"
+      }
+    },
+    "24.2 Wytchwood Encounters": {
+      "name": "24.2 Encontros em Wytchwood",
+      "levels": {
+        "24.2 Wytchwood Encounters": "24.2 Encontros em Wytchwood"
+      }
+    },
+    "12.3 The Crooked House (Third Floor)": {
+      "name": "12.3 A Casa Torta (Terceiro Andar)",
+      "levels": {
+        "12.3 The Crooked House (Third Floor)": "12.3 A Casa Torta (Terceiro Andar)"
+      },
+      "regions": {
+        "Interior - Darkness": {
+          "name": "Interior - Escuridão",
+          "behaviors": {
+            "Darkness": {
+              "name": "Escuridão"
+            },
+            "Suppress Weather": {
+              "name": "Suprimir Clima"
+            }
+          }
+        }
+      }
+    },
+    "15.1 Swamp Encounters": {
+      "name": "15.1 Encontros no Pântano",
+      "levels": {
+        "15.1 Swamp Encounters": "15.1 Encontros no Pântano"
+      }
+    },
+    "19.5 Mausoleum Lanes": {
+      "name": "19.5 Alamedas dos Mausoléus",
+      "levels": {
+        "19.5 Mausoleum Lanes": "19.5 Alamedas dos Mausoléus"
+      }
+    },
+    "22.2 Dark Wood (Colored)": {
+      "name": "22.2 Bosque Sombrio (Colorido)",
+      "levels": {
+        "22.2 Dark Wood (Colored)": "22.2 Bosque Sombrio (Colorido)"
+      }
+    }
+  }
+}
